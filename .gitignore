@@ -6,3 +6,6 @@ __pycache__/
 # 系统
 Thumbs.db
 .DS_Store
+_rerun_logs/a4_fix/*.npz
+_rerun_logs/a4_fix/*.pkl
+_rerun_logs/a4_fix/*.progress.json
