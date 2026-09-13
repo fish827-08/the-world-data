@@ -40,6 +40,12 @@
       "DeathCause.PREDATION": 7755,
       "DeathCause.STARVATION": 7715,
       "DeathCause.OLD_AGE": 16084
-    }
+    },
+    "final_pred_frac": 0.2458,
+    "final_pred_frac_source": "backfilled_from_deaths_by_cause",
+    "regime": "non_predation",
+    "final_codebook_conv": null,
+    "final_codebook_conv_source": "unavailable_need_rerun",
+    "csv_has_per_tick_pred_frac": false
   }
 }

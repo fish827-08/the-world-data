@@ -39,6 +39,12 @@
     "deaths_by_cause": {
       "DeathCause.PREDATION": 144950,
       "DeathCause.STARVATION": 353
-    }
+    },
+    "final_pred_frac": 0.9976,
+    "final_pred_frac_source": "backfilled_from_deaths_by_cause",
+    "regime": "predation_dominant",
+    "final_codebook_conv": null,
+    "final_codebook_conv_source": "unavailable_need_rerun",
+    "csv_has_per_tick_pred_frac": false
   }
 }
