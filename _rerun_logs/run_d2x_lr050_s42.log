@@ -1,0 +1,22 @@
+=== D2 实验: tag=d2x_lr050, seed=42 ===
+D2 enabled=True
+  learning_bottleneck=True
+  arbitrary_codebook=False
+  info_asymmetry=True
+  steels_alignment=True
+世界: 60x120, ticks=60000
+
+tick=  1000 N=  10 g15=0.442 g14=0.667 trust=0.485 max_gen=  1 lc_max=  4 cb_conv=1.000 rate=189.0t/s
+tick=  2000 N=  10 g15=0.389 g14=0.672 trust=0.500 max_gen=  3 lc_max=  0 cb_conv=1.000 rate=218.4t/s
+tick=  3000 N=  13 g15=0.481 g14=0.553 trust=0.522 max_gen=  4 lc_max=  9 cb_conv=1.000 rate=237.7t/s
+tick=  4000 N=  11 g15=0.448 g14=0.563 trust=0.526 max_gen=  5 lc_max=  7 cb_conv=1.000 rate=236.4t/s
+tick=  5000 N=  22 g15=0.488 g14=0.478 trust=0.587 max_gen=  6 lc_max=  6 cb_conv=1.000 rate=228.5t/s
+tick=  6000 N=   8 g15=0.477 g14=0.485 trust=0.544 max_gen=  7 lc_max=  3 cb_conv=1.000 rate=225.1t/s
+tick=  7000 N=   4 g15=0.271 g14=0.771 trust=0.536 max_gen=  9 lc_max=  1 cb_conv=1.000 rate=229.1t/s
+tick=  8000 N=   3 g15=0.172 g14=0.911 trust=0.480 max_gen= 11 lc_max= 10 cb_conv=1.000 rate=235.7t/s
+tick=  9000 N=   2 g15=0.094 g14=0.964 trust=0.520 max_gen=  8 lc_max=  0 cb_conv=1.000 rate=241.0t/s
+*** 种群灭绝 at tick=9812 ***
+
+结果已保存: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\long_d2x_lr050_s42.csv
+Manifest: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\manifest_d2x_lr050_s42.json
+=== 实验结束 ===

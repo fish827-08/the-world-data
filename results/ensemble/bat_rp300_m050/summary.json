@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "tag": "bat_rp300_m050",
+    "rows": 60,
+    "cols": 120,
+    "ticks": 200000,
+    "segment": 50000,
+    "density_cap": 0.45,
+    "rotation_period": 300,
+    "seeds": [
+      42,
+      43
+    ],
+    "lifespan_mult": 0.5,
+    "stay_prob": 0.0,
+    "commit": "6a9dbc9",
+    "time": "2026-09-10 23:30:12",
+    "interpreter": "C:\\Users\\圣羽\\Desktop\\temp\\tempCode\\the-world\\_gitee_review\\.venv\\Scripts\\python.exe"
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "wall_s": 3821.0,
+      "rc": 0,
+      "csv": "experiments\\long_bat_rp300_m050_s42.csv",
+      "N": 3238.0,
+      "g14": 0.2811,
+      "g15": 0.7909,
+      "g16": 0.3443,
+      "g19": 0.5438,
+      "trust": 0.7944,
+      "cult_div": 0.012426,
+      "max_gen": 186.0,
+      "sig_density": 4157.0,
+      "tick": 200000.0
+    },
+    {
+      "seed": 43,
+      "wall_s": 3571.9,
+      "rc": 0,
+      "csv": "experiments\\long_bat_rp300_m050_s43.csv",
+      "N": 3240.0,
+      "g14": 0.8023,
+      "g15": 0.5046,
+      "g16": 0.5209,
+      "g19": 0.6069,
+      "trust": 0.939,
+      "cult_div": 0.006336,
+      "max_gen": 172.0,
+      "sig_density": 4137.0,
+      "tick": 200000.0
+    }
+  ],
+  "stats": {
+    "n_seeds": 2,
+    "N_mean": 3239.0,
+    "N_std": 1.4142,
+    "g14_mean": 0.5417,
+    "g14_std": 0.3685,
+    "g15_mean": 0.6478,
+    "g15_std": 0.2024,
+    "g16_mean": 0.4326,
+    "g16_std": 0.1249,
+    "g19_mean": 0.5754,
+    "g19_std": 0.0446,
+    "trust_mean": 0.8667,
+    "trust_std": 0.1022,
+    "cult_div_mean": 0.0094,
+    "cult_div_std": 0.0043,
+    "max_gen_mean": 179.0,
+    "max_gen_std": 9.8995,
+    "sig_density_mean": 4147.0,
+    "sig_density_std": 14.1421,
+    "tick_mean": 200000.0,
+    "tick_std": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+﻿TICKS=1500, N0=200, uniform, use_sim_core=False, seeds=(42, 43, 44)
+
+arm                                    seed  N_end  born  meanRow  cold%  姝诲洜
+------------------------------------------------------------------------------------------------------------
+A1 鍋忕疆搴?+ noise/tau  [R4-ON 鐜扮姸]           42     12    11    32.58   0.0%  predation=141(70%) starvation=60(30%)
+A1 鍋忕疆搴?+ noise/tau  [R4-ON 鐜扮姸]           43     32    28    16.41   3.1%  predation=159(80%) starvation=39(20%)
+A1 鍋忕疆搴?+ noise/tau  [R4-ON 鐜扮姸]           44     24    37    15.21   8.3%  predation=159(75%) starvation=54(25%)
+                                        鈫?涓綅     24   1500t 姝诲洜鍚堣: predation=459(75%) starvation=153(25%)
+
+A2 姝ｄ氦搴?+ noise/tau                       42     74    75    27.80   0.0%  predation=124(62%) starvation=77(38%)
+A2 姝ｄ氦搴?+ noise/tau                       43    147   138    28.24   1.4%  predation=133(69%) starvation=59(31%)
+A2 姝ｄ氦搴?+ noise/tau                       44     71    84    30.99   8.5%  predation=139(65%) starvation=74(35%)
+                                        鈫?涓綅     74   1500t 姝诲洜鍚堣: predation=396(65%) starvation=210(35%)
+
+A3 鍋忕疆搴?+ argmax                          42     15    20    21.87  20.0%  predation=136(66%) starvation=69(34%)
+A3 鍋忕疆搴?+ argmax                          43     36    33    13.31  19.4%  predation=146(74%) starvation=52(26%)
+A3 鍋忕疆搴?+ argmax                          44     18    21    18.78   5.6%  predation=143(70%) starvation=62(30%)
+                                        鈫?涓綅     18   1500t 姝诲洜鍚堣: predation=425(70%) starvation=183(30%)
+
+A4 姝ｄ氦搴?+ argmax                          42    122    94    28.98   2.5%  predation=92(53%) starvation=81(47%)
+A4 姝ｄ氦搴?+ argmax                          43    145   152    31.49   2.1%  predation=138(67%) starvation=69(33%)
+A4 姝ｄ氦搴?+ argmax                          44    124   141    29.28   7.3%  predation=128(59%) starvation=89(41%)
+                                        鈫?涓綅    124   1500t 姝诲洜鍚堣: predation=358(60%) starvation=239(40%)
+
+A0 鍏ㄥ绉?radius=8)      [R4-OFF 鍙傜収]        42    105   115    28.78   1.0%  predation=129(61%) starvation=82(39%)
+A0 鍏ㄥ绉?radius=8)      [R4-OFF 鍙傜収]        43    116   166    31.72   1.7%  predation=180(72%) starvation=70(28%)
+A0 鍏ㄥ绉?radius=8)      [R4-OFF 鍙傜収]        44     85    82    28.52   8.2%  predation=110(56%) starvation=87(44%)
+                                        鈫?涓綅    105   1500t 姝诲洜鍚堣: predation=419(64%) starvation=239(36%)
+
+============================================================================================================
+姹囨€伙紙N_end 涓綅 / 3 seed锛夛細
+  A1 鍋忕疆搴?+ noise/tau  [R4-ON 鐜扮姸]         N_end=[12, 24, 32]  涓綅=   24  姝诲洜={'predation': 75, 'starvation': 25}
+  A2 姝ｄ氦搴?+ noise/tau                     N_end=[71, 74, 147]  涓綅=   74  姝诲洜={'predation': 65, 'starvation': 35}
+  A3 鍋忕疆搴?+ argmax                        N_end=[15, 18, 36]  涓綅=   18  姝诲洜={'predation': 70, 'starvation': 30}
+  A4 姝ｄ氦搴?+ argmax                        N_end=[122, 124, 145]  涓綅=  124  姝诲洜={'predation': 60, 'starvation': 40}
+  A0 鍏ㄥ绉?radius=8)      [R4-OFF 鍙傜収]      N_end=[85, 105, 116]  涓綅=  105  姝诲洜={'predation': 64, 'starvation': 36}

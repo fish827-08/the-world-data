@@ -1,0 +1,15 @@
+=== D2 实验: tag=d2x_lr100, seed=45 ===
+D2 enabled=True
+  learning_bottleneck=True
+  arbitrary_codebook=False
+  info_asymmetry=True
+  steels_alignment=True
+世界: 60x120, ticks=60000
+
+tick=  1000 N=   8 g15=0.603 g14=0.493 trust=0.594 max_gen=  0 lc_max= 14 cb_conv=1.000 rate=164.6t/s
+tick=  2000 N=   3 g15=0.748 g14=0.498 trust=0.497 max_gen=  1 lc_max=  0 cb_conv=1.000 rate=214.3t/s
+*** 种群灭绝 at tick=2371 ***
+
+结果已保存: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\long_d2x_lr100_s45.csv
+Manifest: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\manifest_d2x_lr100_s45.json
+=== 实验结束 ===

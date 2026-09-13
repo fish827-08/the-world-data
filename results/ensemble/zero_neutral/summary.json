@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "tag": "zero_neutral",
+    "rows": 60,
+    "cols": 120,
+    "ticks": 300000,
+    "segment": 50000,
+    "density_cap": 0.45,
+    "rotation_period": 0,
+    "seeds": [
+      42
+    ],
+    "commit": "a0ca27e",
+    "time": "2026-09-09 20:14:50",
+    "interpreter": "C:\\Users\\圣羽\\Desktop\\temp\\tempCode\\the-world\\_gitee_review\\.venv\\Scripts\\python.exe"
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "wall_s": 562.9,
+      "rc": 1,
+      "csv": "experiments\\long_zero_neutral_s42.csv",
+      "N": 2.0,
+      "g14": 0.5,
+      "g15": 0.5,
+      "g16": 0.5,
+      "g19": 0.5,
+      "trust": 1.0,
+      "cult_div": 0.390549,
+      "max_gen": 175.0,
+      "sig_density": 4.0,
+      "tick": 296000.0
+    }
+  ],
+  "stats": {
+    "n_seeds": 0
+  }
+}

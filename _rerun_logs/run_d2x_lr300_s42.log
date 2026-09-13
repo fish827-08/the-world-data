@@ -1,0 +1,42 @@
+=== D2 实验: tag=d2x_lr300, seed=42 ===
+D2 enabled=True
+  learning_bottleneck=True
+  arbitrary_codebook=False
+  info_asymmetry=True
+  steels_alignment=True
+世界: 60x120, ticks=60000
+
+tick=  1000 N=  12 g15=0.510 g14=0.667 trust=0.521 max_gen=  1 lc_max= 14 cb_conv=1.000 rate=166.4t/s
+tick=  2000 N=   6 g15=0.417 g14=0.614 trust=0.490 max_gen=  2 lc_max=  2 cb_conv=1.000 rate=215.0t/s
+tick=  3000 N=  10 g15=0.544 g14=0.451 trust=0.562 max_gen=  2 lc_max= 13 cb_conv=1.000 rate=234.7t/s
+tick=  4000 N=  10 g15=0.544 g14=0.451 trust=0.560 max_gen=  4 lc_max=  9 cb_conv=1.000 rate=235.0t/s
+tick=  5000 N=  15 g15=0.526 g14=0.474 trust=0.573 max_gen=  6 lc_max=  5 cb_conv=1.000 rate=229.1t/s
+tick=  6000 N=   8 g15=0.506 g14=0.465 trust=0.359 max_gen=  7 lc_max=  8 cb_conv=1.000 rate=231.4t/s
+tick=  7000 N=   3 g15=0.328 g14=0.804 trust=0.500 max_gen=  8 lc_max=  0 cb_conv=1.000 rate=239.7t/s
+tick=  8000 N=   3 g15=0.328 g14=0.804 trust=0.500 max_gen= 10 lc_max=  0 cb_conv=1.000 rate=249.6t/s
+tick=  9000 N=   1 g15=0.328 g14=0.804 trust=0.500 max_gen= 11 lc_max=  0 cb_conv=1.000 rate=255.3t/s
+tick= 10000 N=   3 g15=0.328 g14=0.804 trust=0.500 max_gen= 13 lc_max=  0 cb_conv=1.000 rate=261.6t/s
+tick= 11000 N=   2 g15=0.328 g14=0.804 trust=0.500 max_gen= 13 lc_max=  0 cb_conv=1.000 rate=268.7t/s
+tick= 12000 N=   1 g15=0.314 g14=0.804 trust=0.500 max_gen= 14 lc_max=  0 cb_conv=1.000 rate=276.8t/s
+tick= 13000 N=   1 g15=0.314 g14=0.809 trust=0.500 max_gen= 16 lc_max=  0 cb_conv=1.000 rate=280.9t/s
+tick= 14000 N=   3 g15=0.314 g14=0.809 trust=0.500 max_gen= 18 lc_max=  0 cb_conv=1.000 rate=285.0t/s
+tick= 15000 N=   2 g15=0.314 g14=0.809 trust=0.500 max_gen= 18 lc_max=  0 cb_conv=1.000 rate=290.4t/s
+tick= 16000 N=   2 g15=0.314 g14=0.809 trust=0.500 max_gen= 18 lc_max=  0 cb_conv=1.000 rate=292.1t/s
+tick= 17000 N=   2 g15=0.314 g14=0.819 trust=0.500 max_gen= 19 lc_max=  0 cb_conv=1.000 rate=293.9t/s
+tick= 18000 N=   2 g15=0.314 g14=0.829 trust=0.500 max_gen= 21 lc_max=  0 cb_conv=1.000 rate=296.7t/s
+tick= 19000 N=   2 g15=0.351 g14=0.829 trust=0.500 max_gen= 21 lc_max=  0 cb_conv=1.000 rate=298.1t/s
+tick= 20000 N=   1 g15=0.314 g14=0.829 trust=0.500 max_gen= 21 lc_max=  0 cb_conv=1.000 rate=302.4t/s
+tick= 21000 N=   1 g15=0.314 g14=0.829 trust=0.500 max_gen= 22 lc_max=  0 cb_conv=1.000 rate=307.4t/s
+tick= 22000 N=   2 g15=0.314 g14=0.829 trust=0.500 max_gen= 23 lc_max=  0 cb_conv=1.000 rate=312.3t/s
+tick= 23000 N=   2 g15=0.314 g14=0.829 trust=0.545 max_gen= 24 lc_max=  1 cb_conv=1.000 rate=315.8t/s
+tick= 24000 N=   1 g15=0.314 g14=0.829 trust=0.540 max_gen= 24 lc_max=  0 cb_conv=1.000 rate=319.8t/s
+tick= 25000 N=   1 g15=0.314 g14=0.829 trust=0.532 max_gen= 25 lc_max=  0 cb_conv=1.000 rate=323.8t/s
+tick= 26000 N=   1 g15=0.314 g14=0.829 trust=0.532 max_gen= 25 lc_max=  0 cb_conv=1.000 rate=327.8t/s
+tick= 27000 N=   1 g15=0.314 g14=0.829 trust=0.532 max_gen= 25 lc_max=  0 cb_conv=1.000 rate=331.5t/s
+tick= 28000 N=   2 g15=0.314 g14=0.829 trust=0.523 max_gen= 27 lc_max=  0 cb_conv=1.000 rate=335.2t/s
+tick= 29000 N=   1 g15=0.314 g14=0.829 trust=0.520 max_gen= 27 lc_max=  0 cb_conv=1.000 rate=338.5t/s
+*** 种群灭绝 at tick=29586 ***
+
+结果已保存: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\long_d2x_lr300_s42.csv
+Manifest: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\manifest_d2x_lr300_s42.json
+=== 实验结束 ===

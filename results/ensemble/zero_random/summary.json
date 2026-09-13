@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "tag": "zero_random",
+    "rows": 60,
+    "cols": 120,
+    "ticks": 300000,
+    "segment": 50000,
+    "density_cap": 0.45,
+    "rotation_period": 0,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "commit": "a0ca27e",
+    "time": "2026-09-09 20:38:14",
+    "interpreter": "C:\\Users\\圣羽\\Desktop\\temp\\tempCode\\the-world\\_gitee_review\\.venv\\Scripts\\python.exe"
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "wall_s": 941.0,
+      "rc": 0,
+      "csv": "experiments\\long_zero_random_s42.csv",
+      "N": 3240.0,
+      "g14": 0.5274,
+      "g15": 0.425,
+      "g16": 0.7373,
+      "g19": 0.6143,
+      "trust": 0.7843,
+      "cult_div": 0.000498,
+      "max_gen": 18.0,
+      "sig_density": 3959.0,
+      "tick": 300000.0
+    },
+    {
+      "seed": 43,
+      "wall_s": 2019.2,
+      "rc": 0,
+      "csv": "experiments\\long_zero_random_s43.csv",
+      "N": 3240.0,
+      "g14": 0.5082,
+      "g15": 0.671,
+      "g16": 0.6574,
+      "g19": 0.7004,
+      "trust": 0.9008,
+      "cult_div": 0.00232,
+      "max_gen": 17.0,
+      "sig_density": 3953.0,
+      "tick": 300000.0
+    },
+    {
+      "seed": 44,
+      "wall_s": 1890.0,
+      "rc": 0,
+      "csv": "experiments\\long_zero_random_s44.csv",
+      "N": 3239.0,
+      "g14": 0.3886,
+      "g15": 0.654,
+      "g16": 0.3693,
+      "g19": 0.4449,
+      "trust": 0.9568,
+      "cult_div": 0.004951,
+      "max_gen": 17.0,
+      "sig_density": 3815.0,
+      "tick": 300000.0
+    }
+  ],
+  "stats": {
+    "n_seeds": 3,
+    "N_mean": 3239.6667,
+    "N_std": 0.5774,
+    "g14_mean": 0.4747,
+    "g14_std": 0.0752,
+    "g15_mean": 0.5833,
+    "g15_std": 0.1374,
+    "g16_mean": 0.588,
+    "g16_std": 0.1936,
+    "g19_mean": 0.5865,
+    "g19_std": 0.13,
+    "trust_mean": 0.8806,
+    "trust_std": 0.088,
+    "cult_div_mean": 0.0026,
+    "cult_div_std": 0.0022,
+    "max_gen_mean": 17.3333,
+    "max_gen_std": 0.5774,
+    "sig_density_mean": 3909.0,
+    "sig_density_std": 81.4616,
+    "tick_mean": 300000.0,
+    "tick_std": 0.0
+  }
+}

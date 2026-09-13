@@ -1,0 +1,162 @@
+{
+  "signal_vocabulary": {
+    "total_signals": 7200,
+    "unique_patterns": 5,
+    "entropy": 1.348632,
+    "normalized_entropy": 0.486416,
+    "zipf_r2": 0.900619,
+    "zipf_slope": -1.4037,
+    "freq_by_pattern": [
+      0.445417,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.256806,
+      0.042361,
+      0.177917,
+      0.0775
+    ]
+  },
+  "cultural_diversity": {
+    "overall_std": 0.00107,
+    "per_pattern_std": [
+      0.000482,
+      0.001833,
+      0.000281,
+      0.001355,
+      0.000357,
+      0.00333,
+      0.000737,
+      0.000807,
+      0.001192,
+      0.001583,
+      0.001896,
+      0.000403,
+      0.00038,
+      0.000899,
+      0.000918,
+      0.000663
+    ],
+    "interpretation_range": 0.82009,
+    "total_variance": 2.8e-05,
+    "converged_patterns": 16
+  },
+  "generational_stability": {
+    "avg_correlation": 1.0,
+    "generation_pairs": 1,
+    "per_gen_corr": {
+      "54->55": 1.0
+    },
+    "stable_generations": 1
+  },
+  "spatial_clustering": {
+    "morans_i": 0.209656,
+    "same_neighbor_ratio": 0.480513,
+    "expected_same_random": 0.342708,
+    "active_cells": 3993,
+    "neighbor_pairs": 6389
+  },
+  "signal_context_mi": {
+    "mutual_information": 0.295103,
+    "normalized_mi": 0.147831,
+    "context_bins": 3,
+    "active_signals": 3993,
+    "binning_method": "quantile_equal_frequency",
+    "bin_edges": [
+      -0.0,
+      8.355327,
+      15.637022,
+      120.0
+    ],
+    "bin_counts": [
+      1331,
+      1331,
+      1331
+    ],
+    "bin_ratios": [
+      0.3333,
+      0.3333,
+      0.3333
+    ],
+    "skewed": false,
+    "max_single_bin_ratio": 0.3333,
+    "p_value": 0.0,
+    "permutations": 1000,
+    "null_mi_p95": 0.001666,
+    "null_mi_mean": 0.000748,
+    "null_mi_std": 0.000463,
+    "note": "MI>0 indicates index-level association (signal pattern correlates with context), NOT emergent symbolic semantics. f_bit is hardcoded into pattern definition.",
+    "interpretation": "指示符关联强度（非涌现语义）"
+  },
+  "interpretation_consistency": {
+    "consistency_score": 0.996434,
+    "dominant_interpretation_ratio": 0.999942,
+    "per_pattern_consistency": [
+      0.998393,
+      0.993889,
+      0.999063,
+      0.995483,
+      0.998811,
+      0.988901,
+      0.997542,
+      0.997308,
+      0.996026,
+      0.994725,
+      0.993681,
+      0.998655,
+      0.998732,
+      0.997005,
+      0.996941,
+      0.99779
+    ],
+    "g14_interpret_diversity_corr": -0.002589
+  },
+  "signal_genotype_phenotype": {
+    "g15_mean": 0.256614,
+    "g15_signal_corr": 0.027062,
+    "high_g15_fraction": 0.033333,
+    "high_g15_signal_rate": 1.0,
+    "low_g15_signal_rate": 0.996488,
+    "signal_rate_diff": 0.003512
+  },
+  "language_emergence_score": {
+    "total_score": null,
+    "note": "0-100 综合分已废弃（6 模型外部评估 D4/元宝）：占 20% 权重的 signal_context_mi 恒 0、generational_stability 样本不足，未演化快照即得 56.94，总分无区分度。只报 7 维子分；判别判据转移到相对零模型超额量（D1 对照实现）。",
+    "subscores": {
+      "vocabulary_richness": 0.6949,
+      "zipf_structure": 0.9006,
+      "cultural_diversity": 0.0107,
+      "generational_stability": 1.0,
+      "spatial_clustering": 0.4193,
+      "signal_context_mi": 0.4928,
+      "interpretation_consistency": 0.9964
+    }
+  },
+  "meta": {
+    "snapshot_sha256": "bc59d51e8164fe0a4bc05e41765345b400c446c17bae81d565a240bffbdb07e3",
+    "tick": 1000000,
+    "alive_count": 3240,
+    "max_generation": 55,
+    "n_cells": 7200,
+    "config_seed": null,
+    "config_fingerprint": "{\"culture\": {\"food_threshold\": 0.3, \"trust_false\": 0.1, \"trust_true\": 0.05}, \"fruit\": {\"charge_rate\": 0.1, \"digest_ratio\": 0.7, \"eat_rate\": 0.05, \"enabled\": false, \"excretion_prob\": 0.1, \"fruit_ratio\": 0.8, \"fruit_threshold\": 10.0, \"germination_prob\": 0.5, \"max_seed_carried\": 5, \"plant_threshold\": 0.5, \"seed_energy\": 5.0, \"seed_intake_prob\": 0.3}, \"genome\": {\"gene_count\": 24, \"gene_max\": 1.0, \"gene_min\": 0.0, \"mutation_rate\": 0.05, \"mutation_sigma\": 0.05}, \"light\": {\"day_boost\": 6.0, \"lat_base_ref\": 1.0, \"rotation_period\": 2400, \"t_equator\": 30.0, \"t_pole\": -20.0}, \"organisms\": {\"base_metabolism\": 0.6, \"eat_amount\": 0.5, \"eat_efficiency\": 3.0, \"growth_mult\": 1.6, \"homeo_upkeep\": 0.15, \"initial_energy\": 60.0, \"maturity_fraction\": 0.15, \"max_energy\": 300.0, \"move_cost\": 0.4, \"niche_floor\": 0.4, \"niche_gain\": 0.6, \"photo_max\": 0.1, \"senile_fraction\": 0.75, \"senile_mult\": 1.4}, \"pleasure\": {\"alone_rpe\": -0.1, \"alpha\": 0.05, \"arousal_decay\": 0.97, \"baseline_rate\": 0.001, \"enabled\": true, \"expectation_size\": 120, \"inheritance_noise\": 0.02, \"max_reward\": 2.0, \"optimism\": 0.8, \"social_rpe\": 0.2, \"valence_decay\": 0.95, \"w_energy\": 0.5, \"w_info\": 0.3, \"w_social\": 0.2}, \"population\": {\"initial_count\": 500, \"max_count\": 3240}, \"predation\": {\"attack_cost\": 0.1, \"attack_gene_gate\": 0.3, \"attack_prob_coef\": 0.2, \"stomach_transfer\": 0.4, \"success_ceil\": 0.9, \"success_floor\": 0.1, \"success_gene_gain\": 0.5, \"transfer_ratio\": 0.4}, \"resources\": {\"background_fill\": 0.1, \"capacity_per_area\": 40.0, \"distribution\": \"patchy\", \"initial_fill\": 0.5, \"patch_capacity_mult\": 3.0, \"patch_count\": 30, \"patch_radius\": 2, \"patch_regrowth_mult\": 2.0, \"regrowth_rate\": 0.5, \"temp_sensitivity\": 1.0}, \"seed\": 42, \"simulation\": {\"history_limit\": 0, \"stop_on_extinction\": true, \"ticks\": 1000, \"use_sim_core\": true}, \"world\": {\"cols\": 120, \"rows\": 60}}",
+    "use_sim_core": true,
+    "snapshot_version": 2,
+    "git_commit": "f3c8aeb783656ad978f6f333bf3c38fa18019872",
+    "sim_core_sha256": "bf5aa75a0254fd6e6f18f4b822423109cf4a38e9064dec9f5b51cb1435957b7b",
+    "language_analysis_version": "2.0-fd5-fix",
+    "mi_permutations": 1000,
+    "mi_binning_method": "quantile_equal_frequency",
+    "mi_max_single_bin_ratio": 0.85,
+    "analysis_note": "MI>0 = index-level association, NOT emergent symbolic semantics (f_bit hardcoded).",
+    "snapshot": "data/snapshots/snapshot_small.npz"
+  }
+}

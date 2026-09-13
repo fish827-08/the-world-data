@@ -1,0 +1,163 @@
+{
+  "signal_vocabulary": {
+    "total_signals": 7200,
+    "unique_patterns": 8,
+    "entropy": 1.377913,
+    "normalized_entropy": 0.496977,
+    "zipf_r2": 0.684185,
+    "zipf_slope": -4.2007,
+    "freq_by_pattern": [
+      0.463333,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.000139,
+      0.000139,
+      0.000278,
+      0.234722,
+      0.073056,
+      0.147917,
+      0.080417
+    ]
+  },
+  "cultural_diversity": {
+    "overall_std": 0.007765,
+    "per_pattern_std": [
+      0.005024,
+      0.004424,
+      0.004818,
+      0.013672,
+      0.009937,
+      0.010184,
+      0.010091,
+      0.006997,
+      0.010555,
+      0.011659,
+      0.010146,
+      0.004386,
+      0.005628,
+      0.006379,
+      0.005436,
+      0.004906
+    ],
+    "interpretation_range": 1.587045,
+    "total_variance": 0.001104,
+    "converged_patterns": 10
+  },
+  "generational_stability": {
+    "avg_correlation": 1.0,
+    "generation_pairs": 2,
+    "per_gen_corr": {
+      "43->44": 1.0,
+      "44->45": 1.0
+    },
+    "stable_generations": 2
+  },
+  "spatial_clustering": {
+    "morans_i": 0.125875,
+    "same_neighbor_ratio": 0.39532,
+    "expected_same_random": 0.308245,
+    "active_cells": 3864,
+    "neighbor_pairs": 6410
+  },
+  "signal_context_mi": {
+    "mutual_information": 0.216514,
+    "normalized_mi": 0.100096,
+    "context_bins": 3,
+    "active_signals": 3864,
+    "binning_method": "quantile_equal_frequency",
+    "bin_edges": [
+      -0.0,
+      7.619384,
+      15.020282,
+      117.550527
+    ],
+    "bin_counts": [
+      1288,
+      1288,
+      1288
+    ],
+    "bin_ratios": [
+      0.3333,
+      0.3333,
+      0.3333
+    ],
+    "skewed": false,
+    "max_single_bin_ratio": 0.3333,
+    "p_value": 0.0,
+    "permutations": 1000,
+    "null_mi_p95": 0.002606,
+    "null_mi_mean": 0.001696,
+    "null_mi_std": 0.0005,
+    "note": "MI>0 indicates index-level association (signal pattern correlates with context), NOT emergent symbolic semantics. f_bit is hardcoded into pattern definition.",
+    "interpretation": "指示符关联强度（非涌现语义）"
+  },
+  "interpretation_consistency": {
+    "consistency_score": 0.974116,
+    "dominant_interpretation_ratio": 0.999248,
+    "per_pattern_consistency": [
+      0.983253,
+      0.985253,
+      0.983942,
+      0.954427,
+      0.966878,
+      0.966052,
+      0.966362,
+      0.976677,
+      0.964817,
+      0.961136,
+      0.966181,
+      0.985379,
+      0.981239,
+      0.978738,
+      0.98188,
+      0.983646
+    ],
+    "g14_interpret_diversity_corr": 0.018743
+  },
+  "signal_genotype_phenotype": {
+    "g15_mean": 0.690064,
+    "g15_signal_corr": -0.020122,
+    "high_g15_fraction": 0.93642,
+    "high_g15_signal_rate": 0.998352,
+    "low_g15_signal_rate": 1.0,
+    "signal_rate_diff": -0.001648
+  },
+  "language_emergence_score": {
+    "total_score": null,
+    "note": "0-100 综合分已废弃（6 模型外部评估 D4/元宝）：占 20% 权重的 signal_context_mi 恒 0、generational_stability 样本不足，未演化快照即得 56.94，总分无区分度。只报 7 维子分；判别判据转移到相对零模型超额量（D1 对照实现）。",
+    "subscores": {
+      "vocabulary_richness": 0.71,
+      "zipf_structure": 0.2053,
+      "cultural_diversity": 0.0776,
+      "generational_stability": 1.0,
+      "spatial_clustering": 0.2517,
+      "signal_context_mi": 0.3337,
+      "interpretation_consistency": 0.9741
+    }
+  },
+  "meta": {
+    "snapshot_sha256": "1e304c790ddcc4c08cfa1edf82a28b5bc74d45f3a051a6819fdbdec5c086398a",
+    "tick": 200000,
+    "alive_count": 3240,
+    "max_generation": 45,
+    "n_cells": 7200,
+    "config_seed": null,
+    "config_fingerprint": "{\"culture\": {\"food_threshold\": 0.3, \"trust_false\": 0.1, \"trust_true\": 0.05}, \"fruit\": {\"charge_rate\": 0.1, \"digest_ratio\": 0.7, \"eat_rate\": 0.05, \"enabled\": false, \"excretion_prob\": 0.1, \"fruit_ratio\": 0.8, \"fruit_threshold\": 10.0, \"germination_prob\": 0.5, \"max_seed_carried\": 5, \"plant_threshold\": 0.5, \"seed_energy\": 5.0, \"seed_intake_prob\": 0.3}, \"genome\": {\"gene_count\": 24, \"gene_max\": 1.0, \"gene_min\": 0.0, \"mutation_rate\": 0.05, \"mutation_sigma\": 0.05}, \"light\": {\"day_boost\": 6.0, \"lat_base_ref\": 1.0, \"rotation_period\": 600, \"t_equator\": 30.0, \"t_pole\": -20.0}, \"organisms\": {\"base_metabolism\": 0.6, \"eat_amount\": 0.5, \"eat_efficiency\": 3.0, \"growth_mult\": 1.6, \"homeo_upkeep\": 0.15, \"initial_energy\": 60.0, \"maturity_fraction\": 0.15, \"max_energy\": 300.0, \"move_cost\": 0.4, \"niche_floor\": 0.4, \"niche_gain\": 0.6, \"photo_max\": 0.1, \"senile_fraction\": 0.75, \"senile_mult\": 1.4}, \"pleasure\": {\"alone_rpe\": -0.1, \"alpha\": 0.05, \"arousal_decay\": 0.97, \"baseline_rate\": 0.001, \"enabled\": true, \"expectation_size\": 120, \"inheritance_noise\": 0.02, \"max_reward\": 2.0, \"optimism\": 0.8, \"social_rpe\": 0.2, \"valence_decay\": 0.95, \"w_energy\": 0.5, \"w_info\": 0.3, \"w_social\": 0.2}, \"population\": {\"initial_count\": 500, \"max_count\": 3240}, \"predation\": {\"attack_cost\": 0.1, \"attack_gene_gate\": 0.3, \"attack_prob_coef\": 0.2, \"stomach_transfer\": 0.4, \"success_ceil\": 0.9, \"success_floor\": 0.1, \"success_gene_gain\": 0.5, \"transfer_ratio\": 0.4}, \"resources\": {\"background_fill\": 0.1, \"capacity_per_area\": 40.0, \"distribution\": \"patchy\", \"initial_fill\": 0.5, \"patch_capacity_mult\": 3.0, \"patch_count\": 30, \"patch_radius\": 2, \"patch_regrowth_mult\": 2.0, \"regrowth_rate\": 0.5, \"temp_sensitivity\": 1.0}, \"seed\": 42, \"simulation\": {\"history_limit\": 0, \"social_move_weight\": 1.0, \"stop_on_extinction\": true, \"ticks\": 1000, \"use_sim_core\": true}, \"world\": {\"cols\": 120, \"rows\": 60}}",
+    "use_sim_core": true,
+    "snapshot_version": 2,
+    "git_commit": "f3c8aeb783656ad978f6f333bf3c38fa18019872",
+    "sim_core_sha256": "bf5aa75a0254fd6e6f18f4b822423109cf4a38e9064dec9f5b51cb1435957b7b",
+    "language_analysis_version": "2.0-fd5-fix",
+    "mi_permutations": 1000,
+    "mi_binning_method": "quantile_equal_frequency",
+    "mi_max_single_bin_ratio": 0.85,
+    "analysis_note": "MI>0 = index-level association, NOT emergent symbolic semantics (f_bit hardcoded).",
+    "snapshot": "data/snapshots/snapshot_gen_rp600_s42.npz"
+  }
+}

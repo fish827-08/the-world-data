@@ -1,0 +1,152 @@
+{
+  "args": {
+    "rows": 60,
+    "cols": 120,
+    "ticks": 60000,
+    "seed": 43,
+    "tag": "d2x_lr300",
+    "log_interval": 1000,
+    "learning_bottleneck": true,
+    "arbitrary_codebook": false,
+    "info_asymmetry": false,
+    "steels_alignment": true,
+    "learning_rate": 0.3,
+    "learning_samples_max": 60,
+    "learning_maturity_ticks": 1200,
+    "codebook_mutation_rate": 0.02,
+    "perception_radius": 4,
+    "perception_noise": 0.05,
+    "softmax_tau": 0.15,
+    "alignment_rate": 0.1,
+    "alignment_step": 0.15,
+    "alignment_noise": 0.02
+  },
+  "config": {
+    "seed": 43,
+    "world": {
+      "rows": 60,
+      "cols": 120
+    },
+    "light": {
+      "rotation_period": 2400,
+      "t_equator": 30.0,
+      "t_pole": -20.0,
+      "day_boost": 6.0,
+      "lat_base_ref": 1.0
+    },
+    "resources": {
+      "capacity_per_area": 40.0,
+      "regrowth_rate": 0.5,
+      "temp_sensitivity": 1.0,
+      "initial_fill": 0.5,
+      "distribution": "uniform",
+      "patch_count": 30,
+      "patch_radius": 2,
+      "patch_capacity_mult": 3.0,
+      "patch_regrowth_mult": 2.0,
+      "background_fill": 0.1
+    },
+    "organisms": {
+      "initial_energy": 60.0,
+      "max_energy": 300.0,
+      "base_metabolism": 0.6,
+      "move_cost": 0.4,
+      "eat_amount": 0.5,
+      "eat_efficiency": 3.0,
+      "photo_max": 0.1,
+      "homeo_upkeep": 0.15,
+      "maturity_fraction": 0.15,
+      "senile_fraction": 0.75,
+      "growth_mult": 1.6,
+      "senile_mult": 1.4,
+      "lifespan_mult": 1.0,
+      "niche_floor": 0.4,
+      "niche_gain": 0.6
+    },
+    "genome": {
+      "gene_count": 24,
+      "gene_min": 0.0,
+      "gene_max": 1.0,
+      "mutation_rate": 0.05,
+      "mutation_sigma": 0.05
+    },
+    "population": {
+      "initial_count": 200,
+      "max_count": 5000
+    },
+    "simulation": {
+      "ticks": 1000,
+      "stop_on_extinction": true,
+      "history_limit": 0,
+      "use_sim_core": false,
+      "social_move_weight": 1.0,
+      "stay_prob": 0.0
+    },
+    "pleasure": {
+      "enabled": true,
+      "expectation_size": 120,
+      "alpha": 0.05,
+      "valence_decay": 0.95,
+      "arousal_decay": 0.97,
+      "baseline_rate": 0.001,
+      "optimism": 0.8,
+      "max_reward": 2.0,
+      "w_energy": 0.5,
+      "w_info": 0.3,
+      "w_social": 0.2,
+      "inheritance_noise": 0.02,
+      "social_rpe": 0.2,
+      "alone_rpe": -0.1
+    },
+    "predation": {
+      "attack_cost": 0.1,
+      "attack_prob_coef": 0.2,
+      "attack_gene_gate": 0.3,
+      "success_gene_gain": 0.5,
+      "success_floor": 0.1,
+      "success_ceil": 0.9,
+      "transfer_ratio": 0.4,
+      "stomach_transfer": 0.4
+    },
+    "culture": {
+      "food_threshold": 0.3,
+      "trust_true": 0.05,
+      "trust_false": 0.1
+    },
+    "info_structure": {
+      "enabled": true,
+      "learning_bottleneck": true,
+      "learning_rate": 0.3,
+      "learning_samples_max": 60,
+      "learning_maturity_ticks": 1200,
+      "arbitrary_codebook": false,
+      "codebook_mutation_rate": 0.02,
+      "codebook_mutation_sigma": 0.3,
+      "perception_radius": 8,
+      "perception_noise": 0.0,
+      "softmax_tau": 0.0,
+      "steels_alignment": true,
+      "alignment_rate": 0.1,
+      "alignment_step": 0.15,
+      "alignment_noise": 0.02
+    },
+    "fruit": {
+      "enabled": false,
+      "plant_threshold": 0.5,
+      "charge_rate": 0.1,
+      "fruit_threshold": 10.0,
+      "fruit_ratio": 0.8,
+      "eat_rate": 0.05,
+      "digest_ratio": 0.7,
+      "seed_intake_prob": 0.3,
+      "excretion_prob": 0.1,
+      "germination_prob": 0.5,
+      "seed_energy": 5.0,
+      "max_seed_carried": 5
+    },
+    "neutral_genes": false,
+    "signal_disabled": false,
+    "signal_mode": "state"
+  },
+  "start_time": "2026-09-12 09:37:27"
+}

@@ -1,0 +1,70 @@
+=== D2 实验: tag=d2x_lr300, seed=45 ===
+D2 enabled=True
+  learning_bottleneck=True
+  arbitrary_codebook=False
+  info_asymmetry=True
+  steels_alignment=True
+世界: 60x120, ticks=60000
+
+tick=  1000 N=   9 g15=0.634 g14=0.581 trust=0.439 max_gen=  1 lc_max=  7 cb_conv=1.000 rate=162.4t/s
+tick=  2000 N=   2 g15=0.637 g14=0.459 trust=0.315 max_gen=  1 lc_max= 52 cb_conv=1.000 rate=214.0t/s
+tick=  3000 N=   1 g15=0.303 g14=0.763 trust=0.200 max_gen=  2 lc_max= 21 cb_conv=1.000 rate=240.7t/s
+tick=  4000 N=   1 g15=0.303 g14=0.763 trust=0.000 max_gen=  3 lc_max= 30 cb_conv=1.000 rate=255.4t/s
+tick=  5000 N=   1 g15=0.303 g14=0.763 trust=0.400 max_gen=  4 lc_max= 33 cb_conv=1.000 rate=271.4t/s
+tick=  6000 N=   1 g15=0.303 g14=0.763 trust=0.050 max_gen=  5 lc_max= 18 cb_conv=1.000 rate=279.6t/s
+tick=  7000 N=   1 g15=0.303 g14=0.763 trust=0.430 max_gen=  6 lc_max= 16 cb_conv=1.000 rate=286.2t/s
+tick=  8000 N=   1 g15=0.303 g14=0.763 trust=0.180 max_gen=  6 lc_max= 43 cb_conv=1.000 rate=289.5t/s
+tick=  9000 N=   1 g15=0.303 g14=0.763 trust=0.050 max_gen=  7 lc_max= 29 cb_conv=1.000 rate=294.6t/s
+tick= 10000 N=   1 g15=0.303 g14=0.763 trust=0.350 max_gen=  8 lc_max= 20 cb_conv=1.000 rate=298.7t/s
+tick= 11000 N=   1 g15=0.303 g14=0.763 trust=0.100 max_gen=  8 lc_max= 44 cb_conv=1.000 rate=299.4t/s
+tick= 12000 N=   1 g15=0.303 g14=0.763 trust=0.000 max_gen=  9 lc_max= 18 cb_conv=1.000 rate=302.6t/s
+tick= 13000 N=   1 g15=0.303 g14=0.763 trust=0.300 max_gen=  9 lc_max= 42 cb_conv=1.000 rate=308.3t/s
+tick= 14000 N=   1 g15=0.303 g14=0.763 trust=0.150 max_gen= 10 lc_max= 10 cb_conv=1.000 rate=311.6t/s
+tick= 15000 N=   1 g15=0.303 g14=0.763 trust=0.200 max_gen= 10 lc_max= 36 cb_conv=1.000 rate=314.3t/s
+tick= 16000 N=   1 g15=0.303 g14=0.763 trust=0.150 max_gen= 11 lc_max= 18 cb_conv=1.000 rate=317.6t/s
+tick= 17000 N=   2 g15=0.303 g14=0.763 trust=0.095 max_gen= 12 lc_max= 52 cb_conv=1.000 rate=319.5t/s
+tick= 18000 N=   1 g15=0.303 g14=0.763 trust=0.100 max_gen= 12 lc_max= 36 cb_conv=1.000 rate=319.1t/s
+tick= 19000 N=   1 g15=0.303 g14=0.763 trust=0.000 max_gen= 13 lc_max=  4 cb_conv=1.000 rate=319.6t/s
+tick= 20000 N=   1 g15=0.303 g14=0.763 trust=0.140 max_gen= 14 lc_max=  5 cb_conv=1.000 rate=320.0t/s
+tick= 21000 N=   1 g15=0.303 g14=0.763 trust=0.050 max_gen= 14 lc_max= 19 cb_conv=1.000 rate=322.1t/s
+tick= 22000 N=   1 g15=0.303 g14=0.763 trust=0.250 max_gen= 15 lc_max= 15 cb_conv=1.000 rate=325.9t/s
+tick= 23000 N=   1 g15=0.303 g14=0.763 trust=0.200 max_gen= 15 lc_max= 48 cb_conv=1.000 rate=329.9t/s
+tick= 24000 N=   1 g15=0.303 g14=0.763 trust=0.360 max_gen= 16 lc_max= 20 cb_conv=1.000 rate=333.7t/s
+tick= 25000 N=   1 g15=0.303 g14=0.763 trust=0.000 max_gen= 16 lc_max= 33 cb_conv=1.000 rate=336.8t/s
+tick= 26000 N=   1 g15=0.303 g14=0.763 trust=0.250 max_gen= 17 lc_max= 20 cb_conv=1.000 rate=340.0t/s
+tick= 27000 N=   1 g15=0.303 g14=0.763 trust=0.250 max_gen= 17 lc_max= 53 cb_conv=1.000 rate=343.2t/s
+tick= 28000 N=   1 g15=0.303 g14=0.763 trust=0.300 max_gen= 18 lc_max= 23 cb_conv=1.000 rate=346.2t/s
+tick= 29000 N=   1 g15=0.303 g14=0.763 trust=0.050 max_gen= 19 lc_max= 10 cb_conv=1.000 rate=349.3t/s
+tick= 30000 N=   1 g15=0.303 g14=0.763 trust=0.050 max_gen= 19 lc_max= 19 cb_conv=1.000 rate=352.3t/s
+tick= 31000 N=   1 g15=0.303 g14=0.763 trust=0.300 max_gen= 20 lc_max= 32 cb_conv=1.000 rate=355.5t/s
+tick= 32000 N=   1 g15=0.303 g14=0.763 trust=0.050 max_gen= 21 lc_max= 11 cb_conv=1.000 rate=359.1t/s
+tick= 33000 N=   1 g15=0.303 g14=0.763 trust=0.000 max_gen= 22 lc_max=  4 cb_conv=1.000 rate=362.6t/s
+tick= 34000 N=   1 g15=0.303 g14=0.763 trust=0.250 max_gen= 22 lc_max= 37 cb_conv=1.000 rate=365.5t/s
+tick= 35000 N=   1 g15=0.303 g14=0.763 trust=0.100 max_gen= 23 lc_max= 13 cb_conv=1.000 rate=368.0t/s
+tick= 36000 N=   1 g15=0.303 g14=0.763 trust=0.150 max_gen= 23 lc_max= 28 cb_conv=1.000 rate=370.6t/s
+tick= 37000 N=   1 g15=0.303 g14=0.763 trust=0.100 max_gen= 24 lc_max= 22 cb_conv=1.000 rate=373.3t/s
+tick= 38000 N=   1 g15=0.303 g14=0.763 trust=0.400 max_gen= 25 lc_max= 11 cb_conv=1.000 rate=376.4t/s
+tick= 39000 N=   1 g15=0.303 g14=0.763 trust=0.100 max_gen= 25 lc_max= 48 cb_conv=1.000 rate=379.5t/s
+tick= 40000 N=   1 g15=0.303 g14=0.763 trust=0.000 max_gen= 26 lc_max= 22 cb_conv=1.000 rate=382.2t/s
+tick= 41000 N=   1 g15=0.303 g14=0.763 trust=0.150 max_gen= 26 lc_max= 39 cb_conv=1.000 rate=384.4t/s
+tick= 42000 N=   1 g15=0.303 g14=0.763 trust=0.150 max_gen= 26 lc_max= 39 cb_conv=1.000 rate=385.1t/s
+tick= 43000 N=   1 g15=0.303 g14=0.763 trust=0.050 max_gen= 27 lc_max= 17 cb_conv=1.000 rate=386.0t/s
+tick= 44000 N=   2 g15=0.303 g14=0.763 trust=0.085 max_gen= 28 lc_max= 35 cb_conv=1.000 rate=385.9t/s
+tick= 45000 N=   1 g15=0.303 g14=0.763 trust=0.150 max_gen= 28 lc_max= 23 cb_conv=1.000 rate=386.8t/s
+tick= 46000 N=   1 g15=0.303 g14=0.763 trust=0.400 max_gen= 29 lc_max= 50 cb_conv=1.000 rate=387.9t/s
+tick= 47000 N=   1 g15=0.303 g14=0.763 trust=0.050 max_gen= 29 lc_max= 60 cb_conv=1.000 rate=388.8t/s
+tick= 48000 N=   1 g15=0.303 g14=0.763 trust=0.370 max_gen= 30 lc_max= 29 cb_conv=1.000 rate=389.6t/s
+tick= 49000 N=   1 g15=0.303 g14=0.763 trust=0.416 max_gen= 31 lc_max=  5 cb_conv=1.000 rate=390.4t/s
+tick= 50000 N=   1 g15=0.303 g14=0.763 trust=0.466 max_gen= 31 lc_max= 60 cb_conv=1.000 rate=391.4t/s
+tick= 51000 N=   1 g15=0.303 g14=0.763 trust=0.100 max_gen= 31 lc_max= 60 cb_conv=1.000 rate=391.9t/s
+tick= 52000 N=   2 g15=0.303 g14=0.763 trust=0.050 max_gen= 32 lc_max= 60 cb_conv=1.000 rate=392.9t/s
+tick= 53000 N=   1 g15=0.303 g14=0.763 trust=0.100 max_gen= 32 lc_max= 57 cb_conv=1.000 rate=393.4t/s
+tick= 54000 N=   1 g15=0.303 g14=0.763 trust=0.000 max_gen= 33 lc_max= 17 cb_conv=1.000 rate=394.4t/s
+tick= 55000 N=   1 g15=0.303 g14=0.763 trust=0.460 max_gen= 34 lc_max=  7 cb_conv=1.000 rate=395.3t/s
+tick= 56000 N=   1 g15=0.303 g14=0.763 trust=0.000 max_gen= 34 lc_max= 60 cb_conv=1.000 rate=395.4t/s
+tick= 57000 N=   1 g15=0.303 g14=0.763 trust=0.100 max_gen= 35 lc_max= 46 cb_conv=1.000 rate=396.6t/s
+*** 种群灭绝 at tick=57476 ***
+
+结果已保存: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\long_d2x_lr300_s45.csv
+Manifest: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\manifest_d2x_lr300_s45.json
+=== 实验结束 ===

@@ -1,0 +1,72 @@
+=== D2 实验: tag=d2x_lr050, seed=43 ===
+D2 enabled=True
+  learning_bottleneck=True
+  arbitrary_codebook=False
+  info_asymmetry=True
+  steels_alignment=True
+世界: 60x120, ticks=60000
+
+tick=  1000 N=  20 g15=0.389 g14=0.354 trust=0.494 max_gen=  1 lc_max= 28 cb_conv=1.000 rate=173.3t/s
+tick=  2000 N=  85 g15=0.309 g14=0.169 trust=0.465 max_gen=  3 lc_max= 28 cb_conv=1.000 rate=153.8t/s
+tick=  3000 N= 138 g15=0.310 g14=0.229 trust=0.398 max_gen=  4 lc_max=  6 cb_conv=1.000 rate=114.3t/s
+tick=  4000 N= 140 g15=0.293 g14=0.227 trust=0.369 max_gen=  5 lc_max=  9 cb_conv=1.000 rate=99.8t/s
+tick=  5000 N= 166 g15=0.272 g14=0.237 trust=0.409 max_gen=  7 lc_max=  4 cb_conv=1.000 rate=95.6t/s
+tick=  6000 N= 222 g15=0.248 g14=0.214 trust=0.447 max_gen=  8 lc_max=  6 cb_conv=1.000 rate=90.1t/s
+tick=  7000 N= 272 g15=0.188 g14=0.217 trust=0.495 max_gen= 10 lc_max=  8 cb_conv=1.000 rate=86.7t/s
+tick=  8000 N= 392 g15=0.169 g14=0.198 trust=0.479 max_gen= 10 lc_max= 10 cb_conv=1.000 rate=81.6t/s
+tick=  9000 N= 413 g15=0.170 g14=0.203 trust=0.406 max_gen= 11 lc_max= 12 cb_conv=1.000 rate=74.1t/s
+tick= 10000 N= 373 g15=0.163 g14=0.206 trust=0.367 max_gen= 12 lc_max= 10 cb_conv=1.000 rate=69.7t/s
+tick= 11000 N= 320 g15=0.177 g14=0.214 trust=0.372 max_gen= 13 lc_max=  9 cb_conv=1.000 rate=67.9t/s
+tick= 12000 N= 258 g15=0.191 g14=0.223 trust=0.417 max_gen= 14 lc_max=  9 cb_conv=1.000 rate=68.2t/s
+tick= 13000 N= 226 g15=0.194 g14=0.224 trust=0.450 max_gen= 15 lc_max=  6 cb_conv=1.000 rate=69.9t/s
+tick= 14000 N= 224 g15=0.198 g14=0.238 trust=0.437 max_gen= 15 lc_max=  5 cb_conv=1.000 rate=71.8t/s
+tick= 15000 N= 216 g15=0.174 g14=0.240 trust=0.434 max_gen= 16 lc_max=  5 cb_conv=1.000 rate=73.8t/s
+tick= 16000 N= 229 g15=0.177 g14=0.233 trust=0.417 max_gen= 17 lc_max=  7 cb_conv=1.000 rate=75.2t/s
+tick= 17000 N= 254 g15=0.169 g14=0.226 trust=0.386 max_gen= 18 lc_max=  7 cb_conv=1.000 rate=76.3t/s
+tick= 18000 N= 289 g15=0.170 g14=0.231 trust=0.369 max_gen= 19 lc_max=  6 cb_conv=1.000 rate=76.2t/s
+tick= 19000 N= 284 g15=0.165 g14=0.229 trust=0.352 max_gen= 19 lc_max=  7 cb_conv=1.000 rate=75.4t/s
+tick= 20000 N= 305 g15=0.163 g14=0.220 trust=0.328 max_gen= 20 lc_max=  4 cb_conv=1.000 rate=75.2t/s
+tick= 21000 N= 307 g15=0.167 g14=0.218 trust=0.319 max_gen= 21 lc_max=  4 cb_conv=1.000 rate=75.3t/s
+tick= 22000 N= 290 g15=0.172 g14=0.234 trust=0.316 max_gen= 22 lc_max=  4 cb_conv=1.000 rate=76.1t/s
+tick= 23000 N= 305 g15=0.170 g14=0.221 trust=0.293 max_gen= 24 lc_max=  9 cb_conv=1.000 rate=77.4t/s
+tick= 24000 N= 316 g15=0.181 g14=0.223 trust=0.305 max_gen= 24 lc_max= 11 cb_conv=1.000 rate=78.7t/s
+tick= 25000 N= 348 g15=0.175 g14=0.214 trust=0.281 max_gen= 25 lc_max=  6 cb_conv=1.000 rate=79.9t/s
+tick= 26000 N= 325 g15=0.179 g14=0.209 trust=0.296 max_gen= 25 lc_max=  7 cb_conv=1.000 rate=80.7t/s
+tick= 27000 N= 362 g15=0.176 g14=0.212 trust=0.286 max_gen= 26 lc_max=  5 cb_conv=1.000 rate=81.7t/s
+tick= 28000 N= 338 g15=0.177 g14=0.207 trust=0.296 max_gen= 27 lc_max=  7 cb_conv=1.000 rate=82.4t/s
+tick= 29000 N= 341 g15=0.172 g14=0.217 trust=0.298 max_gen= 28 lc_max=  3 cb_conv=1.000 rate=83.3t/s
+tick= 30000 N= 326 g15=0.174 g14=0.218 trust=0.308 max_gen= 28 lc_max=  3 cb_conv=1.000 rate=84.1t/s
+tick= 31000 N= 320 g15=0.168 g14=0.229 trust=0.317 max_gen= 29 lc_max=  3 cb_conv=1.000 rate=85.0t/s
+tick= 32000 N= 316 g15=0.172 g14=0.212 trust=0.329 max_gen= 29 lc_max=  3 cb_conv=1.000 rate=86.0t/s
+tick= 33000 N= 316 g15=0.172 g14=0.215 trust=0.346 max_gen= 31 lc_max=  4 cb_conv=1.000 rate=86.8t/s
+tick= 34000 N= 304 g15=0.176 g14=0.219 trust=0.348 max_gen= 32 lc_max=  4 cb_conv=1.000 rate=87.7t/s
+tick= 35000 N= 288 g15=0.181 g14=0.214 trust=0.366 max_gen= 33 lc_max=  4 cb_conv=1.000 rate=88.7t/s
+tick= 36000 N= 258 g15=0.182 g14=0.222 trust=0.363 max_gen= 33 lc_max=  4 cb_conv=1.000 rate=89.8t/s
+tick= 37000 N= 270 g15=0.188 g14=0.233 trust=0.377 max_gen= 34 lc_max=  3 cb_conv=1.000 rate=91.0t/s
+tick= 38000 N= 250 g15=0.197 g14=0.231 trust=0.386 max_gen= 34 lc_max=  2 cb_conv=1.000 rate=92.1t/s
+tick= 39000 N= 247 g15=0.199 g14=0.226 trust=0.381 max_gen= 35 lc_max=  2 cb_conv=1.000 rate=93.3t/s
+tick= 40000 N= 218 g15=0.203 g14=0.234 trust=0.402 max_gen= 36 lc_max=  3 cb_conv=1.000 rate=94.6t/s
+tick= 41000 N= 192 g15=0.208 g14=0.253 trust=0.419 max_gen= 36 lc_max=  2 cb_conv=1.000 rate=96.0t/s
+tick= 42000 N= 188 g15=0.217 g14=0.248 trust=0.437 max_gen= 37 lc_max=  2 cb_conv=1.000 rate=97.5t/s
+tick= 43000 N= 169 g15=0.231 g14=0.264 trust=0.452 max_gen= 38 lc_max=  1 cb_conv=1.000 rate=98.9t/s
+tick= 44000 N= 145 g15=0.236 g14=0.257 trust=0.466 max_gen= 38 lc_max=  1 cb_conv=1.000 rate=100.3t/s
+tick= 45000 N= 139 g15=0.244 g14=0.271 trust=0.477 max_gen= 39 lc_max=  1 cb_conv=1.000 rate=101.8t/s
+tick= 46000 N= 136 g15=0.249 g14=0.297 trust=0.479 max_gen= 40 lc_max=  1 cb_conv=1.000 rate=103.4t/s
+tick= 47000 N= 139 g15=0.243 g14=0.264 trust=0.482 max_gen= 41 lc_max=  0 cb_conv=1.000 rate=104.9t/s
+tick= 48000 N= 140 g15=0.246 g14=0.291 trust=0.482 max_gen= 42 lc_max=  0 cb_conv=1.000 rate=106.3t/s
+tick= 49000 N= 138 g15=0.247 g14=0.270 trust=0.484 max_gen= 43 lc_max=  0 cb_conv=1.000 rate=107.8t/s
+tick= 50000 N= 140 g15=0.250 g14=0.305 trust=0.486 max_gen= 43 lc_max=  0 cb_conv=1.000 rate=109.2t/s
+tick= 51000 N= 131 g15=0.248 g14=0.291 trust=0.486 max_gen= 44 lc_max=  0 cb_conv=1.000 rate=110.6t/s
+tick= 52000 N= 129 g15=0.250 g14=0.288 trust=0.486 max_gen= 44 lc_max=  0 cb_conv=1.000 rate=111.9t/s
+tick= 53000 N= 130 g15=0.249 g14=0.301 trust=0.487 max_gen= 45 lc_max=  0 cb_conv=1.000 rate=113.3t/s
+tick= 54000 N= 140 g15=0.244 g14=0.278 trust=0.487 max_gen= 46 lc_max=  0 cb_conv=1.000 rate=114.7t/s
+tick= 55000 N= 133 g15=0.242 g14=0.273 trust=0.486 max_gen= 47 lc_max=  0 cb_conv=1.000 rate=116.0t/s
+tick= 56000 N= 139 g15=0.241 g14=0.276 trust=0.486 max_gen= 47 lc_max=  0 cb_conv=1.000 rate=117.3t/s
+tick= 57000 N= 142 g15=0.244 g14=0.282 trust=0.488 max_gen= 48 lc_max=  0 cb_conv=1.000 rate=118.7t/s
+tick= 58000 N= 134 g15=0.238 g14=0.275 trust=0.487 max_gen= 48 lc_max=  2 cb_conv=1.000 rate=120.0t/s
+tick= 59000 N= 150 g15=0.235 g14=0.274 trust=0.486 max_gen= 49 lc_max=  2 cb_conv=1.000 rate=121.3t/s
+tick= 60000 N= 144 g15=0.240 g14=0.295 trust=0.489 max_gen= 49 lc_max=  0 cb_conv=1.000 rate=122.5t/s
+
+结果已保存: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\long_d2x_lr050_s43.csv
+Manifest: C:\Users\圣羽\Desktop\temp\tempCode\the-world\_gitee_review\experiments\manifest_d2x_lr050_s43.json
+=== 实验结束 ===
