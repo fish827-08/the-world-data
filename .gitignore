@@ -6,6 +6,17 @@ __pycache__/
 # 系统
 Thumbs.db
 .DS_Store
-_rerun_logs/a4_fix/*.npz
-_rerun_logs/a4_fix/*.pkl
-_rerun_logs/a4_fix/*.progress.json
+
+# === 2026-09-13 R51：快照必须入库（原 F-R7 缺陷已修正）===
+# 历史错误：此处曾排除 _rerun_logs/a4_fix/*.npz|*.pkl|*.progress.json，
+# 导致 R19 批快照从未入库、本地无法续跑、白丢约 9 小时。
+# 现已全部放开 —— 快照是「续跑」的唯一凭据，必须可同步。
+#
+# 🔴 配套硬纪律（否则会重演主仓 471MB 撑爆事故）：
+#   1. 快照必须「原地覆盖」——固定文件名、不带 tick 号
+#      OK  : asym_on_cb0_s43.snapshot.npz        （恒定 1 个，≈5 MB）
+#      BAD : snapshot_s43_t005000.npz / t010000… （120 个/run ≈ 480 MB，会撑爆）
+#   2. 每个 run 快照占用应恒定在 ~5 MB（实测：npz 5.13 MB + rngstate 数 KB）
+#   3. 若某批确需保留多个时间点快照 ⇒ 单独开子目录并预先估算总量，
+#      且「总量 + 现有容量」须 < 800 MB（给 1024 MB 配额留 200 MB 余量）
+#   4. 本仓库只存数据；代码与文档在 the-world
