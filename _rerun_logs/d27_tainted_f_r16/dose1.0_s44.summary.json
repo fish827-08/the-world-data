@@ -1,0 +1,103 @@
+{
+  "manifest": {
+    "git_commit": "09af6b8a0e182afd5ceef5555545e53b7b19f0a3",
+    "git_dirty": true,
+    "sim_core_sha256": "1d265178526ab98fd3c31356464fa4d2",
+    "code_tree_sha256": "7cd59039a71513f0fe5973c92801bc96",
+    "config_fingerprint": "{\"culture\": {\"food_threshold\": 0.3, \"trust_false\": 0.1, \"trust_true\": 0.05}, \"fruit\": {\"charge_rate\": 0.1, \"digest_ratio\": 0.7, \"eat_rate\": 0.05, \"enabled\": false, \"excretion_prob\": 0.1, \"fruit_ratio\": 0.8, \"fruit_threshold\": 10.0, \"germination_prob\": 0.5, \"max_seed_carried\": 5, \"plant_threshold\": 0.5, \"seed_energy\": 5.0, \"seed_intake_prob\": 0.3}, \"genome\": {\"gene_count\": 24, \"gene_max\": 1.0, \"gene_min\": 0.0, \"mutation_rate\": 0.05, \"mutation_sigma\": 0.05}, \"info_structure\": {\"alignment_noise\": 0.02, \"alignment_rate\": 0.1, \"alignment_step\": 0.15, \"arbitrary_codebook\": true, \"codebook_mutation_rate\": 0.02, \"codebook_mutation_sigma\": 0.3, \"enabled\": true, \"learning_bottleneck\": true, \"learning_maturity_ticks\": 1200, \"learning_rate\": 0.05, \"learning_samples_max\": 60, \"measure_signal_response\": true, \"perception_noise\": 0.05, \"perception_radius\": 4, \"reputation_weight\": 0.0, \"softmax_tau\": 0.15, \"steels_alignment\": true}, \"light\": {\"day_boost\": 6.0, \"lat_base_ref\": 1.0, \"rotation_period\": 2400, \"t_equator\": 30.0, \"t_pole\": -20.0}, \"neutral_genes\": false, \"oracle\": {\"allow_non_breakeven\": false, \"donation\": 1.0, \"enabled\": true, \"persistence\": 10, \"require_food\": true}, \"organisms\": {\"base_metabolism\": 0.6, \"eat_amount\": 0.5, \"eat_efficiency\": 3.0, \"growth_mult\": 1.6, \"homeo_upkeep\": 0.15, \"initial_energy\": 60.0, \"lifespan_mult\": 1.0, \"maturity_fraction\": 0.15, \"max_energy\": 300.0, \"move_cost\": 0.4, \"niche_floor\": 0.4, \"niche_gain\": 0.6, \"photo_max\": 0.1, \"senile_fraction\": 0.75, \"senile_mult\": 1.4}, \"pleasure\": {\"alone_rpe\": -0.1, \"alpha\": 0.05, \"arousal_decay\": 0.97, \"baseline_rate\": 0.001, \"enabled\": true, \"expectation_size\": 120, \"inheritance_noise\": 0.02, \"max_reward\": 2.0, \"optimism\": 0.8, \"social_rpe\": 0.2, \"valence_decay\": 0.95, \"w_energy\": 0.5, \"w_info\": 0.3, \"w_social\": 0.2}, \"population\": {\"initial_count\": 200, \"max_count\": 3240}, \"predation\": {\"attack_cost\": 0.1, \"attack_gene_gate\": 0.3, \"attack_prob_coef\": 0.2, \"stomach_transfer\": 0.4, \"success_ceil\": 0.9, \"success_floor\": 0.1, \"success_gene_gain\": 0.5, \"transfer_ratio\": 0.4}, \"resources\": {\"background_fill\": 0.1, \"capacity_per_area\": 40.0, \"distribution\": \"uniform\", \"initial_fill\": 0.5, \"patch_capacity_mult\": 3.0, \"patch_count\": 30, \"patch_radius\": 2, \"patch_regrowth_mult\": 2.0, \"regrowth_rate\": 0.5, \"temp_sensitivity\": 1.0}, \"seed\": 44, \"signal_disabled\": false, \"signal_mode\": \"state\", \"simulation\": {\"history_limit\": 100, \"social_move_weight\": 1.0, \"stay_prob\": 0.0, \"stop_on_extinction\": true, \"ticks\": 8000, \"use_sim_core\": false}, \"world\": {\"cols\": 120, \"rows\": 60}}",
+    "rng_draws": 1685549,
+    "python": "3.14.7",
+    "started": "2026-09-15 21:59:29",
+    "finished": "2026-09-15 22:02:54",
+    "script": "experiments/a4_verify_capacity.py"
+  },
+  "switches": {
+    "mode": "on",
+    "seed": 44,
+    "ticks_target": 8000,
+    "resumed_from_snapshot": false,
+    "start_tick": 0,
+    "arbitrary_codebook": true,
+    "arm": "oracle",
+    "measure_signal_response": true,
+    "oracle_enabled": true,
+    "oracle_donation": 1.0,
+    "oracle_persistence": 10,
+    "perception_radius": 4,
+    "perception_noise": 0.05,
+    "softmax_tau": 0.15,
+    "learning_bottleneck": true,
+    "steels_alignment": true,
+    "reputation_weight": 0.0,
+    "use_sim_core": false,
+    "distribution": "uniform",
+    "initial_count": 200,
+    "max_count": 3240,
+    "neutral_genes": false,
+    "signal_disabled": false
+  },
+  "result": {
+    "final_tick": 8000,
+    "final_N": 193,
+    "extinct": false,
+    "reached_60k": true,
+    "stable_N_gt0_last50k": false,
+    "eco_gate_pass": false,
+    "born_total": 10069,
+    "died_total": 10077,
+    "deaths_by_cause": {
+      "DeathCause.PREDATION": 9826,
+      "DeathCause.STARVATION": 250,
+      "DeathCause.OLD_AGE": 1
+    },
+    "final_codebook_conv": 0.7769,
+    "final_pred_frac": 0.9751,
+    "final_max_gen_highwater": 20,
+    "final_max_gen_current": 20,
+    "selection_gradient": {
+      "non_sat": {
+        "n": 10269,
+        "slope_g15": -0.351621,
+        "spearman_rho": -0.011618,
+        "mean_g15": 0.120226,
+        "mean_fitness": 0.980524
+      },
+      "sat_diagnostic": {
+        "n": 0,
+        "slope_g15": null,
+        "spearman_rho": null,
+        "mean_g15": null,
+        "mean_fitness": null
+      }
+    },
+    "signal_response": {
+      "decisions": 978524,
+      "exposed": 336201,
+      "resp_a_exposure": 0.34358,
+      "resp_b_delta": 0.065859,
+      "resp_triple": 0.022628,
+      "argmax_flip_rate": 0.408628
+    },
+    "oracle": {
+      "enabled": true,
+      "transfers": 25926.882044,
+      "count": 43329,
+      "emissions": 622805,
+      "oracle_return_ratio": 0.416292,
+      "funnel": {
+        "emissions": 622805,
+        "had_signal": 197551,
+        "true_sig": 181757,
+        "selected": 181757,
+        "attrib_found": 170677,
+        "in_window": 97938,
+        "not_self": 48428,
+        "budget_ok": 43330,
+        "applied": 43329,
+        "sel_to_applied": 0.23839,
+        "had_sig_to_applied": 0.219331,
+        "emissions_per_applied": 14.374
+      }
+    }
+  }
+}

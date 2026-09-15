@@ -1,0 +1,13 @@
+arm,codebook,arm_type,seed,final_N,eco_gate,pred_frac,regime,codebook_conv,slope_g15,resp_a,resp_b,resp_triple,oracle_ratio,wall_min
+dose0.674_s42,True,oracle,42,722,False,0.9714,predation_dominant,0.8292,0.012754,0.988405,0.038873,0.038423,0.519195,2.9
+dose0.674_s43,True,oracle,43,2309,False,0.941,predation_dominant,0.8676,0.192366,0.989128,0.035694,0.035305,0.451339,9.3
+dose0.674_s44,True,oracle,44,3240,False,0.2029,non_predation,0.9232,2.062788,0.994304,0.049727,0.049444,0.622382,11.1
+dose1.0_s42,True,oracle,42,3240,False,0.3851,non_predation,0.8984,0.612735,0.996023,0.029661,0.029543,0.915875,10.7
+dose1.0_s43,True,oracle,43,3239,False,0.529,non_predation,0.8554,-1.903572,0.997438,0.024043,0.023982,0.856948,11.3
+dose1.0_s44,True,oracle,44,221,False,0.9824,predation_dominant,0.7797,-0.419025,0.297946,0.081067,0.024154,0.506761,3.5
+dose1.5_s42,True,oracle,42,363,False,0.9128,predation_dominant,0.8409,-0.001313,0.963709,0.142402,0.137234,0.369745,1.3
+dose1.5_s43,True,oracle,43,3240,False,0.3977,non_predation,0.9039,-2.126265,0.995826,0.013976,0.013917,0.928253,11.6
+dose1.5_s44,True,oracle,44,329,False,0.97,predation_dominant,0.7525,-0.271297,0.552081,0.028212,0.015575,0.795756,6.6
+dose2.0_s42,True,oracle,42,530,False,0.9709,predation_dominant,0.8294,0.013522,0.985515,0.0471,0.046418,0.780105,2.8
+dose2.0_s43,True,oracle,43,3237,False,0.3122,non_predation,0.9033,-1.400038,0.99589,0.018509,0.018433,0.901976,11.2
+dose2.0_s44,True,oracle,44,3240,False,0.3367,non_predation,0.892,3.347474,0.985987,0.045556,0.044917,0.84837,10.2
