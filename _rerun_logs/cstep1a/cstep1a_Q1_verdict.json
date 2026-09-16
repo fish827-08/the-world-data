@@ -1,0 +1,207 @@
+{
+  "judged_under": "R109 §五 / R110-v1（60k 判据）",
+  "criterion_version": "R110-v1（60k：Q1 k-of-n〔域内 ≥5/6 ∧ 至多 1 例外〕；两划法 60k 已退化为一 ⇒ 降诊断列）",
+  "criterion_version_8k": "R107-v1（含内评 21:38 §三 三条加固）",
+  "n_runs": 18,
+  "n_instrument": 12,
+  "n_science": 6,
+  "allowed_statement": "增益档在**适用域内**把 `ratio` 抬进目标带 [1.2,1.5]（配对一致为正、两划法结论一致）",
+  "forbidden_statements": [
+    "「有信息者优于随机者」（域内 n≤4 且与 rand 分布重叠 ⇒ 机制归因超本批样本能力）",
+    "「信号有价值 / 构成 L1 证据」（本档阳性含义仅限**行为响应**，R100 条件 2）",
+    "「仪器不灵敏 / 增益档无效」（R108 §三：本批正名为**校准达成**）",
+    "「仪器全链路已验证」（ρ 未测，移交 C 步）"
+  ],
+  "q1": [
+    {
+      "m": 1.3,
+      "baseline_m": 1.0,
+      "pairs": [
+        [
+          42,
+          0.295447,
+          1.232727,
+          0.9372799999999999
+        ],
+        [
+          43,
+          0.973105,
+          1.287702,
+          0.3145969999999999
+        ],
+        [
+          44,
+          0.516613,
+          0.811365,
+          0.294752
+        ],
+        [
+          45,
+          0.991575,
+          1.192585,
+          0.20101000000000002
+        ],
+        [
+          46,
+          0.78603,
+          0.67701,
+          -0.10902
+        ],
+        [
+          47,
+          0.506408,
+          0.924073,
+          0.41766500000000006
+        ]
+      ],
+      "deltas": [
+        0.93728,
+        0.314597,
+        0.294752,
+        0.20101,
+        -0.10902,
+        0.417665
+      ],
+      "missing_seeds": [],
+      "pair_all_positive": false,
+      "sign_test_p": 0.015625,
+      "domain": {
+        "n_seeds": 6,
+        "seeds": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "values": [
+          1.232727,
+          1.287702,
+          0.811365,
+          1.192585,
+          0.67701,
+          0.924073
+        ],
+        "seeds_found": [
+          42,
+          43
+        ],
+        "exceptions": [
+          44,
+          45,
+          46,
+          47
+        ],
+        "seeds_below": [
+          44,
+          45,
+          46,
+          47
+        ],
+        "seeds_above": [],
+        "n_inside": 2,
+        "span": 0.610692
+      },
+      "min_seeds": 5,
+      "max_exceptions": 1,
+      "coverage_in_domain": {
+        "A": {
+          "seeds": [
+            42,
+            43,
+            45,
+            47
+          ],
+          "values": [
+            1.232727,
+            1.287702,
+            1.192585,
+            0.924073
+          ],
+          "n": 4,
+          "n_inside": 2,
+          "all_inside": false
+        },
+        "B": {
+          "seeds": [
+            42,
+            43,
+            45
+          ],
+          "values": [
+            1.232727,
+            1.287702,
+            1.192585
+          ],
+          "n": 3,
+          "n_inside": 2,
+          "all_inside": false
+        }
+      },
+      "methods_role": "诊断列（60k 下两划法已退化为一，不作独立护栏）",
+      "state": "fail",
+      "pass": false,
+      "reason": "配对未全正/缺配对（缺 []）"
+    }
+  ],
+  "q1_states": [
+    "fail"
+  ],
+  "q2": {
+    "skipped": true,
+    "reason": "Q1 未过（R109：不判）"
+  },
+  "q3": {
+    "main_rho_by_seed": [],
+    "main_cluster": {
+      "rho_by_seed": [],
+      "n_seeds": 0,
+      "alpha": 0.05,
+      "scale": "检验在 z 尺度、报告在 ρ 尺度；n = seed 数（个体级 n 禁止代入）",
+      "pass": false,
+      "z_by_seed": [],
+      "zbar": null,
+      "s_z": null,
+      "ci_low_z": null,
+      "ci_low_rho": null,
+      "t_crit": null,
+      "note": "seed 数 <2 ⇒ 无法估簇级离散 ⇒ 不判"
+    },
+    "paired_main_vs_zero": {
+      "paired_by_seed": [],
+      "n_seeds": 0,
+      "alpha": 0.05,
+      "scale": "z 尺度配对差、单侧 t；n = 配对 seed 数",
+      "pass": false,
+      "dbar": null,
+      "s_d": null,
+      "ci_low_z": null,
+      "ci_low_rho": null,
+      "t_crit": null,
+      "note": "配对 seed <2 ⇒ 不判"
+    },
+    "missing_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "n_eco_pass_main": 0,
+    "n_eco_pass_zero": 6,
+    "resp_triple_main_mean": null,
+    "pass_rho_positive": false
+  },
+  "boundaries": [
+    "Q1/Q2 属仪器，不得读成「信号有价值」",
+    "rand 同量级 ⇒ 阳性含义仅限行为响应，不含 L1",
+    "唯一允许表述：增益档在**适用域内**把 `ratio` 抬进目标带 [1.2,1.5]（配对一致为正、两划法结论一致）",
+    "科学集不含校准臂（机器强制）"
+  ],
+  "q1_pass": false,
+  "dirs": [
+    "C:/Users/圣羽/Desktop/temp/tempCode/the-world/_rerun_logs/cstep1a"
+  ]
+}
