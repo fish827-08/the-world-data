@@ -64,7 +64,9 @@
       ],
       "missing_seeds": [],
       "pair_all_positive": false,
-      "sign_test_p": 0.015625,
+      "sign_test_p": 0.109375,
+      "n_positive": 5,
+      "sign_test_k_definition": "k = 正向配对数（F-R23 修复）",
       "domain": {
         "n_seeds": 6,
         "seeds": [
@@ -142,7 +144,7 @@
       "methods_role": "诊断列（60k 下两划法已退化为一，不作独立护栏）",
       "state": "fail",
       "pass": false,
-      "reason": "配对未全正/缺配对（缺 []）"
+      "reason": "配对**未全正**（反向 seed [46]；正向 5/6）"
     }
   ],
   "q1_states": [
