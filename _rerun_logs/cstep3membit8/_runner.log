@@ -1,0 +1,30 @@
+任务数 6（跳过 0） | 并发上限 19（CPU 20 核） | 内存 6.77/15.71 GB 可用（负载 56%） | 守卫阈值 留 1.0 GB + 0.15 GB/run
+  ▶ p8f_s42 (attempt 1, 运行中 1/19, 可用内存 6.77/15.71 GB)
+  ▶ p8f_s43 (attempt 1, 运行中 2/19, 可用内存 6.77/15.71 GB)
+  ▶ p8f_s44 (attempt 1, 运行中 3/19, 可用内存 6.76/15.71 GB)
+  ▶ p8f_s45 (attempt 1, 运行中 4/19, 可用内存 6.76/15.71 GB)
+  ▶ p8f_s46 (attempt 1, 运行中 5/19, 可用内存 6.74/15.71 GB)
+  ▶ p8f_s47 (attempt 1, 运行中 6/19, 可用内存 6.75/15.71 GB)
+  ✅ p8f_s44  done  6.4 min
+  ✅ p8f_s42  done  6.8 min
+  ✅ p8f_s47  done  8.5 min
+  ✅ p8f_s46  done  13.9 min
+  ✅ p8f_s43  done  15.2 min
+  ✅ p8f_s45  done  15.9 min
+
+批次结束：done=6 skipped=0 failed=0 墙钟=15.9 min（守卫触发 0 次）
+
+=== 汇总（6 run）===
+arm                     cb  seed  final_N   gate  pred_frac                    区制  wall_min
+--------------------------------------------------------------------------------------------
+p8f_s42               True    42      965   True     0.9655    predation_dominant       6.8
+p8f_s43               True    43     3239   True     0.4603         non_predation      15.2
+p8f_s44               True    44      202   True     0.9692    predation_dominant       6.4
+p8f_s45               True    45     3240   True     0.4385         non_predation      15.9
+p8f_s46               True    46     3238   True     0.2334         non_predation      13.9
+p8f_s47               True    47      686   True     0.9814    predation_dominant       8.5
+--------------------------------------------------------------------------------------------
+分层（阈值 0.9）：捕食主导 3 / 非捕食主导 3
+  ⚠️ R38③：两层不得合并均值。final_N 中位：捕食主导 686 vs 非捕食主导 3239
+
+汇总已写：C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\cstep3membit8\_summary.csv
