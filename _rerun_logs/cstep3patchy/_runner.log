@@ -1,0 +1,48 @@
+任务数 12（跳过 0） | 并发上限 19（CPU 20 核） | 内存 4.50/15.71 GB 可用（负载 71%） | 守卫阈值 留 1.0 GB + 0.15 GB/run
+  ▶ p4_s42 (attempt 1, 运行中 1/19, 可用内存 4.50/15.71 GB)
+  ▶ p4_s43 (attempt 1, 运行中 2/19, 可用内存 4.50/15.71 GB)
+  ▶ p4_s44 (attempt 1, 运行中 3/19, 可用内存 4.50/15.71 GB)
+  ▶ p4_s45 (attempt 1, 运行中 4/19, 可用内存 4.50/15.71 GB)
+  ▶ p4_s46 (attempt 1, 运行中 5/19, 可用内存 4.48/15.71 GB)
+  ▶ p4_s47 (attempt 1, 运行中 6/19, 可用内存 4.46/15.71 GB)
+  ▶ p8_s42 (attempt 1, 运行中 7/19, 可用内存 4.42/15.71 GB)
+  ▶ p8_s43 (attempt 1, 运行中 8/19, 可用内存 4.40/15.71 GB)
+  ▶ p8_s44 (attempt 1, 运行中 9/19, 可用内存 4.39/15.71 GB)
+  ▶ p8_s45 (attempt 1, 运行中 10/19, 可用内存 4.36/15.71 GB)
+  ▶ p8_s46 (attempt 1, 运行中 11/19, 可用内存 4.32/15.71 GB)
+  ▶ p8_s47 (attempt 1, 运行中 12/19, 可用内存 4.28/15.71 GB)
+  ✅ p4_s46  done  6.5 min
+  ✅ p4_s44  done  8.0 min
+  ✅ p4_s42  done  13.5 min
+  ✅ p8_s47  done  15.4 min
+  ✅ p4_s47  done  25.5 min
+  ✅ p8_s44  done  25.6 min
+  ✅ p8_s43  done  26.2 min
+  ✅ p8_s46  done  27.6 min
+  ✅ p8_s42  done  28.1 min
+  ✅ p4_s43  done  30.0 min
+  ✅ p4_s45  done  32.4 min
+  ✅ p8_s45  done  35.6 min
+
+批次结束：done=12 skipped=0 failed=0 墙钟=35.6 min（守卫触发 0 次）
+
+=== 汇总（12 run）===
+arm                     cb  seed  final_N   gate  pred_frac                    区制  wall_min
+--------------------------------------------------------------------------------------------
+p4_s42                True    42      450   True     0.9902    predation_dominant      13.5
+p8_s42                True    42     3237   True     0.4039         non_predation      28.1
+p4_s43                True    43     3240   True     0.3988         non_predation      30.0
+p8_s43                True    43     1100   True     0.9942    predation_dominant      26.2
+p4_s44                True    44      221   True     0.9936    predation_dominant       8.0
+p8_s44                True    44     3240   True     0.2949         non_predation      25.6
+p4_s45                True    45     3239   True     0.4860         non_predation      32.4
+p8_s45                True    45     3240   True     0.4290         non_predation      35.6
+p4_s46                True    46      497   True     0.9570    predation_dominant       6.5
+p8_s46                True    46     3240   True     0.2459         non_predation      27.6
+p4_s47                True    47     1365   True     0.9475    predation_dominant      25.5
+p8_s47                True    47      535   True     0.9689    predation_dominant      15.4
+--------------------------------------------------------------------------------------------
+分层（阈值 0.9）：捕食主导 6 / 非捕食主导 6
+  ⚠️ R38③：两层不得合并均值。final_N 中位：捕食主导 535 vs 非捕食主导 3240
+
+汇总已写：C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\cstep3patchy\_summary.csv
