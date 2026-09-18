@@ -1,0 +1,174 @@
+{
+  "manifest": {
+    "git_commit": "e4000043d9d161970901fef40fa46ea26996c479",
+    "git_dirty": true,
+    "sim_core_sha256": "1d265178526ab98fd3c31356464fa4d2",
+    "code_tree_sha256": "9fd71e73dd6ff0d8d45e1bbb3b83328d",
+    "config_fingerprint": "{\"culture\": {\"food_threshold\": 0.3, \"trust_false\": 0.1, \"trust_true\": 0.05}, \"fruit\": {\"charge_rate\": 0.1, \"digest_ratio\": 0.7, \"eat_rate\": 0.05, \"enabled\": false, \"excretion_prob\": 0.1, \"fruit_ratio\": 0.8, \"fruit_threshold\": 10.0, \"germination_prob\": 0.5, \"max_seed_carried\": 5, \"plant_threshold\": 0.5, \"seed_energy\": 5.0, \"seed_intake_prob\": 0.3}, \"genome\": {\"gene_count\": 24, \"gene_max\": 1.0, \"gene_min\": 0.0, \"mutation_rate\": 0.05, \"mutation_sigma\": 0.05}, \"info_structure\": {\"alignment_noise\": 0.02, \"alignment_rate\": 0.1, \"alignment_step\": 0.15, \"arbitrary_codebook\": true, \"codebook_mutation_rate\": 0.02, \"codebook_mutation_sigma\": 0.3, \"enabled\": true, \"learning_bottleneck\": true, \"learning_maturity_ticks\": 1200, \"learning_rate\": 0.05, \"learning_samples_max\": 60, \"measure_signal_response\": true, \"perception_noise\": 0.05, \"perception_radius\": 4, \"reputation_weight\": 0.0, \"softmax_tau\": 0.15, \"steels_alignment\": true}, \"light\": {\"day_boost\": 6.0, \"lat_base_ref\": 1.0, \"rotation_period\": 2400, \"t_equator\": 30.0, \"t_pole\": -20.0}, \"neutral_genes\": false, \"oracle\": {\"allow_non_breakeven\": false, \"donation\": 0.05, \"enabled\": false, \"gain_multiplier\": 1.0, \"gate_delta\": \"content\", \"gate_mode\": \"none\", \"is_calibration_arm\": false, \"persistence\": 10, \"require_food\": true}, \"organisms\": {\"base_metabolism\": 0.6, \"eat_amount\": 0.5, \"eat_efficiency\": 3.0, \"growth_mult\": 1.6, \"homeo_upkeep\": 0.15, \"initial_energy\": 60.0, \"lifespan_mult\": 1.0, \"maturity_fraction\": 0.15, \"max_energy\": 300.0, \"move_cost\": 0.4, \"niche_floor\": 0.4, \"niche_gain\": 0.6, \"photo_max\": 0.1, \"senile_fraction\": 0.75, \"senile_mult\": 1.4}, \"pleasure\": {\"alone_rpe\": -0.1, \"alpha\": 0.05, \"arousal_decay\": 0.97, \"baseline_rate\": 0.001, \"enabled\": true, \"expectation_size\": 120, \"inheritance_noise\": 0.02, \"max_reward\": 2.0, \"optimism\": 0.8, \"social_rpe\": 0.2, \"valence_decay\": 0.95, \"w_energy\": 0.5, \"w_info\": 0.3, \"w_social\": 0.2}, \"population\": {\"initial_count\": 200, \"max_count\": 3240}, \"predation\": {\"attack_cost\": 0.1, \"attack_gene_gate\": 0.3, \"attack_prob_coef\": 0.2, \"stomach_transfer\": 0.4, \"success_ceil\": 0.9, \"success_floor\": 0.1, \"success_gene_gain\": 0.5, \"transfer_ratio\": 0.4}, \"resources\": {\"background_fill\": 0.1, \"capacity_per_area\": 40.0, \"distribution\": \"uniform\", \"initial_fill\": 0.5, \"patch_capacity_mult\": 3.0, \"patch_count\": 30, \"patch_radius\": 2, \"patch_regrowth_mult\": 2.0, \"regrowth_rate\": 0.5, \"temp_sensitivity\": 1.0}, \"seed\": 42, \"signal_alphabet\": \"8\", \"signal_disabled\": false, \"signal_mode\": \"state\", \"simulation\": {\"history_limit\": 100, \"social_move_weight\": 1.0, \"stay_prob\": 0.0, \"stop_on_extinction\": true, \"ticks\": 12000, \"use_sim_core\": false}, \"world\": {\"cols\": 120, \"rows\": 60}}",
+    "rng_draws": 16723518,
+    "python": "3.14.7",
+    "started": "2026-09-19 01:41:49",
+    "finished": "2026-09-19 02:13:05",
+    "script": "experiments/a4_verify_capacity.py"
+  },
+  "switches": {
+    "mode": "on",
+    "seed": 42,
+    "ticks_target": 12000,
+    "resumed_from_snapshot": false,
+    "start_tick": 0,
+    "arbitrary_codebook": true,
+    "arm": "main",
+    "measure_signal_response": true,
+    "oracle_enabled": false,
+    "oracle_donation": null,
+    "oracle_persistence": null,
+    "perception_radius": 4,
+    "perception_noise": 0.05,
+    "softmax_tau": 0.15,
+    "learning_bottleneck": true,
+    "steels_alignment": true,
+    "reputation_weight": 0.0,
+    "use_sim_core": false,
+    "distribution": "uniform",
+    "initial_count": 200,
+    "max_count": 3240,
+    "neutral_genes": false,
+    "signal_disabled": false,
+    "oracle_gain_multiplier": 1.0,
+    "is_calibration_arm": false,
+    "signal_mode": "state",
+    "signal_alphabet": "8",
+    "oracle_gate_mode": "none",
+    "oracle_gate_delta": "content"
+  },
+  "result": {
+    "final_tick": 12000,
+    "final_N": 3240,
+    "extinct": false,
+    "reached_60k": true,
+    "stable_N_gt0_last50k": true,
+    "eco_gate_pass": true,
+    "eco_gate_scope": "12000 tick 批",
+    "eco_gate_applicable": true,
+    "born_total": 14083,
+    "died_total": 11044,
+    "deaths_by_cause": {
+      "DeathCause.PREDATION": 6015,
+      "DeathCause.STARVATION": 846,
+      "DeathCause.OLD_AGE": 4183
+    },
+    "final_codebook_conv": 0.8528,
+    "final_pred_frac": 0.5446,
+    "final_max_gen_highwater": 9,
+    "final_max_gen_current": 7,
+    "selection_gradient": {
+      "non_sat": {
+        "n": 4436,
+        "slope_g15": 2.751673,
+        "spearman_rho": -0.134373,
+        "mean_g15": 0.15477,
+        "mean_fitness": 2.084761
+      },
+      "sat_diagnostic": {
+        "n": 9847,
+        "slope_g15": 0.363705,
+        "spearman_rho": -0.129472,
+        "mean_g15": 0.344818,
+        "mean_fitness": 0.491012
+      }
+    },
+    "signal_response": {
+      "decisions": 5573754,
+      "exposed": 5561732,
+      "resp_a_exposure": 0.997843,
+      "resp_b_delta": 0.017854,
+      "resp_b_content_delta": 0.004809,
+      "resp_triple": 0.017815,
+      "argmax_flip_rate": 0.173563
+    },
+    "oracle": {
+      "enabled": false,
+      "transfers": 0.0,
+      "count": 0,
+      "emissions": 0,
+      "oracle_return_ratio": 0.0,
+      "funnel": {
+        "emissions": 0,
+        "had_signal": 0,
+        "true_sig": 0,
+        "selected": 0,
+        "attrib_found": 0,
+        "in_window": 0,
+        "not_self": 0,
+        "gate_positive": 0,
+        "gate_block": 0,
+        "budget_ok": 0,
+        "applied": 0,
+        "sel_to_applied": 0.0,
+        "had_sig_to_applied": 0.0,
+        "emissions_per_applied": null
+      },
+      "audit": {
+        "calls": 0,
+        "sum_energy_delta": 0.0,
+        "tolerance": 1.001e-06,
+        "conserved": true,
+        "accounts": "Σtransfers ≡ Σpayer 扣减 ≡ Σ收款入账（构造保证）"
+      },
+      "ledger": {
+        "sum_transfers": 0.0,
+        "payer_paid": 0.0,
+        "sender_received": 0.0,
+        "identity_ok": true,
+        "payer_trunc_n": 0,
+        "payer_trunc_amt": 0.0,
+        "payer_broke_n": 0,
+        "budget_trunc_n": 0,
+        "budget_trunc_amt": 0.0,
+        "budget_exhausted_n": 0,
+        "role": "对账（三账恒等由构造保证）+ 偿付约束量化；非守恒检验"
+      },
+      "receiver_side": {
+        "events": 0,
+        "food_events": 0,
+        "mean_intake_at_paid_cell": 0.0,
+        "mean_intake_all_eaters": 0.0,
+        "mean_payment_per_event": 0.0,
+        "net_eat_minus_pay": 0.0,
+        "net_vs_baseline": 0.0,
+        "caveat": "落点按 cell 键控（同格多人并入；接收者可能进食前死亡）⇒ 量级判断用"
+      },
+      "gain_multiplier": 1.0,
+      "is_calibration_arm": false,
+      "food_band_true_sig": {
+        "n": 0,
+        "frac_of_true_sig": 0.0,
+        "band": "(food_threshold, 0.5]"
+      },
+      "gate": {
+        "mode": "none",
+        "delta_metric": null,
+        "arrivals": 0,
+        "pass": 0,
+        "block": 0,
+        "block_frac": 0.0,
+        "mean_delta_full_at_arrivals": 0.0,
+        "mean_delta_content_at_arrivals": 0.0
+      }
+    },
+    "alphabet": {
+      "signal_alphabet": "8",
+      "n_states": 8,
+      "code_max": 8,
+      "bad_code_n": 0,
+      "guard_expected_zero": true
+    },
+    "inheritance": {
+      "mem_inherit_n": 56332,
+      "mem_inherit_far_n": 5410,
+      "mem_inherit_far_frac": 0.096038,
+      "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+    }
+  }
+}
