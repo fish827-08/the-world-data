@@ -1,0 +1,419 @@
+{
+  "runs": {
+    "a16_s42": {
+      "arm": "a16",
+      "seed": 42,
+      "alphabet": "16",
+      "N": 3240,
+      "pred": 0.3898,
+      "cb_conv": 0.8816,
+      "g15": 0.2247,
+      "rho": -0.122952,
+      "resp_a": 0.995248,
+      "resp_b": 0.025483,
+      "resp_tri": 0.025361,
+      "alphabet_stats": {
+        "signal_alphabet": "16",
+        "n_states": 16,
+        "code_max": 15,
+        "bad_code_n": 0,
+        "guard_expected_zero": false
+      },
+      "inheritance": {
+        "mem_inherit_n": 38004,
+        "mem_inherit_far_n": 4210,
+        "mem_inherit_far_frac": 0.110778,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a16_s43": {
+      "arm": "a16",
+      "seed": 43,
+      "alphabet": "16",
+      "N": 3239,
+      "pred": 0.4525,
+      "cb_conv": 0.9196,
+      "g15": 0.2712,
+      "rho": 0.030564,
+      "resp_a": 0.996586,
+      "resp_b": 0.017136,
+      "resp_tri": 0.017078,
+      "alphabet_stats": {
+        "signal_alphabet": "16",
+        "n_states": 16,
+        "code_max": 15,
+        "bad_code_n": 0,
+        "guard_expected_zero": false
+      },
+      "inheritance": {
+        "mem_inherit_n": 28968,
+        "mem_inherit_far_n": 4637,
+        "mem_inherit_far_frac": 0.160073,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a16_s44": {
+      "arm": "a16",
+      "seed": 44,
+      "alphabet": "16",
+      "N": 338,
+      "pred": 0.9783,
+      "cb_conv": 0.7929,
+      "g15": 0.0481,
+      "rho": 0.015233,
+      "resp_a": 0.44269,
+      "resp_b": 0.037337,
+      "resp_tri": 0.016529,
+      "alphabet_stats": {
+        "signal_alphabet": "16",
+        "n_states": 16,
+        "code_max": 15,
+        "bad_code_n": 0,
+        "guard_expected_zero": false
+      },
+      "inheritance": {
+        "mem_inherit_n": 58340,
+        "mem_inherit_far_n": 836,
+        "mem_inherit_far_frac": 0.01433,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a16_s45": {
+      "arm": "a16",
+      "seed": 45,
+      "alphabet": "16",
+      "N": 3240,
+      "pred": 0.6027,
+      "cb_conv": 0.9313,
+      "g15": 0.2598,
+      "rho": 0.053287,
+      "resp_a": 0.997445,
+      "resp_b": 0.040671,
+      "resp_tri": 0.040567,
+      "alphabet_stats": {
+        "signal_alphabet": "16",
+        "n_states": 16,
+        "code_max": 15,
+        "bad_code_n": 0,
+        "guard_expected_zero": false
+      },
+      "inheritance": {
+        "mem_inherit_n": 19440,
+        "mem_inherit_far_n": 1019,
+        "mem_inherit_far_frac": 0.052418,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a16_s46": {
+      "arm": "a16",
+      "seed": 46,
+      "alphabet": "16",
+      "N": 3240,
+      "pred": 0.3906,
+      "cb_conv": 0.9223,
+      "g15": 0.3717,
+      "rho": -0.007168,
+      "resp_a": 0.986006,
+      "resp_b": 0.026865,
+      "resp_tri": 0.026489,
+      "alphabet_stats": {
+        "signal_alphabet": "16",
+        "n_states": 16,
+        "code_max": 15,
+        "bad_code_n": 0,
+        "guard_expected_zero": false
+      },
+      "inheritance": {
+        "mem_inherit_n": 24224,
+        "mem_inherit_far_n": 304,
+        "mem_inherit_far_frac": 0.01255,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a16_s47": {
+      "arm": "a16",
+      "seed": 47,
+      "alphabet": "16",
+      "N": 3238,
+      "pred": 0.5481,
+      "cb_conv": 0.8942,
+      "g15": 0.6815,
+      "rho": 0.015914,
+      "resp_a": 0.989038,
+      "resp_b": 0.056771,
+      "resp_tri": 0.056149,
+      "alphabet_stats": {
+        "signal_alphabet": "16",
+        "n_states": 16,
+        "code_max": 15,
+        "bad_code_n": 0,
+        "guard_expected_zero": false
+      },
+      "inheritance": {
+        "mem_inherit_n": 35880,
+        "mem_inherit_far_n": 4524,
+        "mem_inherit_far_frac": 0.126087,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a4_s42": {
+      "arm": "a4",
+      "seed": 42,
+      "alphabet": "4",
+      "N": 3238,
+      "pred": 0.4639,
+      "cb_conv": 0.9153,
+      "g15": 0.1606,
+      "rho": -0.060484,
+      "resp_a": 0.995879,
+      "resp_b": 0.025891,
+      "resp_tri": 0.025785,
+      "alphabet_stats": {
+        "signal_alphabet": "4",
+        "n_states": 4,
+        "code_max": 4,
+        "bad_code_n": 0,
+        "guard_expected_zero": true
+      },
+      "inheritance": {
+        "mem_inherit_n": 36028,
+        "mem_inherit_far_n": 4988,
+        "mem_inherit_far_frac": 0.138448,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a4_s43": {
+      "arm": "a4",
+      "seed": 43,
+      "alphabet": "4",
+      "N": 3236,
+      "pred": 0.35,
+      "cb_conv": 0.9402,
+      "g15": 0.2887,
+      "rho": -0.011356,
+      "resp_a": 0.99506,
+      "resp_b": 0.016541,
+      "resp_tri": 0.016459,
+      "alphabet_stats": {
+        "signal_alphabet": "4",
+        "n_states": 4,
+        "code_max": 4,
+        "bad_code_n": 0,
+        "guard_expected_zero": true
+      },
+      "inheritance": {
+        "mem_inherit_n": 32372,
+        "mem_inherit_far_n": 2807,
+        "mem_inherit_far_frac": 0.086711,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a4_s44": {
+      "arm": "a4",
+      "seed": 44,
+      "alphabet": "4",
+      "N": 237,
+      "pred": 0.9859,
+      "cb_conv": 0.7848,
+      "g15": 0.0265,
+      "rho": -0.024671,
+      "resp_a": 0.307029,
+      "resp_b": 0.054427,
+      "resp_tri": 0.016711,
+      "alphabet_stats": {
+        "signal_alphabet": "4",
+        "n_states": 4,
+        "code_max": 4,
+        "bad_code_n": 0,
+        "guard_expected_zero": true
+      },
+      "inheritance": {
+        "mem_inherit_n": 31388,
+        "mem_inherit_far_n": 199,
+        "mem_inherit_far_frac": 0.00634,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a4_s45": {
+      "arm": "a4",
+      "seed": 45,
+      "alphabet": "4",
+      "N": 3240,
+      "pred": 0.5558,
+      "cb_conv": 0.9068,
+      "g15": 0.3576,
+      "rho": 0.042975,
+      "resp_a": 0.998193,
+      "resp_b": 0.018831,
+      "resp_tri": 0.018796,
+      "alphabet_stats": {
+        "signal_alphabet": "4",
+        "n_states": 4,
+        "code_max": 4,
+        "bad_code_n": 0,
+        "guard_expected_zero": true
+      },
+      "inheritance": {
+        "mem_inherit_n": 30436,
+        "mem_inherit_far_n": 2003,
+        "mem_inherit_far_frac": 0.06581,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a4_s46": {
+      "arm": "a4",
+      "seed": 46,
+      "alphabet": "4",
+      "N": 3240,
+      "pred": 0.3948,
+      "cb_conv": 0.9048,
+      "g15": 0.4602,
+      "rho": 0.013265,
+      "resp_a": 0.990323,
+      "resp_b": 0.017517,
+      "resp_tri": 0.017347,
+      "alphabet_stats": {
+        "signal_alphabet": "4",
+        "n_states": 4,
+        "code_max": 4,
+        "bad_code_n": 0,
+        "guard_expected_zero": true
+      },
+      "inheritance": {
+        "mem_inherit_n": 33152,
+        "mem_inherit_far_n": 694,
+        "mem_inherit_far_frac": 0.020934,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    },
+    "a4_s47": {
+      "arm": "a4",
+      "seed": 47,
+      "alphabet": "4",
+      "N": 428,
+      "pred": 0.9834,
+      "cb_conv": 0.7985,
+      "g15": 0.3804,
+      "rho": -0.065953,
+      "resp_a": 0.9716,
+      "resp_b": 0.016826,
+      "resp_tri": 0.016348,
+      "alphabet_stats": {
+        "signal_alphabet": "4",
+        "n_states": 4,
+        "code_max": 4,
+        "bad_code_n": 0,
+        "guard_expected_zero": true
+      },
+      "inheritance": {
+        "mem_inherit_n": 73100,
+        "mem_inherit_far_n": 322,
+        "mem_inherit_far_frac": 0.004405,
+        "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+      },
+      "eco_gate": false,
+      "eco_applicable": false,
+      "dir": "cstep3alpha"
+    }
+  },
+  "paired_summary": {
+    "N": {
+      "n": 6,
+      "mean_delta": -486.0,
+      "pos": 0,
+      "neg": 4,
+      "zero": 2,
+      "sign_p": 1.0
+    },
+    "g15 终值": {
+      "n": 6,
+      "mean_delta": -0.03049999999999999,
+      "pos": 3,
+      "neg": 3,
+      "zero": 0,
+      "sign_p": 0.65625
+    },
+    "pred_frac": {
+      "n": 6,
+      "mean_delta": 0.06196666666666666,
+      "pos": 4,
+      "neg": 2,
+      "zero": 0,
+      "sign_p": 0.34375
+    },
+    "cb_conv": {
+      "n": 6,
+      "mean_delta": -0.015249999999999986,
+      "pos": 2,
+      "neg": 4,
+      "zero": 0,
+      "sign_p": 0.890625
+    },
+    "rho(non_sat)": {
+      "n": 6,
+      "mean_delta": -0.015183666666666665,
+      "pos": 2,
+      "neg": 4,
+      "zero": 0,
+      "sign_p": 0.890625
+    },
+    "⑥a 暴露": {
+      "n": 6,
+      "mean_delta": -0.024821500000000024,
+      "pos": 3,
+      "neg": 3,
+      "zero": 0,
+      "sign_p": 0.65625
+    },
+    "⑥b Δ": {
+      "n": 6,
+      "mean_delta": -0.009038333333333332,
+      "pos": 2,
+      "neg": 4,
+      "zero": 0,
+      "sign_p": 0.890625
+    },
+    "⑥ 三联": {
+      "n": 6,
+      "mean_delta": -0.01178783333333333,
+      "pos": 2,
+      "neg": 4,
+      "zero": 0,
+      "sign_p": 0.890625
+    }
+  },
+  "bad_code_runs": 0
+}
