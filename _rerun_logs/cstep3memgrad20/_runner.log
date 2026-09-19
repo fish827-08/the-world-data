@@ -1,0 +1,132 @@
+任务数 40（跳过 0） | 并发上限 19（CPU 20 核） | 内存 6.85/15.71 GB 可用（负载 56%） | 守卫阈值 留 1.0 GB + 0.15 GB/run
+  ▶ mg_s42 (attempt 1, 运行中 1/19, 可用内存 6.85/15.71 GB)
+  ▶ mg_s43 (attempt 1, 运行中 2/19, 可用内存 6.85/15.71 GB)
+  ▶ mg_s44 (attempt 1, 运行中 3/19, 可用内存 6.85/15.71 GB)
+  ▶ mg_s45 (attempt 1, 运行中 4/19, 可用内存 6.85/15.71 GB)
+  ▶ mg_s46 (attempt 1, 运行中 5/19, 可用内存 6.84/15.71 GB)
+  ▶ mg_s47 (attempt 1, 运行中 6/19, 可用内存 6.83/15.71 GB)
+  ▶ mg_s48 (attempt 1, 运行中 7/19, 可用内存 6.83/15.71 GB)
+  ▶ mg_s49 (attempt 1, 运行中 8/19, 可用内存 6.82/15.71 GB)
+  ▶ mg_s50 (attempt 1, 运行中 9/19, 可用内存 6.81/15.71 GB)
+  ▶ mg_s51 (attempt 1, 运行中 10/19, 可用内存 6.80/15.71 GB)
+  ▶ mg_s52 (attempt 1, 运行中 11/19, 可用内存 6.79/15.71 GB)
+  ▶ mg_s53 (attempt 1, 运行中 12/19, 可用内存 6.78/15.71 GB)
+  ▶ mg_s54 (attempt 1, 运行中 13/19, 可用内存 6.77/15.71 GB)
+  ▶ mg_s55 (attempt 1, 运行中 14/19, 可用内存 6.76/15.71 GB)
+  ▶ mg_s56 (attempt 1, 运行中 15/19, 可用内存 6.75/15.71 GB)
+  ▶ mg_s57 (attempt 1, 运行中 16/19, 可用内存 6.74/15.71 GB)
+  ▶ mg_s58 (attempt 1, 运行中 17/19, 可用内存 6.72/15.71 GB)
+  ▶ mg_s59 (attempt 1, 运行中 18/19, 可用内存 6.71/15.71 GB)
+  ▶ mg_s60 (attempt 1, 运行中 19/19, 可用内存 6.70/15.71 GB)
+  ✅ mg_s47  done  35.0 min
+  ▶ mg_s61 (attempt 1, 运行中 19/19, 可用内存 5.81/15.71 GB)
+  ✅ mg_s44  done  41.0 min
+  ▶ mn_s42 (attempt 1, 运行中 19/19, 可用内存 5.85/15.71 GB)
+  ✅ mg_s43  done  41.5 min
+  ▶ mn_s43 (attempt 1, 运行中 19/19, 可用内存 5.83/15.71 GB)
+  ✅ mg_s50  done  43.6 min
+  ▶ mn_s44 (attempt 1, 运行中 19/19, 可用内存 5.88/15.71 GB)
+  ✅ mg_s51  done  43.9 min
+  ▶ mn_s45 (attempt 1, 运行中 19/19, 可用内存 5.89/15.71 GB)
+  ✅ mg_s48  done  44.2 min
+  ▶ mn_s46 (attempt 1, 运行中 19/19, 可用内存 5.88/15.71 GB)
+  ✅ mg_s57  done  46.2 min
+  ▶ mn_s47 (attempt 1, 运行中 19/19, 可用内存 5.88/15.71 GB)
+  ✅ mg_s45  done  46.7 min
+  ▶ mn_s48 (attempt 1, 运行中 19/19, 可用内存 5.89/15.71 GB)
+  ✅ mg_s58  done  47.7 min
+  ▶ mn_s49 (attempt 1, 运行中 19/19, 可用内存 5.88/15.71 GB)
+  ✅ mn_s42  done  8.5 min
+  ▶ mn_s50 (attempt 1, 运行中 19/19, 可用内存 5.85/15.71 GB)
+  ✅ mg_s46  done  50.0 min
+  ▶ mn_s51 (attempt 1, 运行中 19/19, 可用内存 5.84/15.71 GB)
+  ✅ mg_s53  done  50.7 min
+  ▶ mn_s52 (attempt 1, 运行中 19/19, 可用内存 5.84/15.71 GB)
+  ✅ mn_s44  done  10.6 min
+  ▶ mn_s53 (attempt 1, 运行中 19/19, 可用内存 5.78/15.71 GB)
+  ✅ mg_s52  done  58.0 min
+  ▶ mn_s54 (attempt 1, 运行中 19/19, 可用内存 5.95/15.71 GB)
+  ✅ mg_s55  done  59.4 min
+  ▶ mn_s55 (attempt 1, 运行中 19/19, 可用内存 5.91/15.71 GB)
+  ✅ mg_s42  done  59.6 min
+  ▶ mn_s56 (attempt 1, 运行中 19/19, 可用内存 5.90/15.71 GB)
+  ✅ mg_s59  done  66.1 min
+  ▶ mn_s57 (attempt 1, 运行中 19/19, 可用内存 4.94/15.71 GB)
+  ✅ mg_s60  done  67.7 min
+  ▶ mn_s58 (attempt 1, 运行中 19/19, 可用内存 4.84/15.71 GB)
+  ✅ mg_s56  done  68.6 min
+  ▶ mn_s59 (attempt 1, 运行中 19/19, 可用内存 4.85/15.71 GB)
+  ✅ mg_s61  done  43.4 min
+  ▶ mn_s60 (attempt 1, 运行中 19/19, 可用内存 4.92/15.71 GB)
+  ✅ mg_s54  done  82.3 min
+  ▶ mn_s61 (attempt 1, 运行中 19/19, 可用内存 4.76/15.71 GB)
+  ✅ mn_s48  done  37.2 min
+  ✅ mn_s46  done  40.1 min
+  ✅ mn_s45  done  45.5 min
+  ✅ mg_s49  done  89.8 min
+  ✅ mn_s43  done  49.8 min
+  ✅ mn_s50  done  44.5 min
+  ✅ mn_s52  done  46.9 min
+  ✅ mn_s47  done  52.6 min
+  ✅ mn_s55  done  41.7 min
+  ✅ mn_s57  done  39.2 min
+  ✅ mn_s54  done  53.9 min
+  ✅ mn_s53  done  62.4 min
+  ✅ mn_s58  done  50.1 min
+  ✅ mn_s56  done  60.2 min
+  ✅ mn_s49  done  73.0 min
+  ✅ mn_s61  done  39.8 min
+  ✅ mn_s59  done  54.1 min
+  ✅ mn_s51  done  86.2 min
+  ✅ mn_s60  done  72.0 min
+
+批次结束：done=40 skipped=0 failed=0 墙钟=150.5 min（守卫触发 0 次）
+
+=== 汇总（40 run）===
+arm                     cb  seed  final_N   gate  pred_frac                    区制  wall_min
+--------------------------------------------------------------------------------------------
+mg_s42                True    42     3237   True     0.6093         non_predation      59.6
+mn_s42                True    42      489   True     0.9786    predation_dominant       8.5
+mg_s43                True    43     3240   True     0.4315         non_predation      41.5
+mn_s43                True    43     3240   True     0.3892         non_predation      49.8
+mg_s44                True    44     3239   True     0.3336         non_predation      41.0
+mn_s44                True    44      194   True     0.9903    predation_dominant      10.6
+mg_s45                True    45      650   True     0.9978    predation_dominant      46.7
+mn_s45                True    45     3239   True     0.4556         non_predation      45.5
+mg_s46                True    46     3240   True     0.2582         non_predation      50.0
+mn_s46                True    46     3240   True     0.1977         non_predation      40.1
+mg_s47                True    47      782   True     0.9662    predation_dominant      35.0
+mn_s47                True    47     3237   True     0.7009         non_predation      52.6
+mg_s48                True    48     3240   True     0.5650         non_predation      44.2
+mn_s48                True    48     3240   True     0.4925         non_predation      37.2
+mg_s49                True    49     3239   True     0.2511         non_predation      89.8
+mn_s49                True    49     3240   True     0.3998         non_predation      73.0
+mg_s50                True    50     3240   True     0.3040         non_predation      43.6
+mn_s50                True    50     3238   True     0.4576         non_predation      44.5
+mg_s51                True    51      627   True     0.9857    predation_dominant      43.9
+mn_s51                True    51     3239   True     0.4355         non_predation      86.2
+mg_s52                True    52     3240   True     0.4105         non_predation      58.0
+mn_s52                True    52     3240   True     0.3426         non_predation      46.9
+mg_s53                True    53     3238   True     0.2800         non_predation      50.7
+mn_s53                True    53     3240   True     0.4099         non_predation      62.4
+mg_s54                True    54     3240   True     0.4636         non_predation      82.3
+mn_s54                True    54     3238   True     0.3532         non_predation      53.9
+mg_s55                True    55     3240   True     0.5578         non_predation      59.4
+mn_s55                True    55     3240   True     0.4110         non_predation      41.7
+mg_s56                True    56     3240   True     0.2164         non_predation      68.6
+mn_s56                True    56     3240   True     0.3048         non_predation      60.2
+mg_s57                True    57     3240   True     0.2605         non_predation      46.2
+mn_s57                True    57     3239   True     0.2129         non_predation      39.2
+mg_s58                True    58     3240   True     0.2427         non_predation      47.7
+mn_s58                True    58     3240   True     0.1939         non_predation      50.1
+mg_s59                True    59     3238   True     0.2263         non_predation      66.1
+mn_s59                True    59     3237   True     0.3041         non_predation      54.1
+mg_s60                True    60     3239   True     0.3649         non_predation      67.7
+mn_s60                True    60     3240   True     0.3641         non_predation      72.0
+mg_s61                True    61     3238   True     0.5437         non_predation      43.4
+mn_s61                True    61     3240   True     0.3887         non_predation      39.8
+--------------------------------------------------------------------------------------------
+分层（阈值 0.9）：捕食主导 5 / 非捕食主导 35
+  ⚠️ R38③：两层不得合并均值。final_N 中位：捕食主导 627 vs 非捕食主导 3240
+
+汇总已写：C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\cstep3memgrad20\_summary.csv
