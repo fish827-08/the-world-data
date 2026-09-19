@@ -1,0 +1,48 @@
+任务数 12（跳过 0） | 并发上限 19（CPU 20 核） | 内存 6.85/15.71 GB 可用（负载 56%） | 守卫阈值 留 1.0 GB + 0.15 GB/run
+  ▶ mg_s42 (attempt 1, 运行中 1/19, 可用内存 6.85/15.71 GB)
+  ▶ mg_s43 (attempt 1, 运行中 2/19, 可用内存 6.85/15.71 GB)
+  ▶ mg_s44 (attempt 1, 运行中 3/19, 可用内存 6.85/15.71 GB)
+  ▶ mg_s45 (attempt 1, 运行中 4/19, 可用内存 6.85/15.71 GB)
+  ▶ mg_s46 (attempt 1, 运行中 5/19, 可用内存 6.84/15.71 GB)
+  ▶ mg_s47 (attempt 1, 运行中 6/19, 可用内存 6.84/15.71 GB)
+  ▶ mn_s42 (attempt 1, 运行中 7/19, 可用内存 6.84/15.71 GB)
+  ▶ mn_s43 (attempt 1, 运行中 8/19, 可用内存 6.83/15.71 GB)
+  ▶ mn_s44 (attempt 1, 运行中 9/19, 可用内存 6.83/15.71 GB)
+  ▶ mn_s45 (attempt 1, 运行中 10/19, 可用内存 6.82/15.71 GB)
+  ▶ mn_s46 (attempt 1, 运行中 11/19, 可用内存 6.82/15.71 GB)
+  ▶ mn_s47 (attempt 1, 运行中 12/19, 可用内存 6.82/15.71 GB)
+  ✅ mn_s46  done  5.4 min
+  ✅ mn_s44  done  7.0 min
+  ✅ mn_s42  done  13.2 min
+  ✅ mg_s42  done  23.2 min
+  ✅ mg_s46  done  23.7 min
+  ✅ mn_s47  done  26.9 min
+  ✅ mg_s44  done  31.9 min
+  ✅ mg_s45  done  33.5 min
+  ✅ mn_s43  done  34.9 min
+  ✅ mg_s43  done  35.1 min
+  ✅ mg_s47  done  37.4 min
+  ✅ mn_s45  done  37.4 min
+
+批次结束：done=12 skipped=0 failed=0 墙钟=37.4 min（守卫触发 0 次）
+
+=== 汇总（12 run）===
+arm                     cb  seed  final_N   gate  pred_frac                    区制  wall_min
+--------------------------------------------------------------------------------------------
+mg_s42                True    42     3239   True     0.5757         non_predation      23.2
+mn_s42                True    42      450   True     0.9902    predation_dominant      13.2
+mg_s43                True    43     3240   True     0.3158         non_predation      35.1
+mn_s43                True    43     3240   True     0.3988         non_predation      34.9
+mg_s44                True    44     3239   True     0.4202         non_predation      31.9
+mn_s44                True    44      221   True     0.9936    predation_dominant       7.0
+mg_s45                True    45     3239   True     0.4646         non_predation      33.5
+mn_s45                True    45     3239   True     0.4860         non_predation      37.4
+mg_s46                True    46     3239   True     0.2514         non_predation      23.7
+mn_s46                True    46      497   True     0.9570    predation_dominant       5.4
+mg_s47                True    47     3240   True     0.3190         non_predation      37.4
+mn_s47                True    47     1365   True     0.9475    predation_dominant      26.9
+--------------------------------------------------------------------------------------------
+分层（阈值 0.9）：捕食主导 4 / 非捕食主导 8
+  ⚠️ R38③：两层不得合并均值。final_N 中位：捕食主导 497 vs 非捕食主导 3239
+
+汇总已写：C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\cstep3memgrad\_summary.csv

@@ -1,0 +1,13 @@
+arm,codebook,arm_type,seed,final_N,eco_gate,pred_frac,regime,codebook_conv,slope_g15,resp_a,resp_b,resp_triple,oracle_ratio,wall_min
+mg_s42,True,main,42,3239,True,0.5757,non_predation,0.8487,-0.893426,0.996844,0.061895,0.061699,0.0,23.2
+mg_s43,True,main,43,3240,True,0.3158,non_predation,0.9553,0.067078,0.997016,0.02451,0.024436,0.0,35.1
+mg_s44,True,main,44,3239,True,0.4202,non_predation,0.947,0.602555,0.998607,0.059793,0.05971,0.0,31.9
+mg_s45,True,main,45,3239,True,0.4646,non_predation,0.8392,-2.99326,0.998816,0.042053,0.042004,0.0,33.5
+mg_s46,True,main,46,3239,True,0.2514,non_predation,0.8824,0.049581,0.983641,0.046572,0.04581,0.0,23.7
+mg_s47,True,main,47,3240,True,0.319,non_predation,0.8769,-2.690752,0.998305,0.044121,0.044046,0.0,37.4
+mn_s42,True,main,42,450,True,0.9902,predation_dominant,0.8206,0.045729,0.994812,0.046116,0.045877,0.0,13.2
+mn_s43,True,main,43,3240,True,0.3988,non_predation,0.9151,0.693192,0.997798,0.014678,0.014645,0.0,34.9
+mn_s44,True,main,44,221,True,0.9936,predation_dominant,0.7692,-0.398088,0.319011,0.067532,0.021543,0.0,7.0
+mn_s45,True,main,45,3239,True,0.486,non_predation,0.9335,-1.56557,0.995656,0.043339,0.043151,0.0,37.4
+mn_s46,True,main,46,497,True,0.957,predation_dominant,0.8692,0.025393,0.938376,0.031966,0.029996,0.0,5.4
+mn_s47,True,main,47,1365,True,0.9475,predation_dominant,0.7668,-0.041237,0.987042,0.034153,0.033711,0.0,26.9
