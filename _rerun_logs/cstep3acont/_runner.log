@@ -1,0 +1,49 @@
+任务数 12（跳过 0） | 并发上限 19（CPU 20 核） | 内存 5.07/15.71 GB 可用（负载 67%） | 守卫阈值 留 1.0 GB + 0.15 GB/run
+  📋 resolved runlist → C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\cstep3acont\_resolved_runlist.txt
+  ▶ ak2_s42 (attempt 1, 运行中 1/19, 可用内存 5.07/15.71 GB)
+  ▶ ak2_s43 (attempt 1, 运行中 2/19, 可用内存 5.07/15.71 GB)
+  ▶ ak2_s44 (attempt 1, 运行中 3/19, 可用内存 5.07/15.71 GB)
+  ▶ ak2_s45 (attempt 1, 运行中 4/19, 可用内存 5.06/15.71 GB)
+  ▶ ak2_s46 (attempt 1, 运行中 5/19, 可用内存 5.06/15.71 GB)
+  ▶ ak2_s47 (attempt 1, 运行中 6/19, 可用内存 5.06/15.71 GB)
+  ▶ ak0_s42 (attempt 1, 运行中 7/19, 可用内存 5.05/15.71 GB)
+  ▶ ak0_s43 (attempt 1, 运行中 8/19, 可用内存 5.04/15.71 GB)
+  ▶ ak0_s44 (attempt 1, 运行中 9/19, 可用内存 5.03/15.71 GB)
+  ▶ ak0_s45 (attempt 1, 运行中 10/19, 可用内存 5.03/15.71 GB)
+  ▶ ak0_s46 (attempt 1, 运行中 11/19, 可用内存 5.02/15.71 GB)
+  ▶ ak0_s47 (attempt 1, 运行中 12/19, 可用内存 5.01/15.71 GB)
+  ✅ ak2_s42  done  9.8 min
+  ✅ ak0_s44  done  12.6 min
+  ✅ ak2_s46  done  13.0 min
+  ✅ ak2_s43  done  14.6 min
+  ✅ ak0_s42  done  16.3 min
+  ✅ ak0_s47  done  17.0 min
+  ✅ ak0_s46  done  17.5 min
+  ✅ ak0_s43  done  17.5 min
+  ✅ ak2_s47  done  18.0 min
+  ✅ ak2_s44  done  18.1 min
+  ✅ ak2_s45  done  18.2 min
+  ✅ ak0_s45  done  19.4 min
+
+批次结束：done=12 skipped=0 failed=0 墙钟=19.4 min（守卫触发 0 次）
+
+=== 汇总（12 run）===
+arm                     cb  seed  final_N   gate  pred_frac                    区制  wall_min
+--------------------------------------------------------------------------------------------
+ak2_s42               True    42     1944   True     0.0320         non_predation       9.8
+ak0_s42               True    42     1944   True     0.2441         non_predation      16.3
+ak2_s43               True    43     1944   True     0.0315         non_predation      14.6
+ak0_s43               True    43     1943   True     0.2301         non_predation      17.5
+ak2_s44               True    44     1944   True     0.0298         non_predation      18.1
+ak0_s44               True    44     1942   True     0.6758         non_predation      12.6
+ak2_s45               True    45     1945   True     0.0518         non_predation      18.2
+ak0_s45               True    45     1945   True     0.3376         non_predation      19.4
+ak2_s46               True    46     1944   True     0.0111         non_predation      13.0
+ak0_s46               True    46     1944   True     0.1526         non_predation      17.5
+ak2_s47               True    47     1943   True     0.0164         non_predation      18.0
+ak0_s47               True    47      543   True     0.9492    predation_dominant      17.0
+--------------------------------------------------------------------------------------------
+分层（阈值 0.9）：捕食主导 1 / 非捕食主导 11
+  ⚠️ R38③：两层不得合并均值。final_N 中位：捕食主导 543 vs 非捕食主导 1944
+
+汇总已写：C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\cstep3acont\_summary.csv
