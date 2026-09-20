@@ -1,0 +1,30 @@
+任务数 6（跳过 0） | 并发上限 19（CPU 20 核） | 内存 6.37/15.71 GB 可用（负载 59%） | 守卫阈值 留 1.0 GB + 0.15 GB/run
+  📋 resolved runlist → C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\calib1\_resolved_runlist.txt
+  ▶ calA_s42 (attempt 1, 运行中 1/19, 可用内存 6.37/15.71 GB)
+  ▶ calA_s43 (attempt 1, 运行中 2/19, 可用内存 6.36/15.71 GB)
+  ▶ calA_s44 (attempt 1, 运行中 3/19, 可用内存 6.37/15.71 GB)
+  ▶ calB_s42 (attempt 1, 运行中 4/19, 可用内存 6.37/15.71 GB)
+  ▶ calB_s43 (attempt 1, 运行中 5/19, 可用内存 6.37/15.71 GB)
+  ▶ calB_s44 (attempt 1, 运行中 6/19, 可用内存 6.37/15.71 GB)
+  ✅ calB_s44  done  4.6 min
+  ✅ calA_s44  done  4.7 min
+  ✅ calA_s42  done  5.2 min
+  ✅ calB_s43  done  5.4 min
+  ✅ calA_s43  done  6.0 min
+  ✅ calB_s42  done  6.2 min
+
+批次结束：done=6 skipped=0 failed=0 墙钟=6.2 min（守卫触发 0 次）
+
+=== 汇总（6 run）===
+arm                     cb  seed  final_N   gate  pred_frac                    区制  wall_min
+--------------------------------------------------------------------------------------------
+calA_s42              True    42     1944  False     0.3601         non_predation       5.2
+calB_s42              True    42     1944  False     0.1704         non_predation       6.2
+calA_s43              True    43     1945  False     0.3323         non_predation       6.0
+calB_s43              True    43     1942  False     0.3658         non_predation       5.4
+calA_s44              True    44     1945  False     0.7572         non_predation       4.7
+calB_s44              True    44     1946  False     0.1228         non_predation       4.6
+--------------------------------------------------------------------------------------------
+分层（阈值 0.9）：捕食主导 0 / 非捕食主导 6
+
+汇总已写：C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\calib1\_summary.csv

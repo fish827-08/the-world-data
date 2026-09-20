@@ -1,0 +1,293 @@
+{
+  "manifest": {
+    "git_commit": "45686aa5a27e31ed29fc878f65bb9d53a70bf2c1",
+    "git_dirty": true,
+    "sim_core_sha256": "1d265178526ab98fd3c31356464fa4d2",
+    "code_tree_sha256": "42489a1864c444bb23047bb627d34d54",
+    "code_subtrees": {
+      "simulation": "75e58873d026ced8ca9216603d0aefce",
+      "observatory": "04c50c1ecebaabb641343c5f6341f0da",
+      "world": "045b97464c008b0bff1f7214b04f19d8",
+      "core": "26a17eeff6abb3d7a79cb24f669b6877",
+      "experiments": "6ea6b8366f968113cffd89b8893d752a"
+    },
+    "config_fingerprint": "{\"culture\": {\"food_threshold\": 0.3, \"trust_false\": 0.1, \"trust_true\": 0.05}, \"fruit\": {\"charge_rate\": 0.1, \"digest_ratio\": 0.7, \"eat_rate\": 0.05, \"enabled\": false, \"excretion_prob\": 0.1, \"fruit_ratio\": 0.8, \"fruit_threshold\": 10.0, \"germination_prob\": 0.5, \"max_seed_carried\": 5, \"plant_threshold\": 0.5, \"seed_energy\": 5.0, \"seed_intake_prob\": 0.3}, \"genome\": {\"gene_count\": 24, \"gene_max\": 1.0, \"gene_min\": 0.0, \"init_g16_clusters\": \"0.05,0.5,0.9\", \"mutation_rate\": 0.05, \"mutation_sigma\": 0.05}, \"info_structure\": {\"alignment_noise\": 0.02, \"alignment_rate\": 0.1, \"alignment_step\": 0.15, \"arbitrary_codebook\": true, \"codebook_mutation_rate\": 0.02, \"codebook_mutation_sigma\": 0.3, \"enabled\": true, \"learning_bottleneck\": true, \"learning_maturity_ticks\": 1200, \"learning_rate\": 0.05, \"learning_samples_max\": 60, \"measure_signal_response\": true, \"memory_gradient\": \"none\", \"memory_gradient_gain\": 0.3, \"perception_noise\": 0.05, \"perception_radius\": 4, \"reputation_weight\": 0.0, \"softmax_tau\": 0.15, \"steels_alignment\": true}, \"light\": {\"day_boost\": 6.0, \"lat_base_ref\": 1.0, \"rotation_period\": 2400, \"t_equator\": 30.0, \"t_pole\": -20.0}, \"neutral_genes\": false, \"oracle\": {\"allow_non_breakeven\": false, \"donation\": 0.05, \"enabled\": false, \"gain_multiplier\": 1.0, \"gate_delta\": \"content\", \"gate_mode\": \"none\", \"is_calibration_arm\": false, \"persistence\": 10, \"require_food\": true}, \"organisms\": {\"base_metabolism\": 0.6, \"eat_amount\": 0.5, \"eat_efficiency\": 3.0, \"growth_mult\": 1.6, \"homeo_upkeep\": 0.15, \"initial_energy\": 60.0, \"lifespan_mult\": 1.0, \"maturity_fraction\": 0.15, \"max_energy\": 300.0, \"move_cost\": 0.4, \"niche_floor\": 0.4, \"niche_gain\": 0.6, \"photo_max\": 0.1, \"senile_fraction\": 0.75, \"senile_mult\": 1.4}, \"pleasure\": {\"alone_rpe\": -0.1, \"alpha\": 0.05, \"arousal_decay\": 0.97, \"baseline_rate\": 0.001, \"enabled\": true, \"expectation_size\": 120, \"inheritance_noise\": 0.02, \"max_reward\": 2.0, \"optimism\": 0.8, \"social_rpe\": 0.2, \"valence_decay\": 0.95, \"w_energy\": 0.5, \"w_info\": 0.3, \"w_social\": 0.2}, \"population\": {\"initial_count\": 200, \"max_count\": 3240, \"soft_cap_target\": 0.6}, \"predation\": {\"attack_cost\": 0.1, \"attack_gene_gate\": 0.3, \"attack_prob_coef\": 0.2, \"enabled\": true, \"forage_tradeoff_k\": 0.0, \"stomach_transfer\": 0.4, \"success_ceil\": 0.9, \"success_floor\": 0.1, \"success_gene_gain\": 0.5, \"transfer_ratio\": 0.4}, \"resources\": {\"background_fill\": 0.1, \"capacity_per_area\": 40.0, \"distribution\": \"patchy\", \"initial_fill\": 0.5, \"patch_capacity_mult\": 3.0, \"patch_count\": 30, \"patch_radius\": 2, \"patch_regrowth_mult\": 2.0, \"regrowth_rate\": 0.5, \"temp_sensitivity\": 1.0}, \"seed\": 42, \"signal_alphabet\": \"16\", \"signal_disabled\": false, \"signal_mode\": \"state\", \"simulation\": {\"history_limit\": 100, \"social_move_weight\": 1.0, \"stay_prob\": 0.0, \"stop_on_extinction\": true, \"ticks\": 8000, \"use_sim_core\": false}, \"world\": {\"cols\": 120, \"rows\": 60}}",
+    "python": "3.14.7",
+    "rng_draws": 5367658,
+    "collected_at": "run_start",
+    "started": "2026-09-21 01:29:14",
+    "finished": "2026-09-21 01:35:23",
+    "script": "experiments/a4_verify_capacity.py"
+  },
+  "switches": {
+    "mode": "on",
+    "seed": 42,
+    "ticks_target": 8000,
+    "resumed_from_snapshot": false,
+    "start_tick": 0,
+    "arbitrary_codebook": true,
+    "arm": "main",
+    "measure_signal_response": true,
+    "oracle_enabled": false,
+    "oracle_donation": null,
+    "oracle_persistence": null,
+    "perception_radius": 4,
+    "perception_noise": 0.05,
+    "softmax_tau": 0.15,
+    "learning_bottleneck": true,
+    "steels_alignment": true,
+    "reputation_weight": 0.0,
+    "memory_gradient": "none",
+    "memory_gradient_gain": 0.3,
+    "g16_t0_mean": 0.4812,
+    "g16_t0_std": 0.3477,
+    "g4_t0_mean": 0.4955,
+    "corr_g16_g4_t0": -0.0109,
+    "predation_enabled": true,
+    "soft_cap_target": 0.6,
+    "forage_tradeoff_k": 0.0,
+    "init_g16_clusters": "0.05,0.5,0.9",
+    "use_sim_core": false,
+    "distribution": "patchy",
+    "initial_count": 200,
+    "max_count": 3240,
+    "neutral_genes": false,
+    "signal_disabled": false,
+    "oracle_gain_multiplier": 1.0,
+    "is_calibration_arm": false,
+    "signal_mode": "state",
+    "signal_alphabet": "16",
+    "oracle_gate_mode": "none",
+    "oracle_gate_delta": "content"
+  },
+  "result": {
+    "final_tick": 8000,
+    "final_N": 1944,
+    "extinct": false,
+    "reached_60k": true,
+    "stable_N_gt0_last50k": false,
+    "eco_gate_pass": false,
+    "eco_gate_scope": "8000 tick 批",
+    "eco_gate_applicable": false,
+    "born_total": 4250,
+    "died_total": 2506,
+    "deaths_by_cause": {
+      "DeathCause.PREDATION": 427,
+      "DeathCause.STARVATION": 453,
+      "DeathCause.OLD_AGE": 1626
+    },
+    "final_codebook_conv": 0.9169,
+    "final_pred_frac": 0.1704,
+    "final_max_gen_highwater": 8,
+    "final_max_gen_current": 8,
+    "selection_gradient": {
+      "non_sat": {
+        "n": 4449,
+        "slope_g15": -0.361904,
+        "spearman_rho": -0.046063,
+        "mean_g15": 0.210257,
+        "mean_fitness": 0.955271
+      },
+      "sat_diagnostic": {
+        "n": 0,
+        "slope_g15": null,
+        "spearman_rho": null,
+        "mean_g15": null,
+        "mean_fitness": null
+      }
+    },
+    "signal_response": {
+      "decisions": 1949620,
+      "exposed": 1924430,
+      "resp_a_exposure": 0.98708,
+      "resp_b_delta": 0.026945,
+      "resp_b_content_delta": 0.004019,
+      "resp_triple": 0.026597,
+      "argmax_flip_rate": 0.280849
+    },
+    "oracle": {
+      "enabled": false,
+      "transfers": 0.0,
+      "count": 0,
+      "emissions": 0,
+      "oracle_return_ratio": 0.0,
+      "funnel": {
+        "emissions": 0,
+        "had_signal": 0,
+        "true_sig": 0,
+        "selected": 0,
+        "attrib_found": 0,
+        "in_window": 0,
+        "not_self": 0,
+        "gate_positive": 0,
+        "gate_block": 0,
+        "budget_ok": 0,
+        "applied": 0,
+        "sel_to_applied": 0.0,
+        "had_sig_to_applied": 0.0,
+        "emissions_per_applied": null
+      },
+      "audit": {
+        "calls": 0,
+        "sum_energy_delta": 0.0,
+        "tolerance": 1.001e-06,
+        "conserved": true,
+        "accounts": "Σtransfers ≡ Σpayer 扣减 ≡ Σ收款入账（构造保证）"
+      },
+      "ledger": {
+        "sum_transfers": 0.0,
+        "payer_paid": 0.0,
+        "sender_received": 0.0,
+        "identity_ok": true,
+        "payer_trunc_n": 0,
+        "payer_trunc_amt": 0.0,
+        "payer_broke_n": 0,
+        "budget_trunc_n": 0,
+        "budget_trunc_amt": 0.0,
+        "budget_exhausted_n": 0,
+        "role": "对账（三账恒等由构造保证）+ 偿付约束量化；非守恒检验"
+      },
+      "receiver_side": {
+        "events": 0,
+        "food_events": 0,
+        "mean_intake_at_paid_cell": 0.0,
+        "mean_intake_all_eaters": 0.0,
+        "mean_payment_per_event": 0.0,
+        "net_eat_minus_pay": 0.0,
+        "net_vs_baseline": 0.0,
+        "caveat": "落点按 cell 键控（同格多人并入；接收者可能进食前死亡）⇒ 量级判断用"
+      },
+      "gain_multiplier": 1.0,
+      "is_calibration_arm": false,
+      "food_band_true_sig": {
+        "n": 0,
+        "frac_of_true_sig": 0.0,
+        "band": "(food_threshold, 0.5]"
+      },
+      "gate": {
+        "mode": "none",
+        "delta_metric": null,
+        "arrivals": 0,
+        "pass": 0,
+        "block": 0,
+        "block_frac": 0.0,
+        "mean_delta_full_at_arrivals": 0.0,
+        "mean_delta_content_at_arrivals": 0.0
+      }
+    },
+    "alphabet": {
+      "signal_alphabet": "16",
+      "n_states": 16,
+      "code_max": 15,
+      "bad_code_n": 0,
+      "guard_expected_zero": false,
+      "mem_bit_on": 0,
+      "mem_bit_n": 0,
+      "mem_bit_frac": null
+    },
+    "memory_gradient": null,
+    "cannibalism": {
+      "duel": {
+        "nominal_attackers": 8901,
+        "skip_no_energy": 245,
+        "skip_no_prey": 7494,
+        "skip_already_eaten": 9,
+        "real_attempts": 1153,
+        "success_rate_nominal": 0.048,
+        "success_rate_real": 0.3703,
+        "note": "nominal=含未出手；real=真出手（排除能量不足/无猎物/已被吃）⇒ 旧口径 kills/nominal 会**低估**成功率"
+      },
+      "bins": 5,
+      "n_attacks": 8901,
+      "n_kills": 427,
+      "attacker_g16_hist": [
+        0,
+        0,
+        2741,
+        0,
+        6160
+      ],
+      "prey_g16_hist": [
+        256,
+        0,
+        88,
+        0,
+        83
+      ],
+      "attacker_g16_mean": 0.7768,
+      "prey_g16_mean": 0.3379,
+      "delta_g16": 0.4389,
+      "note": "g16 区间 [0,1] 均分 5 bin；n=None 表示本批没有该事件（不可读作 0）"
+    },
+    "energy_ledger": {
+      "path": "python",
+      "obs_count": 11009761,
+      "global": {
+        "intake_forage_sum": 11609906.356,
+        "intake_pred_sum": 30622.842,
+        "intake_photo_sum": 175621.016,
+        "cost_meta_sum": 6276365.873,
+        "cost_move_sum": 1090624.516,
+        "cost_attack_sum": 115.3
+      },
+      "groups": {
+        "lo": {
+          "n_sum": 10420361,
+          "intake_forage_sum": 10773393.911,
+          "intake_pred_sum": 15633.637,
+          "intake_photo_sum": 165993.506,
+          "cost_meta_sum": 5739731.677,
+          "cost_move_sum": 1022535.668,
+          "cost_attack_sum": 30.4,
+          "net_sum": 4026729.802,
+          "net_incl_photo_sum": 4192723.308
+        },
+        "mid": {
+          "n_sum": 261123,
+          "intake_forage_sum": 355314.96,
+          "intake_pred_sum": 6555.343,
+          "intake_photo_sum": 4305.735,
+          "cost_meta_sum": 236885.667,
+          "cost_move_sum": 33315.932,
+          "cost_attack_sum": 35.6,
+          "net_sum": 91633.104,
+          "net_incl_photo_sum": 95938.839
+        },
+        "hi": {
+          "n_sum": 328277,
+          "intake_forage_sum": 481197.486,
+          "intake_pred_sum": 8433.861,
+          "intake_photo_sum": 5321.776,
+          "cost_meta_sum": 299748.529,
+          "cost_move_sum": 34772.916,
+          "cost_attack_sum": 49.3,
+          "net_sum": 155060.602,
+          "net_incl_photo_sum": 160382.378
+        }
+      },
+      "prey": {
+        "kills": 427,
+        "energy_sum": 76557.104
+      },
+      "attack": {
+        "attempts": 1153
+      },
+      "note": "net = intake_forage + intake_pred − cost_meta − cost_move − cost_attack（**不含光合**，派工单 §1.2）；net_incl_photo_* 为附加口径"
+    },
+    "genome_t0": {
+      "n": 200,
+      "gene_count": 24,
+      "g16_mean": 0.48124999999999984,
+      "g16_std": 0.3476929528294128,
+      "g4_mean": 0.49548703456251425,
+      "g4_std": 0.29372587138072836,
+      "corr_g16_g4": -0.010851745219552452
+    },
+    "inheritance": {
+      "mem_inherit_n": 16980,
+      "mem_inherit_far_n": 152,
+      "mem_inherit_far_frac": 0.008952,
+      "distance_convention": "grid_ring(行差+经度环绕列差)，未做纬度余弦缩放（上界）"
+    }
+  }
+}
