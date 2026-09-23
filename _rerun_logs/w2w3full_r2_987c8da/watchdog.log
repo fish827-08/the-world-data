@@ -1,0 +1,53 @@
+[16:09:18] === watchdog 启动（TIME_LIMIT=540s）待跑: B_s7 B_s11 B_s13 C_s42 C_s7 C_s11 C_s13 D_s42 D_s7 D_s11 D_s13 E_s42 E_s7 E_s11 E_s13 ===
+[16:09:18] [run] B_s7 开始（arm=B seed=7）
+[on cb=1 s7] tick=8000 N=995 eco_gate=False born=13865 died=13079
+[16:13:01] [done] B_s7 完成（rc=0）
+[16:13:01] [run] B_s11 开始（arm=B seed=11）
+[on cb=1 s11] tick=8000 N=459 eco_gate=False born=3895 died=3636
+[16:14:18] [done] B_s11 完成（rc=0）
+[16:14:18] [run] B_s13 开始（arm=B seed=13）
+[on cb=1 s13] tick=8000 N=908 eco_gate=False born=13788 died=13088
+[16:18:44] [done] B_s13 完成（rc=0）
+[16:18:44] [run] C_s42 开始（arm=C seed=42）
+[16:44:11] === watchdog 启动（TIME_LIMIT=540s）待跑: C_s42 C_s7 C_s11 C_s13 D_s42 D_s7 D_s11 D_s13 E_s42 E_s7 E_s11 E_s13 ===
+[16:44:11] [run] C_s42 开始（arm=C seed=42）
+  ↻ 从快照续跑：tick 4000 → 8000
+[on cb=1 s42] tick=8000 N=1541 eco_gate=False born=10845 died=9504
+[16:47:17] [done] C_s42 完成（rc=0）
+[16:47:17] [run] C_s7 开始（arm=C seed=7）
+[on cb=1 s7] tick=8000 N=1675 eco_gate=False born=14022 died=12547
+[16:52:27] [done] C_s7 完成（rc=0）
+[16:52:27] [run] C_s11 开始（arm=C seed=11）
+[16:54:23] === watchdog 启动（TIME_LIMIT=600s）待跑: C_s11 C_s13 D_s42 D_s7 D_s11 D_s13 E_s42 E_s7 E_s11 E_s13 ===
+[16:54:23] [run] C_s11 开始（arm=C seed=11）
+  ↻ 从快照续跑：tick 4000 → 8000
+[on cb=1 s11] tick=8000 N=1700 eco_gate=False born=13077 died=11577
+[16:56:15] [done] C_s11 完成（rc=0）
+[16:56:15] [run] C_s13 开始（arm=C seed=13）
+[on cb=1 s13] tick=8000 N=1569 eco_gate=False born=12967 died=11598
+[16:58:52] [done] C_s13 完成（rc=0）
+[16:58:52] [run] D_s42 开始（arm=D seed=42）
+[on cb=1 s42] tick=8000 N=1494 eco_gate=False born=11478 died=10184
+[17:01:41] [done] D_s42 完成（rc=0）
+[17:01:41] [run] D_s7 开始（arm=D seed=7）
+[on cb=1 s7] tick=8000 N=1911 eco_gate=False born=10977 died=9266
+[17:04:38] [done] D_s7 完成（rc=0）
+[17:04:38] [run] D_s11 开始（arm=D seed=11）
+[on cb=1 s11] tick=8000 N=1705 eco_gate=False born=13535 died=12030
+[17:07:07] [done] D_s11 完成（rc=0）
+[17:07:07] [run] D_s13 开始（arm=D seed=13）
+[on cb=1 s13] tick=8000 N=1409 eco_gate=False born=12024 died=10815
+[17:09:51] [done] D_s13 完成（rc=0）
+[17:09:51] [run] E_s42 开始（arm=E seed=42）
+[on cb=1 s42] tick=8000 N=1456 eco_gate=False born=10816 died=9560
+[17:13:37] [done] E_s42 完成（rc=0）
+[17:13:37] [run] E_s7 开始（arm=E seed=7）
+[on cb=1 s7] tick=8000 N=1934 eco_gate=False born=10749 died=9015
+[17:17:39] [done] E_s7 完成（rc=0）
+[17:17:39] [run] E_s11 开始（arm=E seed=11）
+[on cb=1 s11] tick=8000 N=1681 eco_gate=False born=13558 died=12077
+[17:21:06] [done] E_s11 完成（rc=0）
+[17:21:06] [run] E_s13 开始（arm=E seed=13）
+[on cb=1 s13] tick=8000 N=1291 eco_gate=False born=11690 died=10599
+[17:24:55] [done] E_s13 完成（rc=0）
+[17:24:55] === watchdog 结束：已完成 20/20 ===
