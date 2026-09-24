@@ -1,0 +1,7 @@
+arm,codebook,arm_type,seed,final_N,eco_gate,pred_frac,regime,codebook_conv,slope_g15,resp_a,resp_b,resp_triple,oracle_ratio,wall_min
+noseason_s42,True,main,42,1944,True,0.2566,non_predation,0.8851,0.192904,0.996484,0.055182,0.054988,0.0,13.5
+noseason_s7,True,main,7,1943,True,0.2392,non_predation,0.8628,0.404476,0.998118,0.036101,0.036033,0.0,14.9
+noseason_s11,True,main,11,1944,True,0.5361,non_predation,0.9216,0.042572,0.992858,0.057621,0.057209,0.0,9.7
+noseason_s13,True,main,13,1942,True,0.3268,non_predation,0.9012,-0.143005,0.99331,0.079275,0.078744,0.0,22.7
+noseason_s17,True,main,17,1944,True,0.3292,non_predation,0.8513,0.360773,0.998409,0.081052,0.080923,0.0,14.5
+noseason_s23,True,main,23,1945,True,0.3167,non_predation,0.8659,0.252253,0.997976,0.064782,0.064651,0.0,16.9
