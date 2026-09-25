@@ -25,3 +25,9 @@
 
 ## 时间线
 - 2026-09-13：建立（主仓库容量超限拆分）
+- 2026-09-25：**首次历史重写**（`git filter-repo`）—— 从全部提交中抹掉
+  `_rerun_logs/cstep_snap_ext/{rolling,keypoints}/`（126 MB，长跑的中间检查点副本）。
+  🔴 **所有在此之前的 clone 全部失效**，须重新 `git clone`（旧 clone 上 pull/merge 会冲突）。
+  回滚镜像：`Desktop\temp\_trash_purge_20260925\data_repo_mirror_backup.git`（旧 HEAD `d70c4ad`）。
+  依据：fish 2026-09-25 批准；上板 R200（删除预告）/ R201（force-push 预告）。
+  ⚠️ 该批的**最终**快照 `oracle_m1.3_s46_ext.snapshot.npz` 保留。
