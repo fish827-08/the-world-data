@@ -31,3 +31,25 @@
   回滚镜像：`Desktop\temp\_trash_purge_20260925\data_repo_mirror_backup.git`（旧 HEAD `d70c4ad`）。
   依据：fish 2026-09-25 批准；上板 R200（删除预告）/ R201（force-push 预告）。
   ⚠️ 该批的**最终**快照 `oracle_m1.3_s46_ext.snapshot.npz` 保留。
+- 2026-09-25：**第二轮历史重写**（同日合并进行）—— 再从全部提交中抹掉
+  **218 个旧纪元 `.npz` 快照**（13.5 之前 = 2026-09-24 之前，约 642 MB）。
+  结果：工作树 774MB → **32MB**；`.git` 834MB → **22MB**；合计约 **54MB**。
+  🔴 **远端必须删库重建**：Gitee **不会**因 force-push 回收旧对象（force-push 后仍报
+  935MB，随后 913.656MB）⇒ 只有删掉远端仓库再**同名重建**，推上去才是干净的 54MB。
+  ⇒ 重建步骤见本节末「远端重建」。
+  🟢 **回滚镜像**：`Desktop\temp\_trash_purge_20260925\data_repo_mirror_backup.git`
+  （824MB，旧 HEAD `d70c4ad`，含**全部**历史对象）⇒ 被清数据**可完整恢复**。
+
+## 远端重建（Gitee，需 owner 在网页操作）
+
+1. 打开 `https://gitee.com/little-fishy/the-world-data` → **管理** → **删除仓库**
+   （按页面要求输入仓库名确认）。
+2. **同名重建**：新建仓库，路径仍填 `the-world-data`，**不要**勾选初始化 README/.gitignore
+   （保持空仓）⇒ URL 不变。
+3. 回到本机执行：
+   ```
+   cd the-world/the-world-data
+   git -c credential.helper=manager push -u origin main
+   ```
+   ⇒ 推上去即为干净的 54MB。
+4. 🔴 **所有旧 clone 全部失效**，须重新 `git clone`（含云端机器）。
