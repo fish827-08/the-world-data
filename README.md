@@ -40,16 +40,26 @@
   🟢 **回滚镜像**：`Desktop\temp\_trash_purge_20260925\data_repo_mirror_backup.git`
   （824MB，旧 HEAD `d70c4ad`，含**全部**历史对象）⇒ 被清数据**可完整恢复**。
 
-## 远端重建（Gitee，需 owner 在网页操作）
+## 远端重建（Gitee，需 owner 在网页操作）—— ✅ **2026-09-25 已完成**
 
-1. 打开 `https://gitee.com/little-fishy/the-world-data` → **管理** → **删除仓库**
+1. ✅ 打开 `https://gitee.com/little-fishy/the-world-data` → **管理** → **删除仓库**
    （按页面要求输入仓库名确认）。
-2. **同名重建**：新建仓库，路径仍填 `the-world-data`，**不要**勾选初始化 README/.gitignore
+2. ✅ **同名重建**：新建仓库，路径仍填 `the-world-data`，**不要**勾选初始化 README/.gitignore
    （保持空仓）⇒ URL 不变。
-3. 回到本机执行：
+3. ✅ 本机执行：
    ```
    cd the-world/the-world-data
    git -c credential.helper=manager push -u origin main
    ```
-   ⇒ 推上去即为干净的 54MB。
-4. 🔴 **所有旧 clone 全部失效**，须重新 `git clone`（含云端机器）。
+   结果：**`[new branch] main -> main`，且推送时不再出现 80% 配额告警**。
+4. ✅ **端到端验证**：全新 `git clone --depth 1` = **53MB**，r198 数据完好（3.3MB）。
+
+| | 重建前（远端） | **重建后（远端）** |
+|---|---|---|
+| 仓库体积 | **913.656MB / 1024MB（>80% 告警）** | **≈53MB** |
+
+🔴 **所有旧 clone 全部失效**，须重新 `git clone`（含云端机器）。已上板 R202/R203 通知。
+
+⚠️ **重要教训**：Gitee **不会**因 force-push 回收旧对象 —— 只做历史重写（force-push）
+**不会**让远端变小，反而会**变大**（旧对象仍在 + 新对象叠加）。
+⇒ 要真正降配额，**必须删库重建（或换新仓）**。详见项目 `docs/` 与 `R201/R202` 板帖。
