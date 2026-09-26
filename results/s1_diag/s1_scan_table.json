@@ -1,0 +1,206 @@
+[
+  [
+    1.195,
+    42,
+    969,
+    0.9403,
+    {
+      "n": 28492,
+      "starvation": 7141,
+      "old_age": 94,
+      "predation": 21257,
+      "share_starvation": 0.2506,
+      "share_old_age": 0.0033,
+      "share_predation": 0.7461
+    },
+    187.0,
+    "tick 用尽"
+  ],
+  [
+    1.195,
+    43,
+    901,
+    0.9506,
+    {
+      "n": 24449,
+      "starvation": 5373,
+      "old_age": 160,
+      "predation": 18916,
+      "share_starvation": 0.2198,
+      "share_old_age": 0.0065,
+      "share_predation": 0.7737
+    },
+    127.0,
+    "tick 用尽"
+  ],
+  [
+    1.195,
+    44,
+    915,
+    0.9603,
+    {
+      "n": 23366,
+      "starvation": 6972,
+      "old_age": 412,
+      "predation": 15982,
+      "share_starvation": 0.2984,
+      "share_old_age": 0.0176,
+      "share_predation": 0.684
+    },
+    231.0,
+    "tick 用尽"
+  ],
+  [
+    0.8,
+    42,
+    540,
+    0.9522,
+    {
+      "n": 17158,
+      "starvation": 4589,
+      "old_age": 72,
+      "predation": 12497,
+      "share_starvation": 0.2675,
+      "share_old_age": 0.0042,
+      "share_predation": 0.7283
+    },
+    170.0,
+    "tick 用尽"
+  ],
+  [
+    0.8,
+    43,
+    538,
+    0.9589,
+    {
+      "n": 15447,
+      "starvation": 3614,
+      "old_age": 190,
+      "predation": 11643,
+      "share_starvation": 0.234,
+      "share_old_age": 0.0123,
+      "share_predation": 0.7537
+    },
+    128.0,
+    "tick 用尽"
+  ],
+  [
+    0.8,
+    44,
+    656,
+    0.9551,
+    {
+      "n": 17657,
+      "starvation": 4153,
+      "old_age": 197,
+      "predation": 13307,
+      "share_starvation": 0.2352,
+      "share_old_age": 0.0112,
+      "share_predation": 0.7536
+    },
+    224.0,
+    "tick 用尽"
+  ],
+  [
+    0.6,
+    42,
+    513,
+    0.9445,
+    {
+      "n": 14202,
+      "starvation": 2930,
+      "old_age": 28,
+      "predation": 11244,
+      "share_starvation": 0.2063,
+      "share_old_age": 0.002,
+      "share_predation": 0.7917
+    },
+    157.0,
+    "tick 用尽"
+  ],
+  [
+    0.6,
+    43,
+    498,
+    0.95,
+    {
+      "n": 14425,
+      "starvation": 4012,
+      "old_age": 134,
+      "predation": 10279,
+      "share_starvation": 0.2781,
+      "share_old_age": 0.0093,
+      "share_predation": 0.7126
+    },
+    111.0,
+    "tick 用尽"
+  ],
+  [
+    0.6,
+    44,
+    435,
+    0.963,
+    {
+      "n": 11285,
+      "starvation": 3184,
+      "old_age": 133,
+      "predation": 7968,
+      "share_starvation": 0.2821,
+      "share_old_age": 0.0118,
+      "share_predation": 0.7061
+    },
+    191.0,
+    "tick 用尽"
+  ],
+  [
+    0.4,
+    42,
+    359,
+    0.9474,
+    {
+      "n": 10249,
+      "starvation": 3827,
+      "old_age": 52,
+      "predation": 6370,
+      "share_starvation": 0.3734,
+      "share_old_age": 0.0051,
+      "share_predation": 0.6215
+    },
+    129.0,
+    "tick 用尽"
+  ],
+  [
+    0.4,
+    43,
+    309,
+    0.9546,
+    {
+      "n": 9911,
+      "starvation": 2859,
+      "old_age": 100,
+      "predation": 6952,
+      "share_starvation": 0.2885,
+      "share_old_age": 0.0101,
+      "share_predation": 0.7014
+    },
+    111.0,
+    "tick 用尽"
+  ],
+  [
+    0.4,
+    44,
+    281,
+    0.9632,
+    {
+      "n": 8352,
+      "starvation": 2164,
+      "old_age": 51,
+      "predation": 6137,
+      "share_starvation": 0.2591,
+      "share_old_age": 0.0061,
+      "share_predation": 0.7348
+    },
+    194.0,
+    "tick 用尽"
+  ]
+]

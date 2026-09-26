@@ -1,0 +1,83 @@
+{
+  "switches": {
+    "ticks_target": 40000,
+    "rows": 480,
+    "cols": 960,
+    "patches": 480,
+    "k": 2.5,
+    "seeds": [
+      42
+    ],
+    "patch_regrowth_mult": [
+      0.4
+    ],
+    "subpos": "on",
+    "speed_max": 0.125,
+    "gain": 0.125,
+    "subdiv": 80,
+    "max_count": 30000
+  },
+  "result": {
+    "final_N": 343,
+    "final_tick": 19000,
+    "platform_reached": true,
+    "K_measured": 332,
+    "K_extrapolated": 46952.1,
+    "tail3_pops": [
+      346,
+      353,
+      343
+    ],
+    "max_gen": 63.0,
+    "saturation_tail": 0.9492,
+    "death_cause_tail": {
+      "n": 5158,
+      "starvation": 2374,
+      "old_age": 28,
+      "predation": 2756,
+      "share_starvation": 0.4603,
+      "share_old_age": 0.0054,
+      "share_predation": 0.5343
+    },
+    "ms_per_tick_tail": 100.25,
+    "stop": "平台期（连续 4 段 <3%）"
+  },
+  "runs": [
+    {
+      "patches": 480,
+      "seed": 42,
+      "cells": 460800,
+      "k": 2.5,
+      "rgm": 0.4,
+      "death_cause_tail": {
+        "n": 5158,
+        "starvation": 2374,
+        "old_age": 28,
+        "predation": 2756,
+        "share_starvation": 0.4603,
+        "share_old_age": 0.0054,
+        "share_predation": 0.5343
+      },
+      "deaths_cum_starvation": 13058,
+      "deaths_cum_old_age": 148,
+      "deaths_cum_predation": 13149,
+      "productive_cells": 12805,
+      "K_extrapolated": 46952.1,
+      "K_measured": 332,
+      "pop_max": 366,
+      "pop_final": 343,
+      "tail3_pops": [
+        346,
+        353,
+        343
+      ],
+      "platform_reached": true,
+      "saturation_tail": 0.9492,
+      "ms_per_tick_tail": 100.25,
+      "max_gen": 63.0,
+      "ticks_done": 19000,
+      "wall_s": 2047.3,
+      "stop": "平台期（连续 4 段 <3%）"
+    }
+  ]
+}

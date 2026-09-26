@@ -1,0 +1,45 @@
+== S1 诊断扫描：12 run（4 档 rgm × 3 seed），6 路并发 ==
+   配置 = T4 同款：{'rows': 480, 'cols': 960, 'patches': 480, 'pop': 2000, 'ticks': 40000, 'sample': 250, 'speed_max': 0.125, 'gain': 0.125, 'subdiv': 80, 'k': 2.5, 'max_count': 30000}
+   输出 = C:\Users\圣羽\Desktop\temp\tempCode\the-world\results\s1_diag/rgm<档>_s<seed>.csv（+ .log/.summary.json）
+  ▶ 启动 rgm=1.195 seed=42
+  ▶ 启动 rgm=1.195 seed=43
+  ▶ 启动 rgm=1.195 seed=44
+  ▶ 启动 rgm=0.8 seed=42
+  ▶ 启动 rgm=0.8 seed=43
+  ▶ 启动 rgm=0.8 seed=44
+  ✔ 结束 rgm=1.195 seed=42 rc=0 完整=True（累计 4151s）
+  ✔ 结束 rgm=1.195 seed=43 rc=0 完整=True（累计 4151s）
+  ✔ 结束 rgm=1.195 seed=44 rc=0 完整=True（累计 4151s）
+  ✔ 结束 rgm=0.8 seed=42 rc=0 完整=True（累计 4151s）
+  ✔ 结束 rgm=0.8 seed=43 rc=0 完整=True（累计 4151s）
+  ✔ 结束 rgm=0.8 seed=44 rc=0 完整=True（累计 4151s）
+  ▶ 启动 rgm=0.6 seed=42
+  ▶ 启动 rgm=0.6 seed=43
+  ▶ 启动 rgm=0.6 seed=44
+  ▶ 启动 rgm=0.4 seed=42
+  ▶ 启动 rgm=0.4 seed=43
+  ▶ 启动 rgm=0.4 seed=44
+  ✔ 结束 rgm=0.6 seed=42 rc=0 完整=True（累计 6825s）
+  ✔ 结束 rgm=0.6 seed=43 rc=0 完整=True（累计 6826s）
+  ✔ 结束 rgm=0.6 seed=44 rc=0 完整=True（累计 6826s）
+  ✔ 结束 rgm=0.4 seed=42 rc=0 完整=True（累计 6826s）
+  ✔ 结束 rgm=0.4 seed=43 rc=0 完整=True（累计 6826s）
+  ✔ 结束 rgm=0.4 seed=44 rc=0 完整=True（累计 6826s）
+
+== 全部结束：12/12，总墙钟 113.8 min ==
+
+     rgm seed     K实测      饱和度           饿/老/捕    代数  终止
+   1.195   42     969   0.94030.2506/0.0033/0.7461   187  tick 用尽
+   1.195   43     901   0.95060.2198/0.0065/0.7737   127  tick 用尽
+   1.195   44     915   0.96030.2984/0.0176/0.684   231  tick 用尽
+     0.8   42     540   0.95220.2675/0.0042/0.7283   170  tick 用尽
+     0.8   43     538   0.95890.234/0.0123/0.7537   128  tick 用尽
+     0.8   44     656   0.95510.2352/0.0112/0.7536   224  tick 用尽
+     0.6   42     513   0.94450.2063/0.002/0.7917   157  tick 用尽
+     0.6   43     498     0.950.2781/0.0093/0.7126   111  tick 用尽
+     0.6   44     435    0.9630.2821/0.0118/0.7061   191  tick 用尽
+     0.4   42     359   0.94740.3734/0.0051/0.6215   129  tick 用尽
+     0.4   43     309   0.95460.2885/0.0101/0.7014   111  tick 用尽
+     0.4   44     281   0.96320.2591/0.0061/0.7348   194  tick 用尽
+
+  表已写入 C:\Users\圣羽\Desktop\temp\tempCode\the-world\results\s1_diag\s1_scan_table.json
