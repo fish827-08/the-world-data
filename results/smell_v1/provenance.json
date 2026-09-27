@@ -1,0 +1,31 @@
+{
+  "[云端开发·云启]": "R240 T8 气味场 v1 性能实测 provenance（R240 §四-6）",
+  "git_commit": "741c9ce1dab28133cdf0767aa54a29d6a5c63555",
+  "git_branch": "dev/yunqi-smell-v1",
+  "git_base_main": "26776bd115b05862f71d589914f83f8d569b8eca",
+  "note": "测量所用代码树与本次提交**逐字相同**（提交前未再改动）；`results/` 不入主仓，随数据仓走。",
+  "config_fingerprint_sha256_16": {
+    "A N=0 地板（480×960，一通道）": "50f71f415d77d600",
+    "B N=0 地板（480×960，四通道）": "c7088c5efbe324b6",
+    "C N≈2000（480×960，一通道）": "7c270be9804134b5",
+    "D N≈2000（480×960，四通道）": "b881d08673ba8e36",
+    "E 小世界冒烟（60×120，四通道）": "99aaacc3c9ba8b51",
+    "F N=0 + 稀疏化开（480×960，四通道）": "ef3fa1bac3976c68"
+  },
+  "config_fingerprint_default_s42": "0ae086ad2d71adfb",
+  "artifacts_sha256": {
+    "smell_perf.json": "a36596fa79d866d885c2d59db2559f88b94759c0653689ea41d49ef73f81f1be",
+    "smell_perf.csv": "72975b7ab840b2f5211979aa6f3ce93b25279a66c3431ab9b5b239445734e25a"
+  },
+  "machine": {
+    "nproc": 3,
+    "python": "3.12.13",
+    "numpy": "2.5.3",
+    "platform": "Linux-6.18.5-x86_64-with-glibc2.39"
+  },
+  "protocol": {
+    "配对口径": "同世界/种子/tick，关档 vs 开档 两臂；concurrency=1（单进程串行）",
+    "分解": "SmellField.probe()['ms_per_update']（衰减/注入/粗网格拉普拉斯）÷ update_every",
+    "读路径": "at()（只为被读格插值）与 to_full()（物化整场）的单次耗时，**不在每 tick 路径**"
+  }
+}

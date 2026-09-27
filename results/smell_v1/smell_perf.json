@@ -1,0 +1,311 @@
+{
+  "[R240·T8·云端开发·云启]": "气味场 v1 性能实测（配对口径）",
+  "cases": [
+    {
+      "case": "A N=0 地板（480×960，一通道）",
+      "world": [
+        480,
+        960
+      ],
+      "pop_init": 0,
+      "patches": 480,
+      "channels": [
+        "food"
+      ],
+      "n_chan": 1,
+      "ticks": 1200,
+      "sparse_fields": false,
+      "off": {
+        "ms_per_tick": 7.3248,
+        "N_end": 0,
+        "channels": [],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 0.0
+      },
+      "on": {
+        "ms_per_tick": 7.5353,
+        "N_end": 0,
+        "channels": [
+          "food"
+        ],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 3.686,
+        "downsample_eff": 8,
+        "updates": 305,
+        "per_tick_ms": {
+          "decay": 0.0394,
+          "inject": 0.0753,
+          "coarse_lap": 0.0354
+        },
+        "inj_cells_last": 12805,
+        "read_ms_per_call": 0.099,
+        "read_cells": 1000,
+        "to_full_ms_per_call": 28.284
+      },
+      "delta_ms_per_tick": 0.2105,
+      "rel": 0.0287,
+      "share_of_off_pct": 2.87
+    },
+    {
+      "case": "B N=0 地板（480×960，四通道）",
+      "world": [
+        480,
+        960
+      ],
+      "pop_init": 0,
+      "patches": 480,
+      "channels": [
+        "food",
+        "prey",
+        "risk",
+        "kin"
+      ],
+      "n_chan": 4,
+      "ticks": 1200,
+      "sparse_fields": false,
+      "off": {
+        "ms_per_tick": 7.2012,
+        "N_end": 0,
+        "channels": [],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 0.0
+      },
+      "on": {
+        "ms_per_tick": 7.5895,
+        "N_end": 0,
+        "channels": [
+          "food",
+          "prey",
+          "risk",
+          "kin"
+        ],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 14.746,
+        "downsample_eff": 8,
+        "updates": 305,
+        "per_tick_ms": {
+          "decay": 0.1532,
+          "inject": 0.0798,
+          "coarse_lap": 0.0609
+        },
+        "inj_cells_last": 12805,
+        "read_ms_per_call": 0.0973,
+        "read_cells": 1000,
+        "to_full_ms_per_call": 70.361
+      },
+      "delta_ms_per_tick": 0.3883,
+      "rel": 0.0539,
+      "share_of_off_pct": 5.39
+    },
+    {
+      "case": "C N≈2000（480×960，一通道）",
+      "world": [
+        480,
+        960
+      ],
+      "pop_init": 2000,
+      "patches": 480,
+      "channels": [
+        "food"
+      ],
+      "n_chan": 1,
+      "ticks": 300,
+      "sparse_fields": false,
+      "off": {
+        "ms_per_tick": 12.2216,
+        "N_end": 128,
+        "channels": [],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 0.0
+      },
+      "on": {
+        "ms_per_tick": 12.9456,
+        "N_end": 128,
+        "channels": [
+          "food"
+        ],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 3.686,
+        "downsample_eff": 8,
+        "updates": 80,
+        "per_tick_ms": {
+          "decay": 0.0439,
+          "inject": 0.0782,
+          "coarse_lap": 0.0405
+        },
+        "inj_cells_last": 12805,
+        "read_ms_per_call": 0.0465,
+        "read_cells": 128,
+        "to_full_ms_per_call": 25.265
+      },
+      "delta_ms_per_tick": 0.724,
+      "rel": 0.0592,
+      "share_of_off_pct": 5.92
+    },
+    {
+      "case": "D N≈2000（480×960，四通道）",
+      "world": [
+        480,
+        960
+      ],
+      "pop_init": 2000,
+      "patches": 480,
+      "channels": [
+        "food",
+        "prey",
+        "risk",
+        "kin"
+      ],
+      "n_chan": 4,
+      "ticks": 300,
+      "sparse_fields": false,
+      "off": {
+        "ms_per_tick": 12.2762,
+        "N_end": 128,
+        "channels": [],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 0.0
+      },
+      "on": {
+        "ms_per_tick": 12.8431,
+        "N_end": 128,
+        "channels": [
+          "food",
+          "prey",
+          "risk",
+          "kin"
+        ],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 14.746,
+        "downsample_eff": 8,
+        "updates": 80,
+        "per_tick_ms": {
+          "decay": 0.1759,
+          "inject": 0.0987,
+          "coarse_lap": 0.0645
+        },
+        "inj_cells_last": 13115,
+        "read_ms_per_call": 0.0741,
+        "read_cells": 128,
+        "to_full_ms_per_call": 61.561
+      },
+      "delta_ms_per_tick": 0.5669,
+      "rel": 0.0462,
+      "share_of_off_pct": 4.62
+    },
+    {
+      "case": "E 小世界冒烟（60×120，四通道）",
+      "world": [
+        60,
+        120
+      ],
+      "pop_init": 200,
+      "patches": 30,
+      "channels": [
+        "food",
+        "prey",
+        "risk",
+        "kin"
+      ],
+      "n_chan": 4,
+      "ticks": 1200,
+      "sparse_fields": false,
+      "off": {
+        "ms_per_tick": 1.3059,
+        "N_end": 35,
+        "channels": [],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 0.0
+      },
+      "on": {
+        "ms_per_tick": 1.3463,
+        "N_end": 35,
+        "channels": [
+          "food",
+          "prey",
+          "risk",
+          "kin"
+        ],
+        "concurrency": 1,
+        "sparse_fields": false,
+        "mem_field_MB": 0.23,
+        "downsample_eff": 6,
+        "updates": 305,
+        "per_tick_ms": {
+          "decay": 0.0038,
+          "inject": 0.0169,
+          "coarse_lap": 0.024
+        },
+        "inj_cells_last": 907,
+        "read_ms_per_call": 0.0305,
+        "read_cells": 35,
+        "to_full_ms_per_call": 0.813
+      },
+      "delta_ms_per_tick": 0.0404,
+      "rel": 0.0309,
+      "share_of_off_pct": 3.09
+    },
+    {
+      "case": "F N=0 + 稀疏化开（480×960，四通道）",
+      "world": [
+        480,
+        960
+      ],
+      "pop_init": 0,
+      "patches": 480,
+      "channels": [
+        "food",
+        "prey",
+        "risk",
+        "kin"
+      ],
+      "n_chan": 4,
+      "ticks": 1200,
+      "sparse_fields": true,
+      "off": {
+        "ms_per_tick": 0.1851,
+        "N_end": 0,
+        "channels": [],
+        "concurrency": 1,
+        "sparse_fields": true,
+        "mem_field_MB": 0.0
+      },
+      "on": {
+        "ms_per_tick": 0.6455,
+        "N_end": 0,
+        "channels": [
+          "food",
+          "prey",
+          "risk",
+          "kin"
+        ],
+        "concurrency": 1,
+        "sparse_fields": true,
+        "mem_field_MB": 14.746,
+        "downsample_eff": 8,
+        "updates": 305,
+        "per_tick_ms": {
+          "decay": 0.1672,
+          "inject": 0.0789,
+          "coarse_lap": 0.058
+        },
+        "inj_cells_last": 12805,
+        "read_ms_per_call": 0.0957,
+        "read_cells": 1000,
+        "to_full_ms_per_call": 74.961
+      },
+      "delta_ms_per_tick": 0.4604,
+      "rel": 2.4873,
+      "share_of_off_pct": 248.73
+    }
+  ]
+}
