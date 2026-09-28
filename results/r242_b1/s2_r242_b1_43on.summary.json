@@ -1,0 +1,42 @@
+{
+  "params": {
+    "rows": 480,
+    "cols": 960,
+    "patches": 1700,
+    "pop": 10000,
+    "seeds": "43",
+    "ticks": 20000,
+    "sample": 250,
+    "rgm": 1.195,
+    "arms": "on",
+    "out": "results/s2_r242_b1_43on.csv"
+  },
+  "summary": [
+    {
+      "seed": 43,
+      "arm": "on",
+      "stop": "tick \u7528\u5c3d",
+      "K_final": 9665,
+      "global_sat": 0.7074588183329555,
+      "cap_lost_frac": 0.0,
+      "patch_sat_init_var": 0.13329453557805518,
+      "patch_sat_init_var_tail": 0.132097,
+      "patch_sat_var": 0.13329453557805518,
+      "patch_sat_var_tail": 0.132097,
+      "patch_abs_food_var": 1919503.4972129024,
+      "patch_sat_range": 0.9998517023893407,
+      "n_patches": 1309,
+      "d_starv": 231010,
+      "d_pred": 390207,
+      "wall_s": 971.8
+    }
+  ],
+  "criterion_2": {
+    "per_seed": {},
+    "overall": {
+      "off_var_init_mean": null,
+      "on_var_init_mean": null,
+      "verdict_on_gt_off_init": null
+    }
+  }
+}
