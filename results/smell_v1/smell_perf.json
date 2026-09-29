@@ -16,7 +16,7 @@
       "ticks": 1200,
       "sparse_fields": false,
       "off": {
-        "ms_per_tick": 7.3248,
+        "ms_per_tick": 7.4769,
         "N_end": 0,
         "channels": [],
         "concurrency": 1,
@@ -24,7 +24,7 @@
         "mem_field_MB": 0.0
       },
       "on": {
-        "ms_per_tick": 7.5353,
+        "ms_per_tick": 7.61,
         "N_end": 0,
         "channels": [
           "food"
@@ -35,18 +35,18 @@
         "downsample_eff": 8,
         "updates": 305,
         "per_tick_ms": {
-          "decay": 0.0394,
-          "inject": 0.0753,
-          "coarse_lap": 0.0354
+          "decay": 0.0417,
+          "inject": 0.0817,
+          "coarse_lap": 0.0395
         },
         "inj_cells_last": 12805,
-        "read_ms_per_call": 0.099,
+        "read_ms_per_call": 0.1105,
         "read_cells": 1000,
-        "to_full_ms_per_call": 28.284
+        "to_full_ms_per_call": 22.3
       },
-      "delta_ms_per_tick": 0.2105,
-      "rel": 0.0287,
-      "share_of_off_pct": 2.87
+      "delta_ms_per_tick": 0.1331,
+      "rel": 0.0178,
+      "share_of_off_pct": 1.78
     },
     {
       "case": "B N=0 地板（480×960，四通道）",
@@ -66,7 +66,7 @@
       "ticks": 1200,
       "sparse_fields": false,
       "off": {
-        "ms_per_tick": 7.2012,
+        "ms_per_tick": 7.4244,
         "N_end": 0,
         "channels": [],
         "concurrency": 1,
@@ -74,7 +74,7 @@
         "mem_field_MB": 0.0
       },
       "on": {
-        "ms_per_tick": 7.5895,
+        "ms_per_tick": 7.8741,
         "N_end": 0,
         "channels": [
           "food",
@@ -88,18 +88,18 @@
         "downsample_eff": 8,
         "updates": 305,
         "per_tick_ms": {
-          "decay": 0.1532,
-          "inject": 0.0798,
-          "coarse_lap": 0.0609
+          "decay": 0.1635,
+          "inject": 0.085,
+          "coarse_lap": 0.0669
         },
         "inj_cells_last": 12805,
-        "read_ms_per_call": 0.0973,
+        "read_ms_per_call": 0.117,
         "read_cells": 1000,
-        "to_full_ms_per_call": 70.361
+        "to_full_ms_per_call": 64.67
       },
-      "delta_ms_per_tick": 0.3883,
-      "rel": 0.0539,
-      "share_of_off_pct": 5.39
+      "delta_ms_per_tick": 0.4497,
+      "rel": 0.0606,
+      "share_of_off_pct": 6.06
     },
     {
       "case": "C N≈2000（480×960，一通道）",
@@ -116,7 +116,7 @@
       "ticks": 300,
       "sparse_fields": false,
       "off": {
-        "ms_per_tick": 12.2216,
+        "ms_per_tick": 12.6658,
         "N_end": 128,
         "channels": [],
         "concurrency": 1,
@@ -124,7 +124,7 @@
         "mem_field_MB": 0.0
       },
       "on": {
-        "ms_per_tick": 12.9456,
+        "ms_per_tick": 12.8697,
         "N_end": 128,
         "channels": [
           "food"
@@ -135,18 +135,18 @@
         "downsample_eff": 8,
         "updates": 80,
         "per_tick_ms": {
-          "decay": 0.0439,
-          "inject": 0.0782,
-          "coarse_lap": 0.0405
+          "decay": 0.0424,
+          "inject": 0.0813,
+          "coarse_lap": 0.0416
         },
         "inj_cells_last": 12805,
-        "read_ms_per_call": 0.0465,
+        "read_ms_per_call": 0.0485,
         "read_cells": 128,
-        "to_full_ms_per_call": 25.265
+        "to_full_ms_per_call": 22.242
       },
-      "delta_ms_per_tick": 0.724,
-      "rel": 0.0592,
-      "share_of_off_pct": 5.92
+      "delta_ms_per_tick": 0.2039,
+      "rel": 0.0161,
+      "share_of_off_pct": 1.61
     },
     {
       "case": "D N≈2000（480×960，四通道）",
@@ -166,7 +166,7 @@
       "ticks": 300,
       "sparse_fields": false,
       "off": {
-        "ms_per_tick": 12.2762,
+        "ms_per_tick": 12.9851,
         "N_end": 128,
         "channels": [],
         "concurrency": 1,
@@ -174,7 +174,7 @@
         "mem_field_MB": 0.0
       },
       "on": {
-        "ms_per_tick": 12.8431,
+        "ms_per_tick": 13.5209,
         "N_end": 128,
         "channels": [
           "food",
@@ -188,18 +188,18 @@
         "downsample_eff": 8,
         "updates": 80,
         "per_tick_ms": {
-          "decay": 0.1759,
-          "inject": 0.0987,
-          "coarse_lap": 0.0645
+          "decay": 0.1797,
+          "inject": 0.1045,
+          "coarse_lap": 0.064
         },
         "inj_cells_last": 13115,
-        "read_ms_per_call": 0.0741,
+        "read_ms_per_call": 0.057,
         "read_cells": 128,
-        "to_full_ms_per_call": 61.561
+        "to_full_ms_per_call": 64.944
       },
-      "delta_ms_per_tick": 0.5669,
-      "rel": 0.0462,
-      "share_of_off_pct": 4.62
+      "delta_ms_per_tick": 0.5358,
+      "rel": 0.0413,
+      "share_of_off_pct": 4.13
     },
     {
       "case": "E 小世界冒烟（60×120，四通道）",
@@ -219,7 +219,7 @@
       "ticks": 1200,
       "sparse_fields": false,
       "off": {
-        "ms_per_tick": 1.3059,
+        "ms_per_tick": 1.294,
         "N_end": 35,
         "channels": [],
         "concurrency": 1,
@@ -227,7 +227,7 @@
         "mem_field_MB": 0.0
       },
       "on": {
-        "ms_per_tick": 1.3463,
+        "ms_per_tick": 1.3876,
         "N_end": 35,
         "channels": [
           "food",
@@ -241,18 +241,18 @@
         "downsample_eff": 6,
         "updates": 305,
         "per_tick_ms": {
-          "decay": 0.0038,
-          "inject": 0.0169,
-          "coarse_lap": 0.024
+          "decay": 0.0032,
+          "inject": 0.0186,
+          "coarse_lap": 0.0243
         },
         "inj_cells_last": 907,
-        "read_ms_per_call": 0.0305,
+        "read_ms_per_call": 0.031,
         "read_cells": 35,
-        "to_full_ms_per_call": 0.813
+        "to_full_ms_per_call": 0.864
       },
-      "delta_ms_per_tick": 0.0404,
-      "rel": 0.0309,
-      "share_of_off_pct": 3.09
+      "delta_ms_per_tick": 0.0936,
+      "rel": 0.0723,
+      "share_of_off_pct": 7.23
     },
     {
       "case": "F N=0 + 稀疏化开（480×960，四通道）",
@@ -272,7 +272,7 @@
       "ticks": 1200,
       "sparse_fields": true,
       "off": {
-        "ms_per_tick": 0.1851,
+        "ms_per_tick": 0.1787,
         "N_end": 0,
         "channels": [],
         "concurrency": 1,
@@ -280,7 +280,7 @@
         "mem_field_MB": 0.0
       },
       "on": {
-        "ms_per_tick": 0.6455,
+        "ms_per_tick": 0.6418,
         "N_end": 0,
         "channels": [
           "food",
@@ -294,18 +294,18 @@
         "downsample_eff": 8,
         "updates": 305,
         "per_tick_ms": {
-          "decay": 0.1672,
-          "inject": 0.0789,
-          "coarse_lap": 0.058
+          "decay": 0.1719,
+          "inject": 0.0845,
+          "coarse_lap": 0.0579
         },
         "inj_cells_last": 12805,
-        "read_ms_per_call": 0.0957,
+        "read_ms_per_call": 0.1094,
         "read_cells": 1000,
-        "to_full_ms_per_call": 74.961
+        "to_full_ms_per_call": 73.627
       },
-      "delta_ms_per_tick": 0.4604,
-      "rel": 2.4873,
-      "share_of_off_pct": 248.73
+      "delta_ms_per_tick": 0.4631,
+      "rel": 2.5915,
+      "share_of_off_pct": 259.15
     }
   ]
 }

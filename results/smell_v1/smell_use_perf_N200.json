@@ -1,0 +1,47 @@
+{
+  "[R244·§二·云端开发·云启]": "气味场消费端配对实测（三臂，pop_init=200）",
+  "field_off": {
+    "ms_per_tick": 11.2579,
+    "N_end": 21,
+    "channels": [],
+    "concurrency": 1,
+    "sparse_fields": false,
+    "mem_field_MB": 0.0
+  },
+  "field_on_use_off": {
+    "ms_per_tick": 11.9289,
+    "N_end": 21,
+    "channels": [
+      "food",
+      "prey",
+      "risk",
+      "kin"
+    ],
+    "concurrency": 1,
+    "sparse_fields": false,
+    "mem_field_MB": 14.746,
+    "downsample_eff": 8,
+    "updates": 80,
+    "per_tick_ms": {
+      "decay": 0.1678,
+      "inject": 0.098,
+      "coarse_lap": 0.0712
+    },
+    "inj_cells_last": 12857,
+    "read_ms_per_call": 0.0468,
+    "read_cells": 21,
+    "to_full_ms_per_call": 65.065
+  },
+  "field_on_use_on": {
+    "ms_per_tick": 11.6658,
+    "N_end": 34,
+    "read_cells": 0,
+    "hat_clip_n": 5797,
+    "concurrency": 1,
+    "use_in_move": true
+  },
+  "delta_field_ms": 0.671,
+  "delta_use_ms": -0.2631,
+  "delta_total_ms": 0.4079,
+  "rel_use_pct": -2.21
+}
