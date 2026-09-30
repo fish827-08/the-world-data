@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "rows": 480,
+    "cols": 960,
+    "patches": 1700,
+    "pop": 10000,
+    "seeds": "168",
+    "ticks": 60000,
+    "sample": 2000,
+    "rgm": 1.195,
+    "bg_low_prod_frac": 0.4,
+    "bg_low_cap_mult": 0.05,
+    "arms": "off",
+    "weight_gene": false,
+    "out": "results/s168_off_v3.csv",
+    "append": false,
+    "resume_sample": true,
+    "save_every": 2000,
+    "snapshot_dir": "_rerun_logs/snap",
+    "keep_ckpt": true
+  },
+  "runs": [
+    {
+      "seed": 168,
+      "arm": "mem_off",
+      "stop": "ticks",
+      "K_final": 9854,
+      "bg_resid_frac": 0.054599,
+      "never_visited_patch_cell_frac": 0.630817,
+      "l1_visited_patch_frac": 0.5898203592814372,
+      "cap_lost_frac": 0.0630151437118649,
+      "wall_s": 2045.3
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# S3 探针 v3：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 ticks=60000 seeds=[168] arms=['off'] bg_low_frac=0.4 bg_low_mult=0.05 weight_gene=False append=False resume_sample=False save_every=2000
+# S3 探针 v3：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 ticks=60000 seeds=[168] arms=['off'] bg_low_frac=0.4 bg_low_mult=0.05 weight_gene=False append=False resume_sample=True save_every=2000
+# sample 级续跑：1/1 个 run 有快照 ⇒ 接续；其余首跑（快照目录 _rerun_logs/snap）
+# flushed seed=168 arm=mem_off rows=18 (接续自快照)
+# done seed=168 arm=off stop=ticks K=9854 wall=2045s
+# 摘要 -> results/s168_off_v3.summary.json
+DONE
