@@ -1,0 +1,304 @@
+{
+  "metas": [
+    {
+      "seed": 173,
+      "arm": "sm_on",
+      "patch_centroid": "(399,618)",
+      "init_dist_mean": 18.79,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 3,
+      "elapsed_sec": 8.3
+    },
+    {
+      "seed": 174,
+      "arm": "sm_on",
+      "patch_centroid": "(170,64)",
+      "init_dist_mean": 18.78,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 3,
+      "elapsed_sec": 8.1
+    },
+    {
+      "seed": 175,
+      "arm": "sm_on",
+      "patch_centroid": "(359,856)",
+      "init_dist_mean": 18.79,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 1,
+      "elapsed_sec": 8.6
+    },
+    {
+      "seed": 176,
+      "arm": "sm_on",
+      "patch_centroid": "(106,699)",
+      "init_dist_mean": 18.8,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 2,
+      "elapsed_sec": 9.2
+    },
+    {
+      "seed": 177,
+      "arm": "sm_on",
+      "patch_centroid": "(331,117)",
+      "init_dist_mean": 18.78,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 1,
+      "elapsed_sec": 8.9
+    },
+    {
+      "seed": 178,
+      "arm": "sm_on",
+      "patch_centroid": "(269,568)",
+      "init_dist_mean": 18.78,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 1,
+      "elapsed_sec": 7.7
+    },
+    {
+      "seed": 179,
+      "arm": "sm_on",
+      "patch_centroid": "(471,504)",
+      "init_dist_mean": 18.78,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 1,
+      "elapsed_sec": 8.5
+    },
+    {
+      "seed": 180,
+      "arm": "sm_on",
+      "patch_centroid": "(115,42)",
+      "init_dist_mean": 18.79,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 2,
+      "elapsed_sec": 9.4
+    },
+    {
+      "seed": 173,
+      "arm": "sm_off",
+      "patch_centroid": "(399,618)",
+      "init_dist_mean": 18.79,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 4,
+      "elapsed_sec": 8.3
+    },
+    {
+      "seed": 174,
+      "arm": "sm_off",
+      "patch_centroid": "(170,64)",
+      "init_dist_mean": 18.78,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 1,
+      "elapsed_sec": 8.5
+    },
+    {
+      "seed": 175,
+      "arm": "sm_off",
+      "patch_centroid": "(359,856)",
+      "init_dist_mean": 18.79,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 2,
+      "elapsed_sec": 8.1
+    },
+    {
+      "seed": 176,
+      "arm": "sm_off",
+      "patch_centroid": "(106,699)",
+      "init_dist_mean": 18.8,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 6,
+      "elapsed_sec": 7.8
+    },
+    {
+      "seed": 177,
+      "arm": "sm_off",
+      "patch_centroid": "(331,117)",
+      "init_dist_mean": 18.78,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 3,
+      "elapsed_sec": 8.2
+    },
+    {
+      "seed": 178,
+      "arm": "sm_off",
+      "patch_centroid": "(269,568)",
+      "init_dist_mean": 18.78,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 2,
+      "elapsed_sec": 8.1
+    },
+    {
+      "seed": 179,
+      "arm": "sm_off",
+      "patch_centroid": "(471,504)",
+      "init_dist_mean": 18.78,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 1,
+      "elapsed_sec": 7.3
+    },
+    {
+      "seed": 180,
+      "arm": "sm_off",
+      "patch_centroid": "(115,42)",
+      "init_dist_mean": 18.79,
+      "init_dist_median": 15.02,
+      "placement": "stratified",
+      "rings": [
+        5,
+        10,
+        20,
+        40
+      ],
+      "per_ring": 250,
+      "n_placed": 1000,
+      "final_pop": 2,
+      "elapsed_sec": 7.9
+    }
+  ],
+  "n_summary_rows": 160,
+  "n_track_rows": 1415,
+  "config": {
+    "seeds": "173,174,175,176,177,178,179,180",
+    "ticks": 500,
+    "sample": 50,
+    "track_every": 10,
+    "arms": "both",
+    "out": "results/batch_a2_fuzziness.csv",
+    "track_out": "results/batch_a2_track.csv",
+    "append": false
+  }
+}
