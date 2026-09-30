@@ -1,0 +1,12 @@
+# S3 探针 v2：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 ticks=2000 seeds=[169, 170] arms=['on', 'off'] bg_low_frac=0.4 bg_low_mult=0.05 weight_gene=True append=False
+# flushed seed=169 arm=mem_on rows=8
+# done seed=169 arm=on stop=ticks K=5825 wall=778s
+  ⚠️ weight_gene=True 但本臂 memory_v2=False ⇒ g22 不被消费（= 漂变对照，符合 S3.5 设计）。
+# flushed seed=169 arm=mem_off rows=8
+# done seed=169 arm=off stop=ticks K=6495 wall=154s
+# flushed seed=170 arm=mem_on rows=8
+# done seed=170 arm=on stop=ticks K=1116 wall=289s
+  ⚠️ weight_gene=True 但本臂 memory_v2=False ⇒ g22 不被消费（= 漂变对照，符合 S3.5 设计）。
+# flushed seed=170 arm=mem_off rows=8
+# done seed=170 arm=off stop=ticks K=1085 wall=115s
+# 摘要 -> _rerun_logs/s35b/s35b_c.summary.json
