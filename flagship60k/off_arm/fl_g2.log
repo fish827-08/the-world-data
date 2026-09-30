@@ -1,0 +1,6 @@
+# S3 探针 v2：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 ticks=60000 seeds=[169, 170] arms=['off'] bg_low_frac=0.4 bg_low_mult=0.05 weight_gene=False append=False
+# flushed seed=169 arm=mem_off rows=30
+# done seed=169 arm=off stop=ticks K=12143 wall=3965s
+# flushed seed=170 arm=mem_off rows=30
+# done seed=170 arm=off stop=ticks K=20780 wall=2435s
+# 摘要 -> results/fl_g2.summary.json

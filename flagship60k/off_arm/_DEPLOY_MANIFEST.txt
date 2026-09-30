@@ -1,0 +1,24 @@
+# 旗舰 60k · off 臂部署清单（R288 §二-1 执行序）
+deployed_by: yungui
+role: 云端开发·云归
+machine: 云归沙盒（32 vCPU / 126GB RAM）
+frozen_commit: 8efb606
+frozen_commit_desc: docs: [所有者·天平] R286 旗舰 60k 派工单
+deploy_path: /root/world/flagship60k
+started_at: 2026-09-30 17:17 (+ seed165 自 16:31 起)
+arm: off (memv2 关 = 漂变对照)
+seeds: 165-172 (8 seed)
+device: rows=480 cols=960 patches=1700 pop=10000 ticks=60000 sample=2000
+        rgm=1.195 bg_low_prod_frac=0.4 bg_low_cap_mult=0.05
+processes: 4
+  - seed165: results/_alive_test.csv → 硬链接 results/fl_s165_off.csv（R288 §二-1 直接转正式）
+  - g1 [166,167,168]: results/fl_g1.csv
+  - g2 [169,170]:     results/fl_g2.csv
+  - g3 [171,172]:     results/fl_g3.csv
+env: OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1
+watchdog: /root/flagship_watchdog.sh (tmux fl_wd, 90s 自检, 家目录规避 /tmp 清理)
+tail: /root/flagship_watchdog.log
+note: |
+  * 15min 清理周期未见复现（seed165 存活 >45min 实测中）
+  * --append 为 run 级续跑（T2 sample 级续跑待落地）⇒ 中断会让整个 run 归零
+  * 4 进程并行甜点（8 进程有 2x 稀释），已按均衡分配（3/2/2 + 165）

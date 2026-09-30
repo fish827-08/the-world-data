@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "rows": 480,
+    "cols": 960,
+    "patches": 1700,
+    "pop": 10000,
+    "seeds": "166,167,168",
+    "ticks": 60000,
+    "sample": 2000,
+    "rgm": 1.195,
+    "bg_low_prod_frac": 0.4,
+    "bg_low_cap_mult": 0.05,
+    "arms": "off",
+    "weight_gene": false,
+    "out": "results/fl_g1.csv",
+    "append": false
+  },
+  "runs": [
+    {
+      "seed": 166,
+      "arm": "mem_off",
+      "stop": "ticks",
+      "K_final": 12034,
+      "bg_resid_frac": 0.064986,
+      "never_visited_patch_cell_frac": 0.59795,
+      "l1_visited_patch_frac": 0.6076335877862595,
+      "cap_lost_frac": 0.06594242808119244,
+      "wall_s": 3925.9
+    },
+    {
+      "seed": 167,
+      "arm": "mem_off",
+      "stop": "ticks",
+      "K_final": 393,
+      "bg_resid_frac": 0.109956,
+      "never_visited_patch_cell_frac": 0.651611,
+      "l1_visited_patch_frac": 0.6378915202444614,
+      "cap_lost_frac": -0.096011343189212,
+      "wall_s": 1350.8
+    }
+  ]
+}
