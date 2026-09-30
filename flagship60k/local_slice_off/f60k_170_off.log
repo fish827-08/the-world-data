@@ -1,0 +1,4 @@
+# S3 探针 v3：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 ticks=60000 seeds=[170] arms=['off'] bg_low_frac=0.4 bg_low_mult=0.05 weight_gene=False append=False resume_sample=False save_every=2000
+# flushed seed=170 arm=mem_off rows=30
+# done seed=170 arm=off stop=ticks K=19082 wall=7060s
+# 摘要 -> C:\Users\圣羽\Desktop\temp\tempCode\the-world\_rerun_logs\flagship60k_local\results\f60k_170_off.summary.json

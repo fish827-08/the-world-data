@@ -1,0 +1,7 @@
+deploy=git_archive
+source_commit=f595c32
+branch=main
+deployed_by=tianping
+deployed_at=2026-09-30T19:35+08:00
+tree=_rerun_logs/flagship60k_local
+experiment=flagship60k slice2 (seeds 169-172, on+off, local machine)
