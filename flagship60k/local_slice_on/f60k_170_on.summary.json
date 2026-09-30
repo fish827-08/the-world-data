@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "rows": 480,
+    "cols": 960,
+    "patches": 1700,
+    "pop": 10000,
+    "seeds": "170",
+    "ticks": 60000,
+    "sample": 2000,
+    "rgm": 1.195,
+    "bg_low_prod_frac": 0.4,
+    "bg_low_cap_mult": 0.05,
+    "arms": "on",
+    "weight_gene": true,
+    "out": "C:\\Users\\圣羽\\Desktop\\temp\\tempCode\\the-world\\_rerun_logs\\flagship60k_on\\results\\f60k_170_on.csv",
+    "append": false,
+    "resume_sample": false,
+    "save_every": 2000,
+    "snapshot_dir": "C:\\Users\\圣羽\\Desktop\\temp\\tempCode\\the-world\\_rerun_logs\\flagship60k_on\\results\\snap",
+    "keep_ckpt": false
+  },
+  "runs": [
+    {
+      "seed": 170,
+      "arm": "mem_on",
+      "stop": "ticks",
+      "K_final": 23496,
+      "bg_resid_frac": 0.81369,
+      "never_visited_patch_cell_frac": 0.203115,
+      "l1_visited_patch_frac": 0.9454958364875095,
+      "cap_lost_frac": -0.09401887797611885,
+      "wall_s": 13114.6
+    }
+  ]
+}
