@@ -1,0 +1,22 @@
+# S3 探针 v2：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 ticks=2000 seeds=[161, 162, 163, 164] arms=['on', 'off'] bg_low_frac=0.4 bg_low_mult=0.05 weight_gene=True append=False
+# flushed seed=161 arm=mem_on rows=8
+# done seed=161 arm=on stop=ticks K=1266 wall=297s
+  ⚠️ weight_gene=True 但本臂 memory_v2=False ⇒ g22 不被消费（= 漂变对照，符合 S3.5 设计）。
+# flushed seed=161 arm=mem_off rows=8
+# done seed=161 arm=off stop=ticks K=1109 wall=111s
+# flushed seed=162 arm=mem_on rows=8
+# done seed=162 arm=on stop=ticks K=5601 wall=551s
+  ⚠️ weight_gene=True 但本臂 memory_v2=False ⇒ g22 不被消费（= 漂变对照，符合 S3.5 设计）。
+# flushed seed=162 arm=mem_off rows=8
+# done seed=162 arm=off stop=ticks K=5937 wall=141s
+# flushed seed=163 arm=mem_on rows=8
+# done seed=163 arm=on stop=ticks K=6076 wall=550s
+  ⚠️ weight_gene=True 但本臂 memory_v2=False ⇒ g22 不被消费（= 漂变对照，符合 S3.5 设计）。
+# flushed seed=163 arm=mem_off rows=8
+# done seed=163 arm=off stop=ticks K=6384 wall=141s
+# flushed seed=164 arm=mem_on rows=8
+# done seed=164 arm=on stop=ticks K=5347 wall=514s
+  ⚠️ weight_gene=True 但本臂 memory_v2=False ⇒ g22 不被消费（= 漂变对照，符合 S3.5 设计）。
+# flushed seed=164 arm=mem_off rows=8
+# done seed=164 arm=off stop=ticks K=5303 wall=127s
+# 摘要 -> _rerun_logs/s35/s35_d.summary.json
