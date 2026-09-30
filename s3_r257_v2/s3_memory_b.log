@@ -1,0 +1,98 @@
+# S3 探针 v2：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 ticks=2000 seeds=[113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124] arms=['on', 'off'] bg_low_frac=0.4 bg_low_mult=0.05 append=False
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=113 arm=mem_on rows=8
+# done seed=113 arm=on stop=ticks K=5788 wall=1545s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=113 arm=mem_off rows=8
+# done seed=113 arm=off stop=ticks K=5853 wall=229s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=114 arm=mem_on rows=8
+# done seed=114 arm=on stop=ticks K=5627 wall=1606s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=114 arm=mem_off rows=8
+# done seed=114 arm=off stop=ticks K=6035 wall=249s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=115 arm=mem_on rows=8
+# done seed=115 arm=on stop=ticks K=4678 wall=1473s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=115 arm=mem_off rows=8
+# done seed=115 arm=off stop=ticks K=4819 wall=232s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=116 arm=mem_on rows=8
+# done seed=116 arm=on stop=ticks K=5488 wall=1633s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=116 arm=mem_off rows=8
+# done seed=116 arm=off stop=ticks K=5717 wall=235s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=117 arm=mem_on rows=8
+# done seed=117 arm=on stop=ticks K=1050 wall=6470s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=117 arm=mem_off rows=8
+# done seed=117 arm=off stop=ticks K=904 wall=5737s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=118 arm=mem_on rows=8
+# done seed=118 arm=on stop=ticks K=5381 wall=1493s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=118 arm=mem_off rows=8
+# done seed=118 arm=off stop=ticks K=5503 wall=219s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=119 arm=mem_on rows=8
+# done seed=119 arm=on stop=ticks K=1180 wall=6120s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=119 arm=mem_off rows=8
+# done seed=119 arm=off stop=ticks K=957 wall=5307s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=120 arm=mem_on rows=8
+# done seed=120 arm=on stop=ticks K=4626 wall=784s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=120 arm=mem_off rows=8
+# done seed=120 arm=off stop=ticks K=5115 wall=143s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=121 arm=mem_on rows=8
+# done seed=121 arm=on stop=ticks K=6048 wall=897s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=121 arm=mem_off rows=8
+# done seed=121 arm=off stop=ticks K=6348 wall=157s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=122 arm=mem_on rows=8
+# done seed=122 arm=on stop=ticks K=5902 wall=876s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=122 arm=mem_off rows=8
+# done seed=122 arm=off stop=ticks K=5986 wall=147s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=123 arm=mem_on rows=8
+# done seed=123 arm=on stop=ticks K=5524 wall=844s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=123 arm=mem_off rows=8
+# done seed=123 arm=off stop=ticks K=5760 wall=148s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=124 arm=mem_on rows=8
+# done seed=124 arm=on stop=ticks K=6139 wall=908s
+🔴 离散化饱和告警（速率过程每 tick 概率，K·p > 0.5）：
+   · smell.diffuse ×k=2.5 ⇒ 0.300 超拉普拉斯稳定域 ⇒ clamp 0.25（R265）
+# flushed seed=124 arm=mem_off rows=8
+# done seed=124 arm=off stop=ticks K=6225 wall=152s
+# 摘要 -> results/s3_memory_b.summary.json
