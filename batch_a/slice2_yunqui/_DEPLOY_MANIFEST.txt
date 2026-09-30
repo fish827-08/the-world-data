@@ -1,0 +1,15 @@
+# 批 A 分片 2 部署清单（R276 派工）
+deployed_by: yungui
+role: 云端开发·云归
+machine: 云归沙盒（WorkBuddy sandbox；32 vCPU / 123GB RAM）
+frozen_commit: 29c94e1
+frozen_commit_desc: docs: [所有者·天平] R276 修订 S3.5 预注册：补 --weight-gene 装置条款
+deploy_path: /root/world/batch_a2
+created_at: 2026-09-30 12:3x
+seed_range: 137-148 (12 seeds)
+arms: sm_on / sm_off
+device: rows=480 cols=960 patches=1700 pop=10000 ticks=2000 sample=250 rgm=1.195
+        bg_low_prod_frac=0.4 bg_low_cap_mult=0.05 --arms on
+smell: --smell-channels food,prey --use-in-move (仅 sm_on)
+processes: 4 (sm_on_s1=137-142 / sm_on_s2=143-148 / sm_off_s1=137-142 / sm_off_s2=143-148)
+note: 冻结树取自 git archive（无 .git）；产物 results/*.csv + *.log 入数据仓 batch_a/
