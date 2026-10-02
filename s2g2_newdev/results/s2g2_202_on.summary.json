@@ -1,0 +1,67 @@
+{
+  "params": {
+    "rows": 480,
+    "cols": 960,
+    "patches": 1700,
+    "pop": 10000,
+    "seeds": "202",
+    "ticks": 40000,
+    "sample": 250,
+    "rgm": 1.195,
+    "bg_low_prod_frac": 0.0,
+    "bg_low_cap_mult": 0.0,
+    "sparse_fields": true,
+    "smell_channels": "",
+    "use_in_move": false,
+    "arms": "on",
+    "out": "C:\\Users\\圣羽\\Desktop\\temp\\tempCode\\the-world\\_rerun_logs\\s2g2_newdev\\results\\s2g2_202_on.csv",
+    "device": "s2"
+  },
+  "summary": [
+    {
+      "seed": 202,
+      "arm": "on",
+      "stop": "tick 用尽",
+      "K_final": 11355,
+      "global_sat": 0.6687225130668161,
+      "cap_lost_frac": 0.0,
+      "patch_sat_init_var": 0.15256948669942633,
+      "patch_sat_init_var_tail": 0.151188,
+      "patch_sat_var": 0.15256948669942633,
+      "patch_sat_var_tail": 0.151188,
+      "patch_abs_food_var": 1797516.712447438,
+      "patch_sat_range": 1.0,
+      "n_patches": 1335,
+      "d_starv": 453003,
+      "d_pred": 809274,
+      "wall_s": 5289.7,
+      "l0_peak_dead": 13799,
+      "l0_peak_rest": 1121,
+      "l0_peak_demoted": 0,
+      "l0_any_dead": 40000,
+      "l0_any_rest": 40000,
+      "l0_any_demoted": 0,
+      "l1_visited_patch_n": 824,
+      "l1_visited_patch_frac": 0.6172284644194757,
+      "l1_first_visit_median": 1.0,
+      "l2_visited_gini": 0.5343495089116024,
+      "l2_visited_var": 1803683.208500387,
+      "l2_total_var": 1797516.7124474386,
+      "l2_between_share": 0.07920558016872715,
+      "l2_visited_frac": 0.6172284644194757,
+      "l3_forage_sum": 1032140026.551,
+      "l3_intake_per_capita": 2.6974462061881264,
+      "l3_net_sum": 249757626.56600007,
+      "l3_net_per_capita": 0.6527290337709992,
+      "l3_pop_mean": 9565.9
+    }
+  ],
+  "criterion_2": {
+    "per_seed": {},
+    "overall": {
+      "off_var_init_mean": null,
+      "on_var_init_mean": null,
+      "verdict_on_gt_off_init": null
+    }
+  }
+}

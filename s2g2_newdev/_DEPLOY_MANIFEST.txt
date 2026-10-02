@@ -1,0 +1,31 @@
+S2 判据② 新装置档批 —— 冻结树部署清单
+=====================================
+
+树源 commit : 4059f24  ([所有者·天平] R330b S2 探针真正的逐行落盘)
+建树时间    : 2026-10-02 15:02
+建树方式    : git archive 4059f24 | tar -x -C _rerun_logs/s2g2_newdev
+sim_core    : **无 .so**（冻结树正常；且 s2 探针显式 use_sim_core=False ⇒ 全批 Python 路径，
+              与云启 R330 报的"LT 双路径非逐位"无关）
+
+本树关键代码状态
+----------------
+- experiments/s2_depletion_probe.py
+    · `_tail_mean(..., n=20)`（R330：末段窗口 3→20 行，覆盖最后 5000 tick）
+    · `run_one(..., on_row=None)` + 采样点即时回调 `_emit`（R330b：真正的逐行落盘）
+- 装置档：--device s2 ⇒ bg_low_prod_frac=0.0 / bg_low_cap_mult=0.0（R326 撤绿洲带）
+
+批参数（= 预注册稿 v3）
+----------------------
+rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 bg_low=0.0/0.0
+ticks=40000 sample=250
+seeds=201,202,203,204,205,206
+arms=off,on  (rd 关/开；唯一变量 = 局部可耗竭)
+par=6  (2026-10-02 实测：6 路总吞吐 78.2 tick/s = 最优；9 路 78.1 = 平台，无收益)
+
+判据（预注册，开跑前锁定）
+--------------------------
+主判据：`patch_sat_init_var_tail`（末段 20 行均值）**全部 6 个 seed 均 on > off**（6/6，p=0.031）
+        5/6 ⇒ 判"弱、不成立，须追加 seed"；≤4/6 ⇒ 判负
+必要条件：on 臂 `patch_sat_init_var_tail > 0`
+支持判据：l1_visited_patch_frac (on>off) / patch_sat_mean (on<off) / pop (on≤off 且降幅≤50%)
+判读前必做：先按 K 轨迹刻画吸引子（R243 遗留要求，禁多数票 pass/fail）
