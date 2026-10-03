@@ -1,0 +1,103 @@
+{
+ "probe": "p1c_distance_probe",
+ "argv": [
+  "--seed",
+  "207",
+  "--ticks",
+  "60",
+  "--sample",
+  "20",
+  "--out",
+  "_trash_local/p1c/smoke_s207_t60.csv"
+ ],
+ "seed": 207,
+ "ticks": 60,
+ "sample": 20,
+ "extinct_at": null,
+ "readback": {
+  "signal_alphabet": "8",
+  "memory_v2": false,
+  "info_structure_enabled": false,
+  "rd_enabled": false,
+  "use_sim_core": false,
+  "subpos_enabled": true,
+  "sparse_cli": false,
+  "rows": 480,
+  "cols": 960,
+  "patches": 1700,
+  "max_count": 30000,
+  "rgm": 1.195,
+  "bg_low_prod_frac": 0.0,
+  "bg_cap_mult": 0.0,
+  "initial_pop": 10000,
+  "notes": "{'signals_duration': 20, 'saturation_warnings': [], 'k': 2.5}"
+ },
+ "per_sample": [
+  {
+   "n_agents": 4885,
+   "n_slots": 3753,
+   "frac_empty": 0.8079324462640737,
+   "d_med": 0.0,
+   "d_p90": 0.9814183946442924,
+   "d_p99": 1.359738990933951,
+   "d_mean": 0.14178372096873965,
+   "d_max": 1.414212300278688,
+   "frac_d0": 0.8470556887823075,
+   "frac_dle1": 0.9597655209166001,
+   "frac_dle15": 1.0,
+   "frac_read_moore": 1.0,
+   "tick": 20,
+   "ms_per_tick_window": 119.88
+  },
+  {
+   "n_agents": 1276,
+   "n_slots": 3664,
+   "frac_empty": 0.2821316614420063,
+   "d_med": 0.0,
+   "d_p90": 1.0000000000000075,
+   "d_p99": 1.4055335031475724,
+   "d_mean": 0.26204427513055006,
+   "d_max": 1.4141517213200712,
+   "frac_d0": 0.7287117903930131,
+   "frac_dle1": 0.9230349344978166,
+   "frac_dle15": 1.0,
+   "frac_read_moore": 1.0,
+   "tick": 40,
+   "ms_per_tick_window": 54.96
+  },
+  {
+   "n_agents": 911,
+   "n_slots": 3496,
+   "frac_empty": 0.040614709110867175,
+   "d_med": 0.0,
+   "d_p90": 1.000000000000014,
+   "d_p99": 1.4055335031475729,
+   "d_mean": 0.3215929584667437,
+   "d_max": 1.4141517213200712,
+   "frac_d0": 0.6639016018306636,
+   "frac_dle1": 0.9090389016018307,
+   "frac_dle15": 1.0,
+   "frac_read_moore": 1.0,
+   "tick": 60,
+   "ms_per_tick_window": 37.38
+  }
+ ],
+ "pooled": {
+  "n_samples": 3,
+  "n_dist_pairs": 10913,
+  "d_med": 0.0,
+  "d_p90": 1.0000000000000056,
+  "d_p99": 1.4055335031475495,
+  "d_mean": 0.23976299016528466,
+  "d_max": 1.414212300278688,
+  "frac_d0": 0.7486484009896454,
+  "frac_dle1": 0.9311829927609273,
+  "frac_dle15": 1.0,
+  "frac_read_moore": 1.0
+ },
+ "notes": [
+  "口径A = 定稿字面：球面大圆距离 ≤1.0 格（单位=1 纬度格宽）",
+  "口径B = 引擎真值：记忆格 ∈ Moore 8 邻（行内 mem_in_nb 口径，含极点带特判）",
+  "纯测量，不预设结论；分支判读由天平据 §5.1 P1-c 条款执行"
+ ]
+}

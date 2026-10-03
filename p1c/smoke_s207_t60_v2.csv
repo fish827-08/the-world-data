@@ -1,0 +1,3 @@
+tick,n_agents,n_slots,frac_empty,d_med,d_p90,d_p99,d_mean,d_max,frac_d0,frac_dle1,frac_dle15,frac_read_moore,ms_per_tick_window,pos_n_slots,pos_d_med,pos_d_p90,pos_frac_dle1,pos_frac_read_moore
+30,2479,3751,0.6217,0.0,1.0,1.3979,0.2183,1.4142,0.771,0.9334,1.0,1.0,87.61,859,1.0,1.3413,0.709,1.0
+60,911,3496,0.0406,0.0,1.0,1.4055,0.3216,1.4142,0.6639,0.909,1.0,1.0,32.22,1175,1.0,1.3313,0.7294,1.0
