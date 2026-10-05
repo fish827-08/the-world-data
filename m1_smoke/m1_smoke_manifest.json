@@ -40,8 +40,8 @@
     "213": 287,
     "214": 286
   },
-  "started": "2026-10-05 20:2x",
-  "finished": "2026-10-05 20:5x (Asia/Shanghai)",
+  "started": "2026-10-05 19:2x",
+  "finished": "2026-10-05 19:4x (Asia/Shanghai)",
   "readout": "docs/判读稿-M1-SMOKE-20261005.md（主仓 task/M1-SMOKE）；tools/m1_smoke_readout.py",
   "signed_by": "砚 <yan@the-world.local>"
 }
