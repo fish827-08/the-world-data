@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "rows": 480,
+    "cols": 960,
+    "patches": 1700,
+    "pop": 10000,
+    "seeds": "209",
+    "ticks": 2000,
+    "sample": 100,
+    "rgm": 1.195,
+    "bg_low_prod_frac": 0.0,
+    "bg_low_cap_mult": 0.0,
+    "arms": "off",
+    "weight_gene": false,
+    "out": "C:/Users/圣羽/Desktop/temp/tempCode/the-world/the-world-data/m1_smoke/m1_smoke_d1700_s209_t2000.csv",
+    "append": false,
+    "resume_sample": false,
+    "save_every": 0,
+    "snapshot_dir": "_rerun_logs\\snap",
+    "keep_ckpt": false,
+    "home_range": false,
+    "hr_pairs": false,
+    "perturb": "none",
+    "perturb_every": 0,
+    "perturb_frac": 0.5,
+    "g22_init": null,
+    "m0_instruments": true,
+    "device": "s2"
+  },
+  "runs": [
+    {
+      "seed": 209,
+      "arm": "mem_off",
+      "stop": "ticks",
+      "K_final": 6012,
+      "bg_resid_frac": 0.023477,
+      "never_visited_patch_cell_frac": 0.754817,
+      "l1_visited_patch_frac": 0.5704441041347627,
+      "cap_lost_frac": 0.0,
+      "wall_s": 278.8
+    }
+  ]
+}

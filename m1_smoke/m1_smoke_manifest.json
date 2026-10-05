@@ -1,0 +1,47 @@
+{
+  "batch": "M1-SMOKE",
+  "card": "M1-SMOKE",
+  "epoch": "rd-on + signal_alphabet=16（s3 探针默认装置；与 E-052/Tier-1 p1c rd-off 纪元禁比，R14/R218）",
+  "git": {
+    "repo": "the-world",
+    "commit": "d800ec0",
+    "worktree": ".worktrees/yan_m1_smoke",
+    "branch": "task/M1-SMOKE",
+    "dirty": false
+  },
+  "carrier": "experiments/s3_memory_probe.py --m0-instruments --arms off（A8-CLOSE 载体；偏差披露见判读稿 §二）",
+  "cmd_template": "py -u -m experiments.s3_memory_probe --device s2 --rows 480 --cols 960 --patches 1700 --pop 10000 --rgm 1.195 --bg-low-prod-frac 0.0 --bg-low-cap-mult 0.0 --seeds <S> --ticks 2000 --sample 100 --arms off --m0-instruments --out the-world-data/m1_smoke/m1_smoke_d1700_s<S>_t2000.csv",
+  "seeds": [
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214
+  ],
+  "ticks": 2000,
+  "sample": 100,
+  "concurrency": "本机 4 lane × 2 seed 串行（R378/R385；首发射 8 路误并发 ~40s 全停重排，无混入——判读稿 §三 自纠条）",
+  "pre_flight": {
+    "C1": "m0_instruments 7/7 绿；r287 resume 4 红=Windows 编码断言（非代码/不在 SMOKE 面）",
+    "C2": "6be2dd4..d800ec0 无 simulation/experiments/world 触碰",
+    "C4": "装置回显行+arms/m0 旗标+alphabet fail-loud",
+    "C8": "mem avail 4.83GB/disk 99GB/仪表冒烟先行"
+  },
+  "wall_s": {
+    "207": 272,
+    "208": 272,
+    "209": 279,
+    "210": 277,
+    "211": 287,
+    "212": 290,
+    "213": 287,
+    "214": 286
+  },
+  "started": "2026-10-05 20:2x",
+  "finished": "2026-10-05 20:5x (Asia/Shanghai)",
+  "readout": "docs/判读稿-M1-SMOKE-20261005.md（主仓 task/M1-SMOKE）；tools/m1_smoke_readout.py",
+  "signed_by": "砚 <yan@the-world.local>"
+}
