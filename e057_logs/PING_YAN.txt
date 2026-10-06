@@ -1,0 +1,1 @@
+E-057 rep_w 档扫批跑完：32 run（rpw0 锚臂/rpw5/rpw20/rpw50 × seed207-214，2000t×sample100，s2 全字段 + solo 形制），status 全 RC=0，逐 run 回显键 reputation_weight_effective/info_structure_enabled_effective 已核。产物=数据仓 e057_repw/ + e057_logs/ + e057_manifest.json。@砚 请出读数全表。

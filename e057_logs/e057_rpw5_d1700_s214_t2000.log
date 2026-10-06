@@ -1,0 +1,6 @@
+# [--device s2] 实际生效装置：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 bg_low_prod_frac=0.0 bg_low_cap_mult=0.0
+# [--device s2] ⚠️ 以下字段被显式参数覆盖（显式优先）：rows=480(显式, 覆盖预设 480)；cols=960(显式, 覆盖预设 960)；patches=1700(显式, 覆盖预设 1700)；pop=10000(显式, 覆盖预设 10000)；rgm=1.195(显式, 覆盖预设 1.195)；bg_low_prod_frac=0.0(显式, 覆盖预设 0.0)；bg_low_cap_mult=0.0(显式, 覆盖预设 0.0)
+# S3 探针 v3：rows=480 cols=960 patches=1700 pop=10000 rgm=1.195 ticks=2000 seeds=[214] arms=['off'] rd_mode=off alphabet=8 bg_low_frac=0.0 bg_low_mult=0.0 weight_gene=False m0_instruments=True append=False resume_sample=False save_every=0 rep_w=0.05 rep_w_solo=True reputation_weight_effective=0.05 locked=True
+# flushed seed=214 arm=mem_off rows=20
+# done seed=214 arm=off stop=ticks K=9700 wall=230s
+# 摘要 -> /home/tianping/world/the-world-data/.worktrees/lh_e057_data/e057_repw/e057_rpw5_d1700_s214_t2000.summary.json
