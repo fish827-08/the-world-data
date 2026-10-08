@@ -1,0 +1,1161 @@
+{
+ "ab_check": {
+  "arm_off_digest": [
+   670522,
+   88366.190893
+  ],
+  "arm_off_rng_draws": 23269,
+  "arm_on_digest": [
+   670522,
+   88366.190893
+  ],
+  "arm_on_rng_draws": 23269,
+  "bit_equal": true,
+  "rng_equal": true,
+  "seed": 7
+ },
+ "board_reconcile": {
+  "board_commit": "7ddafa0",
+  "enabled": true,
+  "mismatches": []
+ },
+ "caliber": {
+  "corpse_enabled": "off",
+  "deviation_note": "🔴 与 10-07 v0 装置表**唯一**偏差 = 初始种群：出数批实测用仓库默认 200（非 v0 的 400）；seed7 digest (670522, 88366.190893) + rng_draws 23269 仅在 pop=200 复现，pop=400 实测 (1239687, 150697.441427) / 30820。⇒ 板帖「协议照 v0」在初始种群项不成立，本件按实测档入库；比例结论同档自洽不受影响，绝对量级不与 v0 互比。",
+  "grid": "60x120（7,200 格，仓库默认微型档，非 480×960 正式档）",
+  "initial_count": 200,
+  "patch_count": 30,
+  "predation": "on（默认）",
+  "protocol_source": "记录-ENERGY-CLOSE步A-旧装置逃逸量级前置实测-20261007.md §一",
+  "resource_dynamics": "off",
+  "row_every": 50,
+  "seeds": [
+   7,
+   8,
+   9
+  ],
+  "ticks": 1500,
+  "use_sim_core": false
+ },
+ "channels": {
+  "all": [
+   "dis_meta",
+   "dis_move",
+   "dis_attack",
+   "dis_signal",
+   "esc_death_e",
+   "esc_pred_e",
+   "esc_pred_s"
+  ],
+  "implemented": [
+   "dis_meta",
+   "dis_move",
+   "dis_attack",
+   "dis_signal",
+   "esc_death_e"
+  ],
+  "uninstrumented_read_none": [
+   "esc_pred_e",
+   "esc_pred_s"
+  ]
+ },
+ "env": {
+  "platform": "Windows-11-10.0.26100-SP0",
+  "python": "3.14.7",
+  "sim_core_usable": true
+ },
+ "provenance": {
+  "code_subtrees": {
+   "core": "26a17eeff6abb3d7a79cb24f669b6877",
+   "experiments": "68a17184d1346bba3a6d056add5e08d1",
+   "observatory": "bcc5d3368435f89fd0d015ac8a1883d5",
+   "simulation": "e69d665ded3b4699744b68b76e03e595",
+   "world": "7a8331a0f634848849d27d998bd6847d"
+  },
+  "code_tree_sha256": "6fc10667b934ad252f71765212056138",
+  "config_fingerprint": "{\"action_selection\": {\"base_explore\": 0.2, \"hold_ticks\": 20, \"hyst\": 0.15, \"mode\": \"fusion\", \"w_feed\": 1.0, \"w_flee\": 1.0, \"w_hunger\": 0.5, \"w_join\": 0.5}, \"ars\": {\"enabled\": false, \"fast_tau\": 50.0, \"gain\": 1.0, \"giveup\": 20, \"kappa\": 0.0, \"lat_exempt_deg\": 85.0, \"slow_tau\": 500.0, \"theta\": 0.5}, \"corpse_wound\": {\"contest_cost_energy\": 0.5, \"contest_enabled\": false, \"corpse_cap_per_cell\": 200, \"corpse_decay_ticks\": 600, \"corpse_enabled\": false, \"corpse_energy_frac\": 0.9, \"corpse_patch_boost\": 0.5, \"corpse_pool_unit\": \"energy\", \"corpse_to_plant_frac\": 0.5, \"escalation_gap\": 0.25, \"holder_adv\": 1.2, \"need_aggression_k\": 0.5, \"scav_gate\": 0.5, \"scav_s\": 2.0, \"w_fear_health\": 0.5, \"wound_base\": 0.35, \"wound_enabled\": false, \"wound_fear_threshold\": 0.3, \"wound_heal_energy_cost\": 0.05, \"wound_heal_rate\": 0.001}, \"culture\": {\"food_threshold\": 0.3, \"trust_false\": 0.1, \"trust_true\": 0.05}, \"energy_probe\": {\"enabled\": true, \"max_rows\": 0, \"row_every\": 50}, \"fruit\": {\"charge_rate\": 0.1, \"digest_ratio\": 0.7, \"eat_rate\": 0.05, \"enabled\": false, \"excretion_prob\": 0.1, \"fruit_ratio\": 0.8, \"fruit_threshold\": 10.0, \"germination_prob\": 0.5, \"max_seed_carried\": 5, \"plant_threshold\": 0.5, \"seed_energy\": 5.0, \"seed_intake_prob\": 0.3}, \"genome\": {\"gene_count\": 24, \"gene_max\": 1.0, \"gene_min\": 0.0, \"init_g16_clusters\": \"\", \"mutation_rate\": 0.05, \"mutation_sigma\": 0.05}, \"hunger_mod\": {\"alpha\": 0.5, \"beta\": 0.5, \"enabled\": false, \"h_mid\": 0.5, \"stay_gain\": 0.0}, \"info_structure\": {\"alignment_noise\": 0.02, \"alignment_rate\": 0.1, \"alignment_step\": 0.15, \"arbitrary_codebook\": true, \"codebook_mutation_rate\": 0.02, \"codebook_mutation_sigma\": 0.3, \"enabled\": false, \"learning_bottleneck\": true, \"learning_maturity_ticks\": 1200, \"learning_rate\": 0.15, \"learning_samples_max\": 60, \"measure_signal_response\": false, \"memory_coarse_gain\": 0.15, \"memory_degrade_thr\": 20.0, \"memory_dist_scale\": 15.0, \"memory_gradient\": \"none\", \"memory_gradient_gain\": 0.3, \"memory_noise\": false, \"memory_noise_p\": 0.1, \"memory_ttl\": 1000, \"memory_v2\": false, \"memory_v2_dynamic_centroid\": true, \"memory_weight_gene\": false, \"perception_noise\": 0.05, \"perception_radius\": 4, \"reputation_weight\": 0.0, \"softmax_tau\": 0.15, \"steels_alignment\": true}, \"light\": {\"day_boost\": 6.0, \"lat_base_ref\": 1.0, \"rotation_period\": 2400, \"season_period\": 0, \"t_equator\": 30.0, \"t_pole\": -20.0, \"tilt_rad\": 0.0}, \"migration\": {\"enabled\": false, \"gain\": 50.0, \"min_abs_anomaly\": 0.0}, \"neutral_genes\": false, \"oracle\": {\"allow_non_breakeven\": false, \"donation\": 0.05, \"enabled\": false, \"gain_multiplier\": 1.0, \"gate_delta\": \"content\", \"gate_mode\": \"none\", \"is_calibration_arm\": false, \"persistence\": 10, \"require_food\": true}, \"organisms\": {\"assim_carn\": 1.0, \"assim_herb\": 1.0, \"assim_return_frac\": 1.0, \"base_metabolism\": 0.6, \"dash_cost_exp\": 2.0, \"dash_cost_kappa\": 1.0, \"dash_min_energy_frac\": 0.2, \"eat_amount\": 0.9, \"eat_efficiency\": 3.0, \"eat_threshold_frac\": 0.0, \"energy_cap_enabled\": false, \"exhaust_frac\": 0.0, \"far_cap\": 32, \"growth_mult\": 1.6, \"homeo_upkeep\": 0.15, \"initial_energy\": 60.0, \"lifespan_mult\": 1.0, \"maturity_fraction\": 0.15, \"max_energy\": 300.0, \"move_cost\": 0.4, \"niche_floor\": 0.4, \"niche_gain\": 0.6, \"old_mob_mult\": 0.55, \"photo_max\": 0.1, \"repro_cooldown_gene_scale\": 60.0, \"senile_fraction\": 0.75, \"senile_mult\": 1.4, \"starve_frac\": 0.0, \"stomach_cap_mass\": 0.0, \"young_mob_mult\": 0.55}, \"pleasure\": {\"alone_rpe\": -0.1, \"alpha\": 0.05, \"arousal_decay\": 0.97, \"baseline_rate\": 0.001, \"enabled\": true, \"expectation_size\": 120, \"inheritance_noise\": 0.02, \"max_reward\": 2.0, \"optimism\": 0.8, \"social_rpe\": 0.2, \"valence_decay\": 0.95, \"w_energy\": 0.5, \"w_info\": 0.3, \"w_social\": 0.2}, \"population\": {\"init_patch_frac\": 0.0, \"initial_count\": 200, \"max_count\": 5000, \"soft_cap_target\": 0.0}, \"predation\": {\"attack_cost\": 0.1, \"attack_gene_gate\": 0.3, \"attack_prob_coef\": 0.2, \"enabled\": true, \"forage_tradeoff_k\": 0.0, \"stomach_transfer\": 0.4, \"success_ceil\": 0.9, \"success_floor\": 0.1, \"success_gene_gain\": 0.5, \"transfer_ratio\": 0.4}, \"resource_dynamics\": {\"damage_recovery\": 0.5, \"dead_cell_max_frac\": 0.5, \"dead_regen_ticks\": 2000, \"death_threshold\": 0.8, \"enabled\": false, \"kill_denom\": \"regrowth\", \"kill_frac\": 10.0, \"kill_patch_only\": true, \"rest_threshold\": 0.3, \"rest_ticks\": 60, \"rotate_same_row_only\": true}, \"resources\": {\"background_fill\": 0.1, \"bg_cap_mult\": 0.0, \"bg_low_prod_frac\": 0.0, \"bg_production_zero\": false, \"capacity_per_area\": 40.0, \"distribution\": \"uniform\", \"initial_fill\": 0.5, \"light_normalize\": false, \"light_sensitivity\": 0.0, \"patch_capacity_mult\": 3.0, \"patch_count\": 30, \"patch_radius\": 2, \"patch_regrowth_mult\": 3.0, \"regrowth_rate\": 0.5, \"temp_sensitivity\": 1.0}, \"seed\": 7, \"signal_alphabet\": \"16\", \"signal_disabled\": false, \"signal_mode\": \"state\", \"signals\": {\"duration_ticks\": 50}, \"simulation\": {\"attack_range\": 1, \"cell_occupancy_cap\": 3, \"cell_occupancy_cap_enabled\": false, \"history_limit\": 0, \"l1_fear\": false, \"l1_prey_mode\": \"lowagg\", \"l1_seek\": false, \"l2_dash\": false, \"perception_cap\": 32, \"perception_span\": 1, \"social_move_weight\": 1.0, \"social_norm\": \"auto\", \"sparse_fields\": false, \"stay_prob\": 0.0, \"stop_on_extinction\": true, \"ticks\": 1000, \"use_sim_core\": false, \"w_fear\": 0.5, \"w_seek_max\": 0.5}, \"smell\": {\"channels\": [], \"decay\": 0.88, \"diffuse\": 0.12, \"downsample\": 8, \"inject_food\": 1.0, \"inject_kin\": 1.0, \"inject_prey\": 1.0, \"inject_risk\": 1.0, \"norm_mode\": \"analytic\", \"risk_g16_threshold\": 0.6, \"update_every\": 4, \"use_in_move\": false, \"w_food\": 0.5, \"w_kin\": 0.0, \"w_prey\": 0.0, \"w_risk\": -0.5}, \"subpos\": {\"enabled\": false, \"lat_floor\": 0.3, \"min_energy_frac\": 0.05, \"speed_gain\": 4.0, \"speed_max\": 2.0, \"stay_base\": 0.0, \"stay_fear_k\": 0.0, \"stay_food_k\": 0.0, \"stay_max\": 0.8, \"stay_signal_k\": 0.0, \"subdiv\": 4}, \"world\": {\"cols\": 120, \"rows\": 60}}",
+  "git_commit": "2111d15783e7a6900290160ce3a3cde21218cf7a",
+  "git_dirty": false,
+  "python": "3.14.7",
+  "rng_draws": 23269,
+  "sim_core_sha256": "1d265178526ab98fd3c31356464fa4d2"
+ },
+ "purpose": "ENERGY-CLOSE 步A 5 腿量级读数原始件（点火阻塞判据，非结论复算）",
+ "runs": [
+  {
+   "digest": [
+    670522,
+    88366.190893
+   ],
+   "pop_n": 208,
+   "probe_enabled": true,
+   "rng_draws": 23269,
+   "rows": [
+    {
+     "dis_attack": 0.30000000000000004,
+     "dis_meta": 213.30856573925178,
+     "dis_move": 18.299363362776056,
+     "dis_signal": 9.1,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 168,
+     "tick": 50
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 176.01373214576464,
+     "dis_move": 14.316033890931026,
+     "dis_signal": 6.9,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 140,
+     "tick": 100
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 153.99295149796532,
+     "dis_move": 11.080550605698505,
+     "dis_signal": 6.2,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 122,
+     "tick": 150
+    },
+    {
+     "dis_attack": 0.2,
+     "dis_meta": 148.0246618640726,
+     "dis_move": 13.093015670380474,
+     "dis_signal": 6.2,
+     "esc_death_e": 63.39153360179109,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 117,
+     "tick": 200
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 144.0519307614941,
+     "dis_move": 10.562346589365513,
+     "dis_signal": 6.1000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 115,
+     "tick": 250
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 139.29266704013153,
+     "dis_move": 9.2876806985443,
+     "dis_signal": 5.300000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 111,
+     "tick": 300
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 135.5995579473589,
+     "dis_move": 10.36466352529676,
+     "dis_signal": 6.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 109,
+     "tick": 350
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 132.42124257018023,
+     "dis_move": 9.292295742155613,
+     "dis_signal": 4.9,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 107,
+     "tick": 400
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 135.2033006011204,
+     "dis_move": 9.725725981668214,
+     "dis_signal": 4.1000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 109,
+     "tick": 450
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 131.60636379720773,
+     "dis_move": 10.26909738464839,
+     "dis_signal": 5.300000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 107,
+     "tick": 500
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 132.23330871949938,
+     "dis_move": 7.929457853188012,
+     "dis_signal": 6.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 107,
+     "tick": 550
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 132.75109630457132,
+     "dis_move": 12.8879862926949,
+     "dis_signal": 6.300000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 108,
+     "tick": 600
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 135.10463040699923,
+     "dis_move": 12.863255336552808,
+     "dis_signal": 6.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 110,
+     "tick": 650
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 138.90563574842173,
+     "dis_move": 11.155489469193489,
+     "dis_signal": 6.300000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 114,
+     "tick": 700
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 145.052875533737,
+     "dis_move": 14.730473480816736,
+     "dis_signal": 6.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 119,
+     "tick": 750
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 146.84724857394852,
+     "dis_move": 11.644910008697394,
+     "dis_signal": 5.5,
+     "esc_death_e": 227.2210469684639,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 120,
+     "tick": 800
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 147.88468393559313,
+     "dis_move": 11.970568758851666,
+     "dis_signal": 5.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 122,
+     "tick": 850
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 150.7897204176923,
+     "dis_move": 14.508845046376933,
+     "dis_signal": 6.9,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 125,
+     "tick": 900
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 161.0409445245484,
+     "dis_move": 15.046840252911693,
+     "dis_signal": 7.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 132,
+     "tick": 950
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 156.77990117761271,
+     "dis_move": 14.159350357953903,
+     "dis_signal": 6.9,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 128,
+     "tick": 1000
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 160.38327103540104,
+     "dis_move": 14.006582175109395,
+     "dis_signal": 7.2,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 134,
+     "tick": 1050
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 168.96107576156322,
+     "dis_move": 13.536055421587708,
+     "dis_signal": 7.5,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 140,
+     "tick": 1100
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 178.29990144016153,
+     "dis_move": 19.50892571661553,
+     "dis_signal": 8.6,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 145,
+     "tick": 1150
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 184.20037367828604,
+     "dis_move": 14.994758521988535,
+     "dis_signal": 8.6,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 149,
+     "tick": 1200
+    },
+    {
+     "dis_attack": 0.2,
+     "dis_meta": 193.39829384163156,
+     "dis_move": 15.30711706015514,
+     "dis_signal": 8.8,
+     "esc_death_e": 129.23545802191512,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 160,
+     "tick": 1250
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 202.46988151389704,
+     "dis_move": 17.053656833842872,
+     "dis_signal": 9.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 164,
+     "tick": 1300
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 216.31551438773693,
+     "dis_move": 18.35728158881887,
+     "dis_signal": 10.3,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 177,
+     "tick": 1350
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 223.99511098427703,
+     "dis_move": 17.19243624388049,
+     "dis_signal": 9.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 182,
+     "tick": 1400
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 237.9122995149633,
+     "dis_move": 20.037821472610865,
+     "dis_signal": 11.200000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 192,
+     "tick": 1450
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 260.1900515346098,
+     "dis_move": 21.342163873591165,
+     "dis_signal": 11.700000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 208,
+     "tick": 1500
+    }
+   ],
+   "seed": 7,
+   "ticks_run": 1500,
+   "totals": {
+    "dis_attack_sum": 67.7,
+    "dis_meta_sum": 248848.383533,
+    "dis_move_sum": 21330.901878,
+    "dis_signal_sum": 10801.3,
+    "enabled": true,
+    "esc_death_e_sum": 29869.177179,
+    "esc_pred_e_sum": null,
+    "esc_pred_s_sum": null,
+    "note": "实装 4/4 散逸腿：dis_meta（D1 基础维持 + D2 恒温费 + D3 愈合费）、dis_move（D5 位移费，subdiv/L2/默认三支各自扣费现场）、dis_attack（D6 捕食出手费 + D7 争夺出手费）、dis_signal（D4 信号费，扣费现场直记）；逃逸腿实装 esc_death_e（E1 = 死者体能 − 投放，独立重算投放；corpse 关档 = 全额消失）；esc_pred_e / esc_pred_s 未埋点 ⇒ 读数 None = 未观测，不是 0。",
+    "path": "python",
+    "rows_emitted": 30,
+    "ticks_recorded": 1500
+   },
+   "wall_seconds": 2.353
+  },
+  {
+   "digest": [
+    653519,
+    73173.496157
+   ],
+   "pop_n": 176,
+   "probe_enabled": true,
+   "rng_draws": 20755,
+   "rows": [
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 191.63617364573395,
+     "dis_move": 17.54424860761158,
+     "dis_signal": 6.9,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 154,
+     "tick": 50
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 169.37079554254916,
+     "dis_move": 17.832552125810054,
+     "dis_signal": 6.2,
+     "esc_death_e": 18.365478439191183,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 136,
+     "tick": 100
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 153.1803445413515,
+     "dis_move": 18.349490289822032,
+     "dis_signal": 6.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 124,
+     "tick": 150
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 142.70519157202216,
+     "dis_move": 10.621447612553503,
+     "dis_signal": 5.6000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 117,
+     "tick": 200
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 129.10011248352083,
+     "dis_move": 11.83386968077414,
+     "dis_signal": 5.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 108,
+     "tick": 250
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 127.16965867197638,
+     "dis_move": 11.796936435429197,
+     "dis_signal": 5.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 106,
+     "tick": 300
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 125.05106720028557,
+     "dis_move": 11.081884301919368,
+     "dis_signal": 5.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 104,
+     "tick": 350
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 121.66376477250802,
+     "dis_move": 12.23432493925371,
+     "dis_signal": 4.6000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 102,
+     "tick": 400
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 121.66376477250802,
+     "dis_move": 11.005638975684619,
+     "dis_signal": 5.6000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 102,
+     "tick": 450
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 122.45246802195756,
+     "dis_move": 11.01869458012209,
+     "dis_signal": 5.1000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 103,
+     "tick": 500
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 120.125972879498,
+     "dis_move": 9.934114269266534,
+     "dis_signal": 5.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 101,
+     "tick": 550
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 120.57988573941208,
+     "dis_move": 11.349177757690406,
+     "dis_signal": 5.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 102,
+     "tick": 600
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 123.36338059383279,
+     "dis_move": 7.58871906326171,
+     "dis_signal": 5.2,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 105,
+     "tick": 650
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 120.72211750631945,
+     "dis_move": 12.135397091567569,
+     "dis_signal": 5.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 102,
+     "tick": 700
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 120.68068443207076,
+     "dis_move": 10.905640340776987,
+     "dis_signal": 5.1000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 103,
+     "tick": 750
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 119.21511638679294,
+     "dis_move": 11.653582910884106,
+     "dis_signal": 5.2,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 103,
+     "tick": 800
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 122.72654416678193,
+     "dis_move": 9.007785859951644,
+     "dis_signal": 5.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 105,
+     "tick": 850
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 128.8487671549226,
+     "dis_move": 10.872998662036718,
+     "dis_signal": 4.7,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 111,
+     "tick": 900
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 139.1335139016487,
+     "dis_move": 11.09704506464634,
+     "dis_signal": 6.1000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 120,
+     "tick": 950
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 142.37552295612073,
+     "dis_move": 13.373432502177389,
+     "dis_signal": 6.0,
+     "esc_death_e": 271.8175116812937,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 122,
+     "tick": 1000
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 146.5954391406079,
+     "dis_move": 15.712332284032748,
+     "dis_signal": 5.7,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 129,
+     "tick": 1050
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 147.45838844018851,
+     "dis_move": 15.701395037390888,
+     "dis_signal": 6.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 126,
+     "tick": 1100
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 150.25395519233797,
+     "dis_move": 13.708020662823236,
+     "dis_signal": 6.2,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 128,
+     "tick": 1150
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 154.37919093996186,
+     "dis_move": 12.120439658949929,
+     "dis_signal": 6.5,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 133,
+     "tick": 1200
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 172.58519690412027,
+     "dis_move": 19.342093911351018,
+     "dis_signal": 7.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 148,
+     "tick": 1250
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 174.6096665526806,
+     "dis_move": 19.547704599459426,
+     "dis_signal": 8.700000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 146,
+     "tick": 1300
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 189.17239440213473,
+     "dis_move": 17.571326847857335,
+     "dis_signal": 7.300000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 158,
+     "tick": 1350
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 201.066134099093,
+     "dis_move": 18.045589872214325,
+     "dis_signal": 8.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 167,
+     "tick": 1400
+    },
+    {
+     "dis_attack": 0.30000000000000004,
+     "dis_meta": 211.56881111286214,
+     "dis_move": 18.926774346497464,
+     "dis_signal": 8.6,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 174,
+     "tick": 1450
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 217.93593811198986,
+     "dis_move": 17.62667540318895,
+     "dis_signal": 8.6,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 176,
+     "tick": 1500
+    }
+   ],
+   "seed": 8,
+   "ticks_run": 1500,
+   "totals": {
+    "dis_attack_sum": 64.7,
+    "dis_meta_sum": 221445.16893,
+    "dis_move_sum": 20152.053845,
+    "dis_signal_sum": 9196.0,
+    "enabled": true,
+    "esc_death_e_sum": 35528.153016,
+    "esc_pred_e_sum": null,
+    "esc_pred_s_sum": null,
+    "note": "实装 4/4 散逸腿：dis_meta（D1 基础维持 + D2 恒温费 + D3 愈合费）、dis_move（D5 位移费，subdiv/L2/默认三支各自扣费现场）、dis_attack（D6 捕食出手费 + D7 争夺出手费）、dis_signal（D4 信号费，扣费现场直记）；逃逸腿实装 esc_death_e（E1 = 死者体能 − 投放，独立重算投放；corpse 关档 = 全额消失）；esc_pred_e / esc_pred_s 未埋点 ⇒ 读数 None = 未观测，不是 0。",
+    "path": "python",
+    "rows_emitted": 30,
+    "ticks_recorded": 1500
+   },
+   "wall_seconds": 7.014
+  },
+  {
+   "digest": [
+    880183,
+    109669.796466
+   ],
+   "pop_n": 298,
+   "probe_enabled": true,
+   "rng_draws": 45458,
+   "rows": [
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 207.00995285120308,
+     "dis_move": 17.415684435357864,
+     "dis_signal": 7.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 163,
+     "tick": 50
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 172.25226433889574,
+     "dis_move": 13.190367826526549,
+     "dis_signal": 6.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 138,
+     "tick": 100
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 160.111993454049,
+     "dis_move": 14.594828758093612,
+     "dis_signal": 6.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 129,
+     "tick": 150
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 155.18356045711775,
+     "dis_move": 10.739005701523498,
+     "dis_signal": 6.2,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 124,
+     "tick": 200
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 150.98659993758912,
+     "dis_move": 12.185557619724152,
+     "dis_signal": 6.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 120,
+     "tick": 250
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 147.6830441877884,
+     "dis_move": 9.89181867004609,
+     "dis_signal": 5.300000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 118,
+     "tick": 300
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 142.3096463358958,
+     "dis_move": 7.516163235747969,
+     "dis_signal": 5.7,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 114,
+     "tick": 350
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 141.99975439458305,
+     "dis_move": 11.013377207918868,
+     "dis_signal": 5.7,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 114,
+     "tick": 400
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 140.77524505531989,
+     "dis_move": 12.580054822627492,
+     "dis_signal": 5.7,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 113,
+     "tick": 450
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 143.95381888717878,
+     "dis_move": 11.898284311179456,
+     "dis_signal": 5.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 114,
+     "tick": 500
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 147.23254699386098,
+     "dis_move": 10.43700577067144,
+     "dis_signal": 6.6000000000000005,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 116,
+     "tick": 550
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 148.67556925771592,
+     "dis_move": 6.154620605781126,
+     "dis_signal": 5.7,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 117,
+     "tick": 600
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 148.7741695759191,
+     "dis_move": 11.054547818959612,
+     "dis_signal": 5.7,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 117,
+     "tick": 650
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 147.43013372349873,
+     "dis_move": 8.193713181835983,
+     "dis_signal": 4.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 117,
+     "tick": 700
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 157.77694287399032,
+     "dis_move": 10.533727281284781,
+     "dis_signal": 7.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 125,
+     "tick": 750
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 154.8774150631196,
+     "dis_move": 9.160580768871714,
+     "dis_signal": 5.5,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 123,
+     "tick": 800
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 160.33482447753843,
+     "dis_move": 10.870516548465627,
+     "dis_signal": 6.2,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 131,
+     "tick": 850
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 168.7744201260384,
+     "dis_move": 10.512028424956721,
+     "dis_signal": 6.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 136,
+     "tick": 900
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 175.74309455969387,
+     "dis_move": 13.035367627447624,
+     "dis_signal": 6.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 140,
+     "tick": 950
+    },
+    {
+     "dis_attack": 0.2,
+     "dis_meta": 199.74132263882848,
+     "dis_move": 11.59370637442363,
+     "dis_signal": 7.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 154,
+     "tick": 1000
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 213.65714767274264,
+     "dis_move": 13.866338609922291,
+     "dis_signal": 7.800000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 165,
+     "tick": 1050
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 219.7712303366391,
+     "dis_move": 11.641642723614769,
+     "dis_signal": 8.8,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 171,
+     "tick": 1100
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 229.34179041783997,
+     "dis_move": 12.166440718508943,
+     "dis_signal": 9.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 179,
+     "tick": 1150
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 243.87211376000948,
+     "dis_move": 12.657977766087019,
+     "dis_signal": 9.3,
+     "esc_death_e": 35.651272939030605,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 187,
+     "tick": 1200
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 257.6591636761528,
+     "dis_move": 11.125914931517206,
+     "dis_signal": 10.200000000000001,
+     "esc_death_e": 105.58708339250978,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 198,
+     "tick": 1250
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 281.62771902903626,
+     "dis_move": 15.16580681343381,
+     "dis_signal": 9.9,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 215,
+     "tick": 1300
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 301.5437533914416,
+     "dis_move": 17.3644700746264,
+     "dis_signal": 11.3,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 231,
+     "tick": 1350
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 342.82811440046436,
+     "dis_move": 15.579487802565865,
+     "dis_signal": 12.600000000000001,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 265,
+     "tick": 1400
+    },
+    {
+     "dis_attack": 0.1,
+     "dis_meta": 370.4139722022092,
+     "dis_move": 13.97726984448863,
+     "dis_signal": 13.0,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 283,
+     "tick": 1450
+    },
+    {
+     "dis_attack": 0.0,
+     "dis_meta": 392.24301330231054,
+     "dis_move": 13.529590345624706,
+     "dis_signal": 14.4,
+     "esc_death_e": 0.0,
+     "esc_pred_e": null,
+     "esc_pred_s": null,
+     "pop_n": 298,
+     "tick": 1500
+    }
+   ],
+   "seed": 9,
+   "ticks_run": 1500,
+   "totals": {
+    "dis_attack_sum": 57.7,
+    "dis_meta_sum": 297313.911961,
+    "dis_move_sum": 17794.962569,
+    "dis_signal_sum": 11396.8,
+    "enabled": true,
+    "esc_death_e_sum": 25892.717849,
+    "esc_pred_e_sum": null,
+    "esc_pred_s_sum": null,
+    "note": "实装 4/4 散逸腿：dis_meta（D1 基础维持 + D2 恒温费 + D3 愈合费）、dis_move（D5 位移费，subdiv/L2/默认三支各自扣费现场）、dis_attack（D6 捕食出手费 + D7 争夺出手费）、dis_signal（D4 信号费，扣费现场直记）；逃逸腿实装 esc_death_e（E1 = 死者体能 − 投放，独立重算投放；corpse 关档 = 全额消失）；esc_pred_e / esc_pred_s 未埋点 ⇒ 读数 None = 未观测，不是 0。",
+    "path": "python",
+    "rows_emitted": 30,
+    "ticks_recorded": 1500
+   },
+   "wall_seconds": 7.602
+  }
+ ],
+ "tool": "experiments/stepa_leg_readout.py"
+}
