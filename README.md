@@ -15,6 +15,7 @@
 ### 实验批数据（近 → 远）
 | 路径 | 内容 | 量 |
 |---|---|---|
+| `bare_world/` | **纯斑块世界四臂批**（s2 · 2000t · seed 42；arm1 现状/arm2 置换 =两对照，arm3 地形/arm4 全规则 =两处理）+ 判读 `readout_s42.json` + `figs/` 3 图 | 45M / 16 件 |
 | `energy_close_stepA/` | ENERGY-CLOSE 步A 五腿量级读数原始件（10-09，commit `6bbeadf`） | 40K |
 | `e057_repw/` `e057_logs/` | E-057：rep_w 档扫 32 run（rpw0/05/20/50 × seed 207-214 × 2000t）数据 + log/status | 877K |
 | `e056_m1/` `e056_logs/` | E-056：M1 正式批 8 run（seed 207-214 × 2000t）csv/summary + log/status | 205K |
@@ -61,6 +62,7 @@
   - ⚠️ Gitee **不因 force-push 回收旧对象**（force 后仍报 913.656MB，反而叠加）⇒ 唯一干净解 = **删库同名重建**再推（实测新 clone 53MB，已 2026-09-25 完成）；
   - 🔴 **所有在此之前的 clone 全部失效**（含云端机器），须重新 `git clone`。依据：fish 09-25 批准；上板 R200/R201/R202/R203。
 - **2026-10-11 本次整理**：① `viz/v0_sample/` 官方样例包入库；② README 重制为全仓结构总图；③ GitHub 镜像补齐至现行 HEAD。**未做任何数据搬迁**（避免主仓引用断链）。
+- **2026-10-11 补**：`bare_world/` 纯斑块世界四臂批入库（ENV 场首批：地形→气候态水分→产能因子；无生物纯场 ⇒ 容量场静态；四臂 npz/csv/manifest + 判读产物 + 3 图）。
 
 ### 回滚镜像（两轮重写中被抹数据的唯一完整备份）
 - 现位置：`the-world/_archive/桌面残留-20261003/_trash_purge_20260925/data_repo_mirror_backup.git`（824MB；本机保留，未入任何 git 仓）

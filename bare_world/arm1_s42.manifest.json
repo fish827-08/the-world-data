@@ -1,0 +1,55 @@
+{
+  "probe": "run_bare_world",
+  "date": "2026-10-11T02:30:49",
+  "host": "DESKTOP-LNUQC52",
+  "git_head": "301b63e005885e2af19680bed889699999e6d450",
+  "arm": 1,
+  "arm_name": "现状(对照)",
+  "arm_spec": {
+    "name": "现状(对照)",
+    "env": false,
+    "shuffle": false,
+    "runoff_gain": 0.0,
+    "ws": 0.0,
+    "cs": 0.0
+  },
+  "seed": 42,
+  "ticks": 2000,
+  "sample_every": 50,
+  "world": {
+    "rows": 480,
+    "cols": 960,
+    "n_cells": 460800
+  },
+  "device_applied": {
+    "rows": 480,
+    "cols": 960,
+    "patches": 1700,
+    "pop": 10000,
+    "rgm": 1.195,
+    "bg_low_prod_frac": 0.0,
+    "bg_low_cap_mult": 0.0
+  },
+  "use_sim_core": false,
+  "sparse_fields": false,
+  "pop_initial": 0,
+  "patches": 1700,
+  "rgm": 1.195,
+  "n_patch_cells": 44097,
+  "env_probe": null,
+  "env_note": null,
+  "timing": {
+    "build_s": 0.15711670000018785,
+    "run_s": 27.34867259999919,
+    "ms_per_tick": 13.674336299999595
+  },
+  "outputs": {
+    "npz": "arm1_s42.npz",
+    "csv": "arm1_s42.csv"
+  },
+  "snap_ticks": [
+    0,
+    1000,
+    2000
+  ]
+}
