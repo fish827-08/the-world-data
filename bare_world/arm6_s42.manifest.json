@@ -1,0 +1,84 @@
+{
+  "probe": "run_bare_world",
+  "date": "2026-10-13T23:08:52",
+  "host": "DESKTOP-LNUQC52",
+  "git_head": "97c512beede34f64dcbdaf40a7877954df7c367d",
+  "arm": 6,
+  "arm_name": "置换+自然剖面",
+  "arm_spec": {
+    "name": "置换+自然剖面",
+    "env": true,
+    "shuffle": true,
+    "runoff_gain": 2.0,
+    "ws": 1.0,
+    "cs": 1.0,
+    "base_t": "insolation"
+  },
+  "seed": 42,
+  "ticks": 2000,
+  "sample_every": 50,
+  "world": {
+    "rows": 480,
+    "cols": 960,
+    "n_cells": 460800
+  },
+  "device_applied": {
+    "rows": 480,
+    "cols": 960,
+    "patches": 1700,
+    "pop": 10000,
+    "rgm": 1.195,
+    "bg_low_prod_frac": 0.0,
+    "bg_low_cap_mult": 0.0
+  },
+  "use_sim_core": false,
+  "sparse_fields": false,
+  "pop_initial": 0,
+  "patches": 1700,
+  "rgm": 1.195,
+  "n_patch_cells": 44097,
+  "env_probe": {
+    "salt": 0,
+    "shuffle": true,
+    "h_mean": 0.46156462963928013,
+    "h_std": 0.09426998137247607,
+    "temp_min": -43.61762074102623,
+    "temp_max": 27.56028257958272,
+    "w_mean": 12.0386723359203,
+    "w_p50": 5.762084305744054,
+    "w_p99": 26.860573360191232,
+    "w_max": 63.09966987541447,
+    "u_p50": 0.4786312099010684,
+    "u_p99": 2.231190667100906,
+    "u_max": 5.241414344930819,
+    "acc_p50": 12.23659951303162,
+    "acc_p99": 43601.969545386935,
+    "river_cells": 9216,
+    "river_frac": 0.02,
+    "pit_first": 27244,
+    "flood_filled": 204419,
+    "gf_on": true,
+    "gf_min": 0.015577015869225478,
+    "gf_p99": 2.231190667100906,
+    "gf_max": 5.241414344930819,
+    "cf_on": true,
+    "cf_min": 0.015605121541939522,
+    "cf_p99": 2.2352164134427364,
+    "cf_max": 4.0072172161728545
+  },
+  "env_note": null,
+  "timing": {
+    "build_s": 2.3927913999941666,
+    "run_s": 54.176969199994346,
+    "ms_per_tick": 27.088484599997173
+  },
+  "outputs": {
+    "npz": "arm6_s42.npz",
+    "csv": "arm6_s42.csv"
+  },
+  "snap_ticks": [
+    0,
+    1000,
+    2000
+  ]
+}
