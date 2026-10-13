@@ -1,0 +1,81 @@
+{
+ "contract_version": "v0",
+ "world": {
+  "rows": 480,
+  "cols": 960,
+  "n_cells": 460800,
+  "projection": "equirect"
+ },
+ "tick": {
+  "start": 4000,
+  "end": 6000,
+  "stride": 20,
+  "n_frames": 101
+ },
+ "channels": [
+  {
+   "key": "resource",
+   "label": "资源场",
+   "kind": "grid",
+   "scale": {
+    "mode": "quantile",
+    "p_lo": 0.0,
+    "p_hi": 119.02464106365625,
+    "min": -2.220446049250313e-15,
+    "max": 120.0,
+    "q_lo": 0.005,
+    "q_hi": 0.995
+   },
+   "cmap": "viridis"
+  },
+  {
+   "key": "energy",
+   "label": "种群能量密度",
+   "kind": "grid",
+   "scale": {
+    "mode": "quantile",
+    "p_lo": 0.0,
+    "p_hi": 352.9390452011555,
+    "min": 0.0,
+    "max": 12977.977624729094,
+    "q_lo": 0.005,
+    "q_hi": 0.995
+   },
+   "cmap": "viridis"
+  }
+ ],
+ "entities": {
+  "columns": [
+   "flat",
+   "sub_r",
+   "sub_c",
+   "energy",
+   "age",
+   "generation",
+   "mode"
+  ],
+  "dtype": "float32",
+  "subdiv": 80,
+  "norm": {
+   "energy": {
+    "p_lo": 3.210264756679535,
+    "p_hi": 2141.465622558603
+   },
+   "age": {
+    "p_lo": 1.0,
+    "p_hi": 4620.0
+   }
+  }
+ },
+ "source": {
+  "snapshot": "_rerun_logs/flagship60k_local/results/snap.stopped-2020/s3_s169_mem_off.snapshot.npz",
+  "snapshot_tick": 4000,
+  "config_fingerprint": "{\"action_selection\": {\"base_explore\": 0.2, \"hold_ticks\": 20, \"hyst\": 0.15, \"mode\": \"fusion\", \"w_feed\": 1.0, \"w_flee\": 1.0, \"w_hunger\": 0.5, \"w_join\": 0.5}, \"ars\": {\"enabled\": false, \"fast_tau\": 20.0, \"gain\": 1.0, \"giveup\": 8, \"kappa\": 0.0, \"lat_exempt_deg\": 85.0, \"slow_tau\": 200.0, \"theta\": 0.5}, \"corpse_wound\": {\"contest_cost_energy\": 0.5, \"contest_enabled\": false, \"corpse_cap_per_cell\": 200, \"corpse_decay_ticks\": 240, \"corpse_enabled\": false, \"corpse_energy_frac\": 0.9, \"corpse_patch_boost\": 0.5, \"corpse_pool_unit\": \"energy\", \"corpse_to_plant_frac\": 0.5, \"escalation_gap\": 0.25, \"holder_adv\": 1.2, \"need_aggression_k\": 0.5, \"scav_gate\": 0.5, \"scav_s\": 2.0, \"w_fear_health\": 0.5, \"wound_base\": 0.35, \"wound_enabled\": false, \"wound_fear_threshold\": 0.3, \"wound_heal_energy_cost\": 0.125, \"wound_heal_rate\": 0.0025}, \"culture\": {\"food_threshold\": 0.3, \"trust_false\": 0.1, \"trust_true\": 0.05}, \"energy_probe\": {\"enabled\": false, \"max_rows\": 0, \"row_every\": 1}, \"fruit\": {\"charge_rate\": 0.25, \"digest_ratio\": 0.7, \"eat_rate\": 0.125, \"enabled\": false, \"excretion_prob\": 0.23156652857908377, \"fruit_ratio\": 0.8, \"fruit_threshold\": 10.0, \"germination_prob\": 0.8232233047033631, \"max_seed_carried\": 5, \"plant_threshold\": 0.5, \"seed_energy\": 5.0, \"seed_intake_prob\": 0.5900365869983031}, \"genome\": {\"gene_count\": 24, \"gene_max\": 1.0, \"gene_min\": 0.0, \"init_g16_clusters\": \"\", \"mutation_rate\": 0.05, \"mutation_sigma\": 0.05}, \"hunger_mod\": {\"alpha\": 0.5, \"beta\": 0.5, \"enabled\": false, \"h_mid\": 0.5, \"stay_gain\": 0.0}, \"info_structure\": {\"alignment_noise\": 0.02, \"alignment_rate\": 0.25, \"alignment_step\": 0.15, \"arbitrary_codebook\": true, \"codebook_mutation_rate\": 0.02, \"codebook_mutation_sigma\": 0.3, \"enabled\": false, \"learning_bottleneck\": true, \"learning_maturity_ticks\": 480, \"learning_rate\": 0.375, \"learning_samples_max\": 60, \"measure_signal_response\": false, \"memory_coarse_gain\": 0.15, \"memory_degrade_thr\": 20.0, \"memory_dist_scale\": 15.0, \"memory_gradient\": \"none\", \"memory_gradient_gain\": 0.3, \"memory_noise\": false, \"memory_noise_p\": 0.1, \"memory_ttl\": 1000, \"memory_v2\": false, \"memory_v2_dynamic_centroid\": true, \"memory_weight_gene\": false, \"perception_noise\": 0.05, \"perception_radius\": 4, \"reputation_weight\": 0.0, \"softmax_tau\": 0.15, \"steels_alignment\": true}, \"light\": {\"day_boost\": 6.0, \"lat_base_ref\": 1.0, \"rotation_period\": 960, \"season_period\": 0, \"t_equator\": 30.0, \"t_pole\": -20.0, \"tilt_rad\": 0.0}, \"migration\": {\"enabled\": false, \"gain\": 50.0, \"min_abs_anomaly\": 0.0}, \"neutral_genes\": false, \"oracle\": {\"allow_non_breakeven\": false, \"donation\": 0.05, \"enabled\": false, \"gain_multiplier\": 1.0, \"gate_delta\": \"content\", \"gate_mode\": \"none\", \"is_calibration_arm\": false, \"persistence\": 4, \"require_food\": true}, \"organisms\": {\"assim_carn\": 1.0, \"assim_herb\": 1.0, \"assim_return_frac\": 1.0, \"base_metabolism\": 1.5, \"dash_cost_exp\": 2.0, \"dash_cost_kappa\": 1.0, \"dash_min_energy_frac\": 0.2, \"eat_amount\": 2.25, \"eat_efficiency\": 3.0, \"eat_threshold_frac\": 0.0, \"energy_cap_enabled\": false, \"exhaust_frac\": 0.0, \"far_cap\": 32, \"growth_mult\": 1.6, \"homeo_upkeep\": 0.375, \"initial_energy\": 60.0, \"lifespan_mult\": 1.0, \"maturity_fraction\": 0.15, \"max_energy\": 300.0, \"move_cost\": 1.0, \"niche_floor\": 0.4, \"niche_gain\": 0.6, \"old_mob_mult\": 0.55, \"photo_max\": 0.25, \"repro_cooldown_gene_scale\": 24.0, \"senile_fraction\": 0.75, \"senile_mult\": 1.4, \"starve_frac\": 0.0, \"stomach_cap_mass\": 0.0, \"young_mob_mult\": 0.55}, \"pleasure\": {\"alone_rpe\": -0.1, \"alpha\": 0.125, \"arousal_decay\": 0.9266790305709954, \"baseline_rate\": 0.0024981253125391234, \"enabled\": true, \"expectation_size\": 120, \"inheritance_noise\": 0.02, \"max_reward\": 2.0, \"optimism\": 0.8, \"social_rpe\": 0.2, \"valence_decay\": 0.8796481896190089, \"w_energy\": 0.5, \"w_info\": 0.3, \"w_social\": 0.2}, \"population\": {\"init_patch_frac\": 0.0, \"initial_count\": 10000, \"max_count\": 30000, \"soft_cap_target\": 0.0}, \"predation\": {\"attack_cost\": 0.1, \"attack_gene_gate\": 0.3, \"attack_prob_coef\": 0.5, \"enabled\": true, \"forage_tradeoff_k\": 0.0, \"stomach_transfer\": 0.4, \"success_ceil\": 0.9, \"success_floor\": 0.1, \"success_gene_gain\": 0.5, \"transfer_ratio\": 0.4}, \"resource_dynamics\": {\"damage_recovery\": 0.5, \"dead_cell_max_frac\": 0.5, \"dead_regen_ticks\": 800, \"death_threshold\": 0.8, \"enabled\": true, \"kill_denom\": \"regrowth\", \"kill_frac\": 10.0, \"kill_patch_only\": true, \"rest_threshold\": 0.3, \"rest_ticks\": 24, \"rotate_same_row_only\": true}, \"resources\": {\"background_fill\": 0.1, \"bg_cap_mult\": 0.05, \"bg_low_prod_frac\": 0.4, \"bg_production_zero\": true, \"capacity_per_area\": 40.0, \"distribution\": \"patchy\", \"initial_fill\": 0.5, \"light_normalize\": false, \"light_sensitivity\": 0.0, \"patch_capacity_mult\": 3.0, \"patch_count\": 1700, \"patch_radius\": 2, \"patch_regrowth_mult\": 1.195, \"regrowth_rate\": 1.25, \"temp_sensitivity\": 1.0}, \"seed\": 169, \"signal_alphabet\": \"16\", \"signal_disabled\": false, \"signal_mode\": \"state\", \"signals\": {\"duration_ticks\": 20}, \"simulation\": {\"attack_range\": 1, \"cell_occupancy_cap\": 3, \"cell_occupancy_cap_enabled\": false, \"history_limit\": 0, \"l1_fear\": false, \"l1_prey_mode\": \"lowagg\", \"l1_seek\": false, \"l2_dash\": false, \"perception_cap\": 32, \"perception_span\": 1, \"social_move_weight\": 1.0, \"social_norm\": \"auto\", \"sparse_fields\": false, \"stay_prob\": 0.0, \"stop_on_extinction\": true, \"ticks\": 1000, \"use_sim_core\": false, \"w_fear\": 0.5, \"w_seek_max\": 0.5}, \"smell\": {\"channels\": [], \"decay\": 0.7264515928814528, \"diffuse\": 0.12, \"downsample\": 8, \"inject_food\": 1.0, \"inject_kin\": 1.0, \"inject_prey\": 1.0, \"inject_risk\": 1.0, \"norm_mode\": \"analytic\", \"risk_g16_threshold\": 0.6, \"update_every\": 2, \"use_in_move\": false, \"w_food\": 0.5, \"w_kin\": 0.0, \"w_prey\": 0.0, \"w_risk\": -0.5}, \"subpos\": {\"enabled\": true, \"lat_floor\": 0.3, \"min_energy_frac\": 0.05, \"speed_gain\": 0.125, \"speed_max\": 0.125, \"stay_base\": 0.0, \"stay_fear_k\": 0.0, \"stay_food_k\": 0.0, \"stay_max\": 0.8, \"stay_signal_k\": 0.0, \"subdiv\": 80}, \"world\": {\"cols\": 960, \"rows\": 480}}",
+  "engine": "python"
+ },
+ "generator": {
+  "tool": "viz/exporter",
+  "version": "v0",
+  "created_at": "2026-10-11T01:00:52"
+ }
+}
